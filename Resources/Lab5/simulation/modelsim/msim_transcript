@@ -1,0 +1,46 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab5_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab5.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity lab5
+# -- Compiling architecture structure of lab5
+# 
+# do "Z:/cse230/Lab5/lab5_1.do"
+# vsim files
+# vsim files 
+# ** Error: (vsim-3170) Could not find 'Z:\cse230\Lab5\simulation\modelsim\gate_work.files'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO Z:\cse230\Lab5\lab5_1.do PAUSED at line 1
+vsim work.lab5
+# vsim work.lab5 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.lab5(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
