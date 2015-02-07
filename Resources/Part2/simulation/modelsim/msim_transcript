@@ -1,0 +1,64 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do Part2_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Part2.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package stratixii_atom_pack
+# -- Loading package stratixii_components
+# -- Compiling entity part2
+# -- Compiling architecture structure of part2
+# 
+# do C:/Project/Part2.do
+# vsim Part2
+# vsim Part2 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading stratixii.stratixii_atom_pack(body)
+# Loading stratixii.stratixii_components
+# Loading work.part2(structure)
+# Loading stratixii.stratixii_lcell_comb(vital_lcell_comb)
+# Loading stratixii.stratixii_lcell_ff(vital_lcell_ff)
+# Loading stratixii.stratixii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading stratixii.stratixii_io(structure)
+# Loading stratixii.stratixii_io_register(vital_io_reg)
+# Loading stratixii.stratixii_io_latch(vital_io_latch)
+# Loading stratixii.stratixii_mux21(altvital)
+# Loading stratixii.stratixii_asynch_io(behave)
+# Loading stratixii.stratixii_clkctrl(vital_clkctrl)
+# Loading stratixii.stratixii_ena_reg(behave)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave Instruction
+# add wave clock
+# add wave reset
+# 
+# add wave RZout
+# add wave N
+# add wave Z
+# add wave C
+# add wave V
+# 
+# force clock 0 0, 1 10 -repeat 20
+# force reset 0 0
+# 
+# force Instruction 000000000011001100000001 0, 000000000100001100000001 100, 000000000000001100000001 200, 000000000001001100000001 300, 000000000010001100000001 400, 001000000000001100000001 500
+# 
+# run 600
+# WARNING: No extended dataflow License exists

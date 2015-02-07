@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Part2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part2|constant1:inst20|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part2|constant1:inst22|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part2|controlUnit:inst19|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_smo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part2|mux2to1:MuxB|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part2|mux3to1:MuxY|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_q5e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
