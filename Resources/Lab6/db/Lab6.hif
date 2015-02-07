@@ -1,0 +1,116 @@
+Quartus II 64-Bit
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+7
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Decoder3to8
+# storage
+db|Lab6.(0).cnf
+db|Lab6.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+decoder3to8.vhdl
+72d57d4ab2c508e6bd47b4afa493714
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Multiplexor8to1
+# storage
+db|Lab6.(1).cnf
+db|Lab6.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+multiplexor8to1.vhdl
+9af7b573cef135a3835aa93af9850f2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+FourBitMultiplexor2to1
+# storage
+db|Lab6.(2).cnf
+db|Lab6.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+fourbitmultiplexor2to1.vhd
+9da6ee45ff04345576789d9e9271
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+
