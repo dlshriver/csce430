@@ -1,0 +1,9 @@
+Task 1:
+	Part 2:
+		1. Rotate instructions will preserve the one when moving through because it would
+			come back around where as shift (if it reached LEDR0 for instance) would shift that 
+			one and turn it into a 0 not preserving the 1 that was initially there where the LED was lit.
+		2. We simply set up a check for such a case. The way I handled it was if the LED's value I was on was greater than one
+			I branched to the normal case of setting the value as if nothing was wrong but if we didn't come to this branch
+			we set the value to be the value of LEDR9 and then executed the rest of the code.
+		3. You could make a counter and whenever we hit LEDR0, we then shut it off and make sure to set LEDR9 to 1 (if we shift right that is).
