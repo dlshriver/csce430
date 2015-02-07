@@ -1,0 +1,20 @@
+vsim SixteenRegisterFile
+view wave
+add wave Reset
+add wave Enable
+add wave Clock
+add wave RegD
+add wave RegT
+add wave RegS
+add wave DataD
+add wave DataS
+add wave DataT
+
+force RegD 0000 0, 0001 20, 0010 40, 0011 60, 0100 80, 0101 100, 0110 120, 0111 140, 1000 160, 1001 180, 1010 200, 1011 220, 1100 240, 1101 260, 1110 280, 1111 300
+force Clock 0 0, 1 10 -repeat 20
+force Reset 0 0
+force Enable 1 0
+force RegS 0000 0, 0000 20, 0001 40, 0010 60, 0010 80, 0010 100, 0011 120, 0011 140, 0011 160, 0100 180, 0100 200, 0100 220, 0101 240, 0101 260, 0110 280, 0110 300, 0110 320
+force RegT 0000 0, 0000 20, 0000 40, 0001 60, 0010 80, 0010 100, 0010 120, 0011 140, 0011 160, 0011 180, 0100 200, 0100 220, 0100 240, 0101 260, 0101 280, 0101 300, 0110 320, 0110 340
+force DataD 0101011010110101 0
+run 340

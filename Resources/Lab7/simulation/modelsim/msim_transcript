@@ -1,0 +1,57 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab7_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab7.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package stratixii_atom_pack
+# -- Loading package stratixii_components
+# -- Compiling entity sixteenbitripplecarryadder
+# -- Compiling architecture structure of sixteenbitripplecarryadder
+# 
+# do C:/Lab7/SixteenBitRippleCarryAdder.do
+# vsim SixteenBitRippleCarryAdder
+# vsim SixteenBitRippleCarryAdder 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading stratixii.stratixii_atom_pack(body)
+# Loading stratixii.stratixii_components
+# Loading work.sixteenbitripplecarryadder(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading stratixii.stratixii_io(structure)
+# Loading stratixii.stratixii_io_register(vital_io_reg)
+# Loading stratixii.stratixii_io_latch(vital_io_latch)
+# Loading stratixii.stratixii_and1(altvital)
+# Loading stratixii.stratixii_mux21(altvital)
+# Loading stratixii.stratixii_asynch_io(behave)
+# Loading stratixii.stratixii_lcell_comb(vital_lcell_comb)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave A
+# add wave B
+# add wave Cin
+# add wave S
+# add wave C14
+# add wave C15
+# 
+# force Cin 0
+# force A 0000000000000001 0, 0000000001000001 40, 0000001000100100 80, 0000001001001001 120
+# force B 0000000000000010 0, 0000000010111001 40, 0000000111011011 80, 0000010110110110 120
+# 
+# run 320
+# WARNING: No extended dataflow License exists

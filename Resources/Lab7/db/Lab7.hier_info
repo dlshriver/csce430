@@ -1,0 +1,230 @@
+|SixteenBitRippleCarryAdder
+A[0] => FullAdder:adder0.A
+A[1] => FullAdder:adder1.A
+A[2] => FullAdder:adder2.A
+A[3] => FullAdder:adder3.A
+A[4] => FullAdder:adder4.A
+A[5] => FullAdder:adder5.A
+A[6] => FullAdder:adder6.A
+A[7] => FullAdder:adder7.A
+A[8] => FullAdder:adder8.A
+A[9] => FullAdder:adder9.A
+A[10] => FullAdder:adder10.A
+A[11] => FullAdder:adder11.A
+A[12] => FullAdder:adder12.A
+A[13] => FullAdder:adder13.A
+A[14] => FullAdder:adder14.A
+A[15] => FullAdder:adder15.A
+B[0] => FullAdder:adder0.B
+B[1] => FullAdder:adder1.B
+B[2] => FullAdder:adder2.B
+B[3] => FullAdder:adder3.B
+B[4] => FullAdder:adder4.B
+B[5] => FullAdder:adder5.B
+B[6] => FullAdder:adder6.B
+B[7] => FullAdder:adder7.B
+B[8] => FullAdder:adder8.B
+B[9] => FullAdder:adder9.B
+B[10] => FullAdder:adder10.B
+B[11] => FullAdder:adder11.B
+B[12] => FullAdder:adder12.B
+B[13] => FullAdder:adder13.B
+B[14] => FullAdder:adder14.B
+B[15] => FullAdder:adder15.B
+Cin => FullAdder:adder0.Cin
+C14 <= FullAdder:adder14.Cout
+C15 <= FullAdder:adder15.Cout
+S[0] <= FullAdder:adder0.S
+S[1] <= FullAdder:adder1.S
+S[2] <= FullAdder:adder2.S
+S[3] <= FullAdder:adder3.S
+S[4] <= FullAdder:adder4.S
+S[5] <= FullAdder:adder5.S
+S[6] <= FullAdder:adder6.S
+S[7] <= FullAdder:adder7.S
+S[8] <= FullAdder:adder8.S
+S[9] <= FullAdder:adder9.S
+S[10] <= FullAdder:adder10.S
+S[11] <= FullAdder:adder11.S
+S[12] <= FullAdder:adder12.S
+S[13] <= FullAdder:adder13.S
+S[14] <= FullAdder:adder14.S
+S[15] <= FullAdder:adder15.S
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder0
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder1
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder2
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder3
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder4
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder5
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder6
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder7
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder8
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder9
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder10
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder11
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder12
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder13
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder14
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SixteenBitRippleCarryAdder|FullAdder:adder15
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

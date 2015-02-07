@@ -1,0 +1,10 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vcom -93 -work work {Lab8.vho}
+
+do C:/Lab8/SixteenRegisterFile.do
