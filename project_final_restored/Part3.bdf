@@ -22,23 +22,6 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 0 -1152 168 -1136)
-	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "Clock" (rect 9 0 37 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 92 12)(pt 117 12))
-		(line (pt 92 4)(pt 117 4))
-		(line (pt 121 8)(pt 168 8))
-		(line (pt 92 12)(pt 92 4))
-		(line (pt 117 4)(pt 121 8))
-		(line (pt 117 12)(pt 121 8))
-	)
-	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -48 -1136 0 -1120))
-)
-(pin
-	(input)
 	(rect 8 -1112 176 -1096)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "Reset" (rect 9 0 38 12)(font "Arial" ))
@@ -1769,7 +1752,7 @@ applicable agreement for further details.
 	(flipy)
 )
 (symbol
-	(rect 1208 -712 1392 -360)
+	(rect 1176 -696 1360 -344)
 	(text "controlUnit2" (rect 5 0 64 12)(font "Arial" ))
 	(text "inst2" (rect 8 336 31 348)(font "Arial" ))
 	(port
@@ -2202,12 +2185,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "IRout[23..20]" (rect 1136 -696 1200 -684)(font "Arial" ))
-	(pt 1208 -680)
-	(pt 1152 -680)
-	(bus)
-)
-(connector
 	(pt 584 -144)
 	(pt 584 -136)
 )
@@ -2238,68 +2215,10 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "PSout[0]" (rect 1152 -632 1194 -620)(font "Arial" ))
-	(pt 1208 -616)
-	(pt 1136 -616)
-)
-(connector
-	(text "PSout[1]" (rect 1152 -616 1194 -604)(font "Arial" ))
-	(pt 1208 -600)
-	(pt 1144 -600)
-)
-(connector
-	(text "PSout[2]" (rect 1152 -600 1194 -588)(font "Arial" ))
-	(pt 1208 -584)
-	(pt 1144 -584)
-)
-(connector
-	(text "PSout[3]" (rect 1152 -584 1194 -572)(font "Arial" ))
-	(pt 1208 -568)
-	(pt 1144 -568)
-)
-(connector
-	(text "alu_op[1..0]" (rect 1400 -696 1457 -684)(font "Arial" ))
-	(pt 1392 -680)
-	(pt 1448 -680)
-	(bus)
-)
-(connector
-	(text "a_inv" (rect 1400 -600 1427 -588)(font "Arial" ))
-	(pt 1392 -584)
-	(pt 1432 -584)
-)
-(connector
-	(text "b_inv" (rect 1400 -584 1427 -572)(font "Arial" ))
-	(pt 1392 -568)
-	(pt 1440 -568)
-)
-(connector
-	(text "extend[1..0]" (rect 1424 -648 1483 -636)(font "Arial" ))
-	(pt 1392 -632)
-	(pt 1456 -632)
-	(bus)
-)
-(connector
 	(text "extend[1..0]" (rect 368 -464 427 -452)(font "Arial" ))
 	(pt 424 -448)
 	(pt 360 -448)
 	(bus)
-)
-(connector
-	(text "b_select" (rect 1400 -616 1441 -604)(font "Arial" ))
-	(pt 1392 -600)
-	(pt 1456 -600)
-)
-(connector
-	(text "y_select[1..0]" (rect 1400 -664 1468 -652)(font "Arial" ))
-	(pt 1392 -648)
-	(pt 1448 -648)
-	(bus)
-)
-(connector
-	(text "rf_write" (rect 1400 -632 1436 -620)(font "Arial" ))
-	(pt 1392 -616)
-	(pt 1456 -616)
 )
 (connector
 	(text "rf_write" (rect 184 -880 220 -868)(font "Arial" ))
@@ -2453,36 +2372,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "IRout[14..12]" (rect 1136 -664 1200 -652)(font "Arial" ))
-	(pt 1208 -648)
-	(pt 1128 -648)
-	(bus)
-)
-(connector
-	(text "IRout[15]" (rect 1160 -648 1206 -636)(font "Arial" ))
-	(pt 1208 -632)
-	(pt 1152 -632)
-)
-(connector
-	(text "IRout[19..16]" (rect 1048 -680 1112 -668)(font "Arial" ))
-	(pt 1208 -664)
-	(pt 1040 -664)
-	(bus)
-)
-(connector
 	(text "ir_enable" (rect 768 -512 811 -500)(font "Arial" ))
 	(pt 816 -496)
 	(pt 760 -496)
-)
-(connector
-	(text "ir_enable" (rect 1400 -568 1443 -556)(font "Arial" ))
-	(pt 1392 -552)
-	(pt 1456 -552)
-)
-(connector
-	(text "clk" (rect 1176 -552 1190 -540)(font "Arial" ))
-	(pt 1208 -536)
-	(pt 1160 -536)
 )
 (connector
 	(text "clk" (rect 760 -480 774 -468)(font "Arial" ))
@@ -2555,15 +2447,6 @@ applicable agreement for further details.
 	(pt 160 432)
 )
 (connector
-	(pt 1168 -520)
-	(pt 1168 -512)
-)
-(connector
-	(text "res" (rect 1176 -536 1191 -524)(font "Arial" ))
-	(pt 1208 -520)
-	(pt 1168 -520)
-)
-(connector
 	(pt 120 -880)
 	(pt 120 -888)
 )
@@ -2582,12 +2465,6 @@ applicable agreement for further details.
 	(text "RZout[15..0]" (rect 872 -80 934 -68)(font "Arial" ))
 	(pt 936 -64)
 	(pt 864 -64)
-	(bus)
-)
-(connector
-	(text "c_select[1..0]" (rect 1454 -680 1521 -668)(font "Arial" ))
-	(pt 1392 -664)
-	(pt 1480 -664)
 	(bus)
 )
 (connector
@@ -2620,21 +2497,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "ma_select" (rect 1411 -552 1461 -540)(font "Arial" ))
-	(pt 1392 -536)
-	(pt 1440 -536)
-)
-(connector
-	(text "mem_read" (rect 1418 -536 1469 -524)(font "Arial" ))
-	(pt 1392 -520)
-	(pt 1440 -520)
-)
-(connector
-	(text "mem_write" (rect 1407 -520 1460 -508)(font "Arial" ))
-	(pt 1392 -504)
-	(pt 1440 -504)
-)
-(connector
 	(text "ma_select" (rect 1096 -1051 1108 -1001)(font "Arial" )(vertical))
 	(pt 1112 -1072)
 	(pt 1112 -1040)
@@ -2663,11 +2525,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "mfc" (rect 1144 -568 1164 -556)(font "Arial" ))
-	(pt 1208 -552)
-	(pt 1120 -552)
-)
-(connector
 	(text "MemDataOut[23..0]" (rect 656 -528 752 -516)(font "Arial" ))
 	(pt 816 -512)
 	(pt 648 -512)
@@ -2685,16 +2542,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "pc_select" (rect 1400 -504 1447 -492)(font "Arial" ))
-	(pt 1392 -488)
-	(pt 1480 -488)
-)
-(connector
-	(text "pc_enable" (rect 1416 -488 1465 -476)(font "Arial" ))
-	(pt 1392 -472)
-	(pt 1496 -472)
-)
-(connector
 	(text "pc_select" (rect 616 -904 663 -892)(font "Arial" ))
 	(pt 704 -888)
 	(pt 608 -888)
@@ -2703,11 +2550,6 @@ applicable agreement for further details.
 	(text "pc_enable" (rect 600 -888 649 -876)(font "Arial" ))
 	(pt 704 -872)
 	(pt 592 -872)
-)
-(connector
-	(text "inc_select" (rect 1400 -472 1449 -460)(font "Arial" ))
-	(pt 1392 -456)
-	(pt 1496 -456)
 )
 (connector
 	(text "inc_select" (rect 616 -840 665 -828)(font "Arial" ))
@@ -3019,11 +2861,6 @@ applicable agreement for further details.
 	(pt 1184 -944)
 )
 (connector
-	(text "flag_e" (rect 1402 -456 1432 -444)(font "Arial" ))
-	(pt 1392 -440)
-	(pt 1448 -440)
-)
-(connector
 	(text "flag_e" (rect 738 -696 768 -684)(font "Arial" ))
 	(pt 728 -680)
 	(pt 800 -680)
@@ -3047,10 +2884,6 @@ applicable agreement for further details.
 	(text "PSout[3]" (rect 864 112 906 124)(font "Arial" ))
 	(pt 936 128)
 	(pt 856 128)
-)
-(connector
-	(pt 1416 -424)
-	(pt 1416 -400)
 )
 (connector
 	(pt 176 -1104)
@@ -3249,11 +3082,6 @@ applicable agreement for further details.
 	(pt 424 168)
 )
 (connector
-	(text "shift_sel" (rect 1414 -440 1456 -428)(font "Arial" ))
-	(pt 1392 -424)
-	(pt 1416 -424)
-)
-(connector
 	(text "RBout[3..0]" (rect -152 -120 -96 -108)(font "Arial" ))
 	(pt -112 -104)
 	(pt -152 -104)
@@ -3348,15 +3176,6 @@ applicable agreement for further details.
 	(pt 664 200)
 )
 (connector
-	(pt 1392 -408)
-	(pt 1408 -408)
-)
-(connector
-	(text "j_sel" (rect 1392 -373 1404 -351)(font "Arial" )(vertical))
-	(pt 1408 -408)
-	(pt 1408 -352)
-)
-(connector
 	(text "res" (rect 650 -328 665 -316)(font "Arial" ))
 	(pt 640 -312)
 	(pt 680 -312)
@@ -3368,10 +3187,6 @@ applicable agreement for further details.
 (connector
 	(pt 1144 -232)
 	(pt 1144 -208)
-)
-(connector
-	(pt 584 -312)
-	(pt 584 -240)
 )
 (connector
 	(pt 848 -312)
@@ -3451,10 +3266,6 @@ applicable agreement for further details.
 	(pt 656 -328)
 )
 (connector
-	(pt 168 -1144)
-	(pt 248 -1144)
-)
-(connector
 	(text "clk" (rect 98 -384 112 -372)(font "Arial" ))
 	(pt 88 -368)
 	(pt 160 -368)
@@ -3478,4 +3289,164 @@ applicable agreement for further details.
 	(pt 848 -280)
 	(pt 1120 -280)
 	(bus)
+)
+(connector
+	(text "IRout[23..20]" (rect 1104 -680 1168 -668)(font "Arial" ))
+	(pt 1176 -664)
+	(pt 1120 -664)
+	(bus)
+)
+(connector
+	(text "PSout[0]" (rect 1120 -616 1162 -604)(font "Arial" ))
+	(pt 1176 -600)
+	(pt 1104 -600)
+)
+(connector
+	(text "PSout[1]" (rect 1120 -600 1162 -588)(font "Arial" ))
+	(pt 1176 -584)
+	(pt 1112 -584)
+)
+(connector
+	(text "PSout[2]" (rect 1120 -584 1162 -572)(font "Arial" ))
+	(pt 1176 -568)
+	(pt 1112 -568)
+)
+(connector
+	(text "PSout[3]" (rect 1120 -568 1162 -556)(font "Arial" ))
+	(pt 1176 -552)
+	(pt 1112 -552)
+)
+(connector
+	(text "IRout[14..12]" (rect 1104 -648 1168 -636)(font "Arial" ))
+	(pt 1176 -632)
+	(pt 1096 -632)
+	(bus)
+)
+(connector
+	(text "IRout[15]" (rect 1128 -632 1174 -620)(font "Arial" ))
+	(pt 1176 -616)
+	(pt 1120 -616)
+)
+(connector
+	(text "IRout[19..16]" (rect 1016 -664 1080 -652)(font "Arial" ))
+	(pt 1176 -648)
+	(pt 1008 -648)
+	(bus)
+)
+(connector
+	(text "clk" (rect 1144 -536 1158 -524)(font "Arial" ))
+	(pt 1176 -520)
+	(pt 1128 -520)
+)
+(connector
+	(text "mfc" (rect 1112 -552 1132 -540)(font "Arial" ))
+	(pt 1176 -536)
+	(pt 1088 -536)
+)
+(connector
+	(pt 1416 -400)
+	(pt 1416 -408)
+)
+(connector
+	(pt 1408 -392)
+	(pt 1360 -392)
+)
+(connector
+	(text "j_sel" (rect 1392 -373 1404 -351)(font "Arial" )(vertical))
+	(pt 1408 -352)
+	(pt 1408 -392)
+)
+(connector
+	(text "alu_op[1..0]" (rect 1368 -680 1425 -668)(font "Arial" ))
+	(pt 1360 -664)
+	(pt 1416 -664)
+	(bus)
+)
+(connector
+	(text "c_select[1..0]" (rect 1422 -664 1489 -652)(font "Arial" ))
+	(pt 1360 -648)
+	(pt 1448 -648)
+	(bus)
+)
+(connector
+	(text "y_select[1..0]" (rect 1368 -648 1436 -636)(font "Arial" ))
+	(pt 1360 -632)
+	(pt 1416 -632)
+	(bus)
+)
+(connector
+	(text "extend[1..0]" (rect 1392 -632 1451 -620)(font "Arial" ))
+	(pt 1360 -616)
+	(pt 1424 -616)
+	(bus)
+)
+(connector
+	(text "rf_write" (rect 1368 -616 1404 -604)(font "Arial" ))
+	(pt 1360 -600)
+	(pt 1424 -600)
+)
+(connector
+	(text "b_select" (rect 1368 -600 1409 -588)(font "Arial" ))
+	(pt 1360 -584)
+	(pt 1424 -584)
+)
+(connector
+	(text "a_inv" (rect 1368 -584 1395 -572)(font "Arial" ))
+	(pt 1360 -568)
+	(pt 1400 -568)
+)
+(connector
+	(text "b_inv" (rect 1368 -568 1395 -556)(font "Arial" ))
+	(pt 1360 -552)
+	(pt 1408 -552)
+)
+(connector
+	(text "ir_enable" (rect 1368 -552 1411 -540)(font "Arial" ))
+	(pt 1360 -536)
+	(pt 1424 -536)
+)
+(connector
+	(text "ma_select" (rect 1379 -536 1429 -524)(font "Arial" ))
+	(pt 1360 -520)
+	(pt 1408 -520)
+)
+(connector
+	(text "mem_read" (rect 1386 -520 1437 -508)(font "Arial" ))
+	(pt 1360 -504)
+	(pt 1408 -504)
+)
+(connector
+	(text "mem_write" (rect 1375 -504 1428 -492)(font "Arial" ))
+	(pt 1360 -488)
+	(pt 1408 -488)
+)
+(connector
+	(text "pc_select" (rect 1368 -488 1415 -476)(font "Arial" ))
+	(pt 1360 -472)
+	(pt 1448 -472)
+)
+(connector
+	(text "pc_enable" (rect 1384 -472 1433 -460)(font "Arial" ))
+	(pt 1360 -456)
+	(pt 1464 -456)
+)
+(connector
+	(text "inc_select" (rect 1368 -456 1417 -444)(font "Arial" ))
+	(pt 1360 -440)
+	(pt 1464 -440)
+)
+(connector
+	(text "flag_e" (rect 1370 -440 1400 -428)(font "Arial" ))
+	(pt 1360 -424)
+	(pt 1416 -424)
+)
+(connector
+	(text "shift_sel" (rect 1382 -424 1424 -412)(font "Arial" ))
+	(pt 1360 -408)
+	(pt 1416 -408)
+)
+(connector
+	(text "res" (rect 1144 -520 1159 -508)(font "Arial" ))
+	(pt 1128 -504)
+	(pt 1176 -504)
 )

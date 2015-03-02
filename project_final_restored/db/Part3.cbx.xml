@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Part3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|MemoryInterface:inst6|MainMemory:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ghe1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|RB_select:inst16|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_33e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|Const:inst10|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_sf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|IO_MemoryInterface:inst7|MUX2_1:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|IO_MemoryInterface:inst7|iodecoder:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_c8f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|IO_mem_data_sel:inst15|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|InstructionAddressGenerator:inst5|MuxINC:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|InstructionAddressGenerator:inst5|MuxPC:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|RA_select:inst19|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|controlUnit2:inst2|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_qlo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|muxMA:inst8|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|vgacon:inst22|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_9em.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|vgacon:inst22|vga_ram:vgamem|altsyncram:ram_block_rtl_0" CBX_FILE_NAME="altsyncram_df41.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|InstructionAddressGenerator:inst5|Adder:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|InstructionAddressGenerator:inst5|const1:inst5|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|const0_4bit:inst17|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|shift_sel:inst13|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|vgacon:inst22|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_9em.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|MemoryInterface:inst6|Const:inst3|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_sf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|mux2to1:MuxB|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|mux3to1:MuxY|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_o4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|muxC:inst9|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_53e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Part3|shift:inst12|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_vkb.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

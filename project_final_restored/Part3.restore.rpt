@@ -1,5 +1,5 @@
 Restore Archived Project report for Part3
-Sun Feb 22 13:41:24 2015
+Sun Feb 22 19:10:13 2015
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Sun Feb 22 13:41:24 2015 ;
+; Restore Archived Project Status ; Successful - Sun Feb 22 19:10:13 2015 ;
 ; Revision Name                   ; Part3                                 ;
 ; Top-level Entity Name           ; Part3                                 ;
 ; Family                          ; Cyclone II                            ;
@@ -49,15 +49,22 @@ applicable agreement for further details.
 Info: Successfully restored 'C:/Users/David/Documents/GitHub/csce430/project_final.qar' into the 'C:/Users/David/Documents/GitHub/csce430/project_final_restored/' directory
 Info: Generated report 'Part3.restore.rpt'
 Info (23030): Evaluation of Tcl script c:/altera/12.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 262 megabytes
-    Info: Processing ended: Sun Feb 22 13:41:24 2015
-    Info: Elapsed time: 00:00:02
+Info: Quartus II 32-bit Shell was successful. 0 errors, 87 warnings
+    Info: Peak virtual memory: 228 megabytes
+    Info: Processing ended: Sun Feb 22 19:10:13 2015
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
 +------------------------------------------------+
-; Files Restored                                 ;
+; Files Not Restored                             ;
 +------------------------------------------------+
 ; File Name                                      ;
 +------------------------------------------------+
@@ -148,12 +155,5 @@ Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
 ; vgacon.vhd                                     ;
 ; xor16.vhd                                      ;
 +------------------------------------------------+
-
-
-+--------------------+
-; Files Not Restored ;
-+--------------------+
-; File Name          ;
-+--------------------+
 
 
