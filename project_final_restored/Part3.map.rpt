@@ -1,6 +1,6 @@
 Analysis & Synthesis report for Part3
-Sun Mar 08 19:43:41 2015
-Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+Mon Mar 09 13:45:10 2015
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
 ---------------------
@@ -90,13 +90,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Mar 08 19:43:41 2015    ;
-; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Mon Mar 09 13:45:10 2015    ;
+; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; Part3                                    ;
 ; Top-level Entity Name              ; Part3                                    ;
 ; Family                             ; Cyclone II                               ;
-; Total logic elements               ; 3,211                                    ;
-;     Total combinational functions  ; 2,831                                    ;
+; Total logic elements               ; 3,212                                    ;
+;     Total combinational functions  ; 2,832                                    ;
 ;     Dedicated logic registers      ; 539                                      ;
 ; Total registers                    ; 539                                      ;
 ; Total pins                         ; 274                                      ;
@@ -314,16 +314,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 3,211 ;
+; Estimated Total logic elements              ; 3,212 ;
 ;                                             ;       ;
-; Total combinational functions               ; 2831  ;
+; Total combinational functions               ; 2832  ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 1093  ;
 ;     -- 3 input functions                    ; 840   ;
-;     -- <=2 input functions                  ; 898   ;
+;     -- <=2 input functions                  ; 899   ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 2050  ;
+;     -- normal mode                          ; 2051  ;
 ;     -- arithmetic mode                      ; 781   ;
 ;                                             ;       ;
 ; Total registers                             ; 539   ;
@@ -337,7 +337,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- PLLs                                 ; 1     ;
 ;                                             ;       ;
 ; Maximum fan-out                             ; 473   ;
-; Total fan-out                               ; 11229 ;
+; Total fan-out                               ; 11247 ;
 ; Average fan-out                             ; 3.05  ;
 +---------------------------------------------+-------+
 
@@ -347,7 +347,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                    ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------+--------------+
-; |Part3                                       ; 2831 (2)          ; 539 (0)      ; 98304       ; 0            ; 0       ; 0         ; 274  ; 0            ; |Part3                                                                                                                 ;              ;
+; |Part3                                       ; 2832 (2)          ; 539 (0)      ; 98304       ; 0            ; 0       ; 0         ; 274  ; 0            ; |Part3                                                                                                                 ;              ;
 ;    |ALU:inst|                                ; 89 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|ALU:inst                                                                                                        ;              ;
 ;       |SixteenBitRippleCarryAdder:inst7|     ; 24 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|ALU:inst|SixteenBitRippleCarryAdder:inst7                                                                       ;              ;
 ;          |FullAdder:adder0|                  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|ALU:inst|SixteenBitRippleCarryAdder:inst7|FullAdder:adder0                                                      ;              ;
@@ -449,6 +449,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |abs_divider_4dg:divider|        ; 1702 (64)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|controlUnit2:inst2|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider                        ;              ;
 ;                |alt_u_div_k5f:divider|       ; 1605 (1605)       ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|controlUnit2:inst2|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider|alt_u_div_k5f:divider  ;              ;
 ;                |lpm_abs_0s9:my_abs_num|      ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|controlUnit2:inst2|lpm_divide:Mod0|lpm_divide_qlo:auto_generated|abs_divider_4dg:divider|lpm_abs_0s9:my_abs_num ;              ;
+;    |immediate:inst1|                         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|immediate:inst1                                                                                                 ;              ;
 ;    |mux2to1:MuxB|                            ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|mux2to1:MuxB                                                                                                    ;              ;
 ;       |lpm_mux:lpm_mux_component|            ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|mux2to1:MuxB|lpm_mux:lpm_mux_component                                                                          ;              ;
 ;          |mux_m4e:auto_generated|            ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Part3|mux2to1:MuxB|lpm_mux:lpm_mux_component|mux_m4e:auto_generated                                                   ;              ;
@@ -579,13 +580,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------+
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RZ|output[14]                                                          ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RY|output[14]                                                          ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RY|output[7]                                                           ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RZ|output[5]                                                           ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RY|output[12]                                                          ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RY|output[6]                                                           ;
 ; 5:1                ; 4 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Part3|buffReg16:RY|output[3]                                                           ;
 ; 9:1                ; 2 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |Part3|controlUnit2:inst2|y_select[1]                                                   ;
 ; 16:1               ; 2 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |Part3|controlUnit2:inst2|alu_op[1]                                                     ;
-; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Part3|controlUnit2:inst2|c_select[0]                                                   ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Part3|controlUnit2:inst2|c_select[1]                                                   ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Part3|shift_sel:inst13|lpm_mux:lpm_mux_component|mux_m4e:auto_generated|result_node[8] ;
 ; 16:1               ; 16 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Part3|SixteenRegisterFile:inst4|mux16:Mux1|Mux1                                        ;
 ; 16:1               ; 16 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Part3|SixteenRegisterFile:inst4|mux16:Mux2|Mux0                                        ;
@@ -1807,7 +1808,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:16     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -1815,9 +1816,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
+Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Sun Mar 08 19:43:18 2015
+    Info: Processing started: Mon Mar 09 13:44:56 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off project -c Part3
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file xor16.vhd
@@ -1972,7 +1973,6 @@ Info (12021): Found 6 design units, including 3 entities, in source file vgacon.
     Info (12023): Found entity 2: vga_ram
     Info (12023): Found entity 3: vga_pll
 Info (12127): Elaborating entity "Part3" for the top level hierarchy
-Warning (275043): Pin "JMV[15..0]" is missing source
 Info (12128): Elaborating entity "PS" for hierarchy "PS:inst23"
 Info (12128): Elaborating entity "controlUnit2" for hierarchy "controlUnit2:inst2"
 Info (12128): Elaborating entity "IR" for hierarchy "IR:inst18"
@@ -2007,9 +2007,6 @@ Info (12133): Instantiated megafunction "MemoryInterface:inst6|MainMemory:inst|a
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ghe1.tdf
     Info (12023): Found entity 1: altsyncram_ghe1
 Info (12128): Elaborating entity "altsyncram_ghe1" for hierarchy "MemoryInterface:inst6|MainMemory:inst|altsyncram:altsyncram_component|altsyncram_ghe1:auto_generated"
-Warning (113028): 54 out of 1024 addresses are uninitialized. The Quartus II software will initialize them to "0". There are 2 warnings found, and 2 warnings are reported.
-    Warning (113027): Addresses ranging from 26 to 31 are not initialized
-    Warning (113027): Addresses ranging from 34 to 81 are not initialized
 Info (12128): Elaborating entity "IO_mem_sel" for hierarchy "IO_mem_sel:inst14"
 Info (12128): Elaborating entity "muxMA" for hierarchy "muxMA:inst8"
 Info (12128): Elaborating entity "LPM_MUX" for hierarchy "muxMA:inst8|LPM_MUX:lpm_mux_component"
@@ -2354,36 +2351,19 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alt_
     Info (12023): Found entity 1: alt_u_div_k5f
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_0s9.tdf
     Info (12023): Found entity 1: lpm_abs_0s9
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "JMV[15]" is stuck at GND
-    Warning (13410): Pin "JMV[14]" is stuck at GND
-    Warning (13410): Pin "JMV[13]" is stuck at GND
-    Warning (13410): Pin "JMV[12]" is stuck at GND
-    Warning (13410): Pin "JMV[11]" is stuck at GND
-    Warning (13410): Pin "JMV[10]" is stuck at GND
-    Warning (13410): Pin "JMV[9]" is stuck at GND
-    Warning (13410): Pin "JMV[8]" is stuck at GND
-    Warning (13410): Pin "JMV[7]" is stuck at GND
-    Warning (13410): Pin "JMV[6]" is stuck at GND
-    Warning (13410): Pin "JMV[5]" is stuck at GND
-    Warning (13410): Pin "JMV[4]" is stuck at GND
-    Warning (13410): Pin "JMV[3]" is stuck at GND
-    Warning (13410): Pin "JMV[2]" is stuck at GND
-    Warning (13410): Pin "JMV[1]" is stuck at GND
-    Warning (13410): Pin "JMV[0]" is stuck at GND
 Info (17049): 1 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3592 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3593 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 258 output pins
-    Info (21061): Implemented 3275 logic cells
+    Info (21061): Implemented 3276 logic cells
     Info (21064): Implemented 42 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 94 warnings
-    Info: Peak virtual memory: 572 megabytes
-    Info: Processing ended: Sun Mar 08 19:43:41 2015
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:23
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 73 warnings
+    Info: Peak virtual memory: 423 megabytes
+    Info: Processing ended: Mon Mar 09 13:45:10 2015
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:13
 
 

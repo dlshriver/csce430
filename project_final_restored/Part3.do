@@ -21,7 +21,7 @@ add wave HEX0
 add wave DataS
 add wave DataT
 add wave mem_read
-add wave JMV
+add wave IMV
 add wave IRout
 add wave muxMA
 add wave ma_select

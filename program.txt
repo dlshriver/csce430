@@ -1,0 +1,39 @@
+; r1 is pointer to string 1
+; r2 is pointer to string 2
+; r3 is length of string 1
+; r4 is length of string 2
+; r7 is location of search array
+
+add		r1, r0, 1000			; initialize pointer for string 1
+add		r2, r0, 1100			; initialize pointer for string 2
+add		r7, r0, 2000			; initialize pointer for array
+LCS:
+
+add		r3, r0, r0				; length of string 1 is 0
+add		r5, r0, r1				; temporary pointer for string 1
+LENSTR1:
+lw		r6, 0(r5)				; load character of string 1
+addi	r3, r3, 1				; increment length of string 1
+addi	r5, r5, 1000			; increment pointer
+bnez	r6, LENSTR1				; loop if character is not null
+subi	r3, r3, 1				; decrement length
+
+add		r4, r0, r0				; length of string 2 is 0
+add		r5, r0, r2				; temporary pointer for string 2
+LENSTR2:
+lw		r6, 0(r5)				; load character of string 2
+addi	r4, r4, 1				; increment length of string 2
+addi	r5, r5, 1				; increment pointer
+bnez	r6, LENSTR2				; loop if character is not null
+subi	r4, r4, 1				; decrement length
+
+add		r5, r0, r0				; initialize longest
+add		r6, r0, r0				; initialize x_longest
+
+ILOOP:
+JLOOP:
+
+
+
+addi	r1, r1, 200				; next string 1
+addi	r2, r2, 200				; next string 2
