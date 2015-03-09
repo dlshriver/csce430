@@ -1,5 +1,5 @@
 Flow report for Part3
-Mon Mar 02 12:39:50 2015
+Sun Mar 08 19:45:15 2015
 Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -38,18 +38,18 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Mon Mar 02 12:39:50 2015    ;
+; Flow Status                        ; Successful - Sun Mar 08 19:45:15 2015    ;
 ; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; Part3                                    ;
 ; Top-level Entity Name              ; Part3                                    ;
 ; Family                             ; Cyclone II                               ;
 ; Device                             ; EP2C35F672C6                             ;
 ; Timing Models                      ; Final                                    ;
-; Total logic elements               ; 2,986 / 33,216 ( 9 % )                   ;
-;     Total combinational functions  ; 2,795 / 33,216 ( 8 % )                   ;
-;     Dedicated logic registers      ; 538 / 33,216 ( 2 % )                     ;
-; Total registers                    ; 538                                      ;
-; Total pins                         ; 185 / 475 ( 39 % )                       ;
+; Total logic elements               ; 3,000 / 33,216 ( 9 % )                   ;
+;     Total combinational functions  ; 2,831 / 33,216 ( 9 % )                   ;
+;     Dedicated logic registers      ; 539 / 33,216 ( 2 % )                     ;
+; Total registers                    ; 539                                      ;
+; Total pins                         ; 274 / 475 ( 58 % )                       ;
 ; Total virtual pins                 ; 0                                        ;
 ; Total memory bits                  ; 98,304 / 483,840 ( 20 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                           ;
@@ -62,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/02/2015 12:37:53 ;
+; Start date & time ; 03/08/2015 19:43:19 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Part3               ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 44748154352498.142532147202228        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 75236418115100.142586179906824        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_RUN_SCRIPT           ; Part3.do                              ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
@@ -111,6 +111,8 @@ applicable agreement for further details.
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
 ; SEARCH_PATH                         ; Documents/temp/Part5_042414_restored/ ; --            ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                   ; --            ; --          ; eda_blast_fpga ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
@@ -121,12 +123,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:32     ; 1.0                     ; 574 MB              ; 00:00:20                           ;
-; Fitter                    ; 00:01:02     ; 1.0                     ; 612 MB              ; 00:00:52                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 443 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 475 MB              ; 00:00:04                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 408 MB              ; 00:00:03                           ;
-; Total                     ; 00:01:47     ; --                      ; --                  ; 00:01:22                           ;
+; Analysis & Synthesis      ; 00:00:22     ; 1.0                     ; 572 MB              ; 00:00:22                           ;
+; Fitter                    ; 00:01:10     ; 1.0                     ; 617 MB              ; 00:01:08                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 435 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:10     ; 1.0                     ; 499 MB              ; 00:00:09                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 422 MB              ; 00:00:04                           ;
+; Total                     ; 00:01:50     ; --                      ; --                  ; 00:01:47                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -135,11 +137,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

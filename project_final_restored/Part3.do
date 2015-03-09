@@ -2,7 +2,7 @@ vsim Part3
 view wave
 
 
-add wave clock
+add wave clk27
 add wave reset
 
 add wave RZout
@@ -13,17 +13,24 @@ add wave V
 add wave Address
 
 add wave RYout
-add	wave MemDataOut
+add wave MemDataOut
 add wave RMout
 add wave LEDR
 add wave LEDG
 add wave HEX0
+add wave DataS
+add wave DataT
+add wave mem_read
+add wave JMV
+add wave IRout
+add wave muxMA
+add wave ma_select
 
-force clock 0 0, 1 600 -repeat 1200
+force clk27 0 0, 1 600 -repeat 1200
 
 force reset 1 0
 force SW 0000000101
 force KEY 1011
 
 
-run 15000000
+run 150000

@@ -1,0 +1,96 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Part3_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Part3.vho}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity Part3
+# -- Compiling architecture structure of Part3
+# 
+# do "C:/Users/David/Documents/GitHub/csce430/project_final_restored/Part3.do"
+# vsim Part3
+# vsim Part3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.part3(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# Loading cycloneii.cycloneii_pllpack(body)
+# Loading cycloneii.cycloneii_pll(vital_pll)
+# Loading cycloneii.cycloneii_m_cntr(behave)
+# Loading cycloneii.cycloneii_n_cntr(behave)
+# Loading cycloneii.cycloneii_scale_cntr(behave)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# 
+# add wave clk27
+# add wave reset
+# 
+# add wave RZout
+# add wave N
+# add wave Z
+# add wave C
+# add wave V
+# add wave Address
+# 
+# add wave RYout
+# add wave MemDataOut
+# add wave RMout
+# add wave LEDR
+# add wave LEDG
+# add wave HEX0
+# add wave DataS
+# add wave DataT
+# add wave mem_read
+# add wave JMV
+# add wave IRout
+# add wave muxMA
+# add wave ma_select
+# 
+# force clk27 0 0, 1 600 -repeat 1200
+# 
+# force reset 1 0
+# force SW 0000000101
+# force KEY 1011
+# 
+# 
+# run 150000
+# ** Note: CycloneII PLL is enabled
+#    Time: 0 ps  Iteration: 1  Instance: /part3/\inst22|divider|altpll_component|pll\
+# ** Warning:  Input clock freq. is not within VCO range : CycloneII PLL may not lock. Please use the correct frequency.
+#    Time: 1800 ps  Iteration: 7  Instance: /part3/\inst22|divider|altpll_component|pll\
