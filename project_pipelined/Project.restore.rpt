@@ -1,0 +1,190 @@
+Restore Archived Project report for Project
+Sun Mar 29 16:07:57 2015
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Mar 29 16:07:57 2015 ;
+; Revision Name                   ; Project                               ;
+; Top-level Entity Name           ; processor                             ;
+; Family                          ; Cyclone II                            ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/David/Documents/GitHub/csce430/project_pipelined.qar' into the 'C:/Users/David/Documents/GitHub/csce430/project_pipelined/' directory
+Info: Generated report 'Project.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/12.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 229 megabytes
+    Info: Processing ended: Sun Mar 29 16:07:57 2015
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------+
+; Files Restored                                                                      ;
++-------------------------------------------------------------------------------------+
+; File Name                                                                           ;
++-------------------------------------------------------------------------------------+
+; ALU/ALU.bdf                                                                         ;
+; ALU/AND16BIT.vhd                                                                    ;
+; ALU/FA16BIT.bdf                                                                     ;
+; ALU/FA1BIT.bdf                                                                      ;
+; ALU/INV16BIT.vhd                                                                    ;
+; ALU/MUX2_1.vhd                                                                      ;
+; ALU/MUX4_1_16bit.vhd                                                                ;
+; ALU/OR16BIT.vhd                                                                     ;
+; ALU/XOR16BIT.vhd                                                                    ;
+; Adder.vhd                                                                           ;
+; CONST_ONE.bsf                                                                       ;
+; CONST_ONE.cmp                                                                       ;
+; CONST_ONE.qip                                                                       ;
+; CONST_ONE.vhd                                                                       ;
+; Const.vhd                                                                           ;
+; FIFTEENCONST.bsf                                                                    ;
+; FIFTEENCONST.inc                                                                    ;
+; FIFTEENCONST.qip                                                                    ;
+; FIFTEENCONST.tdf                                                                    ;
+; IOmem/IO_MemoryInterface.bdf                                                        ;
+; IOmem/IO_MemoryInterface.bsf                                                        ;
+; IOmem/Pin_Connections_FPGA_Board.pdf                                                ;
+; IOmem/Reg_16.bsf                                                                    ;
+; IOmem/Reg_16.vhd                                                                    ;
+; InstructionAddressGenerator.bdf                                                     ;
+; MUX4BIT_3TO1.bsf                                                                    ;
+; MUX4BIT_3TO1.inc                                                                    ;
+; MUX4BIT_3TO1.qip                                                                    ;
+; MUX4BIT_3TO1.tdf                                                                    ;
+; MUX_2_15BIT.bsf                                                                     ;
+; MUX_2_15BIT.cmp                                                                     ;
+; MUX_2_15BIT.qip                                                                     ;
+; MUX_2_15BIT.vhd                                                                     ;
+; MUX_2_24BIT.bsf                                                                     ;
+; MUX_2_24BIT.cmp                                                                     ;
+; MUX_2_24BIT.qip                                                                     ;
+; MUX_2_24BIT.vhd                                                                     ;
+; MUX_3TO1.bsf                                                                        ;
+; MUX_3TO1.qip                                                                        ;
+; MUX_3TO1.tdf                                                                        ;
+; MainMemory.vhd                                                                      ;
+; MemoryInterface.bdf                                                                 ;
+; MuxINC.vhd                                                                          ;
+; MuxPC.vhd                                                                           ;
+; My Box Files/School/CSCE230 Project/ProjectPart4Complete_restored/processor_old.bdf ;
+; PC.vhd                                                                              ;
+; PC_Temp.vhd                                                                         ;
+; Pipeline Files/ForwardingUnit.bsf                                                   ;
+; Pipeline Files/ForwardingUnit.vhd                                                   ;
+; Pipeline Files/HazardDetectionUnit.bsf                                              ;
+; Pipeline Files/HazardDetectionUnit.vhd                                              ;
+; Pipeline Files/control_unit_230.bsf                                                 ;
+; Pipeline Files/control_unit_230.vhd                                                 ;
+; Pipeline Files/instr.mif                                                            ;
+; Pipeline Files/instrMem.bsf                                                         ;
+; Pipeline Files/instrMem.vhd                                                         ;
+; Project.qpf                                                                         ;
+; Project.qsf                                                                         ;
+; Project_assignment_defaults.qdf                                                     ;
+; REG_16BIT_SCLR.bsf                                                                  ;
+; REG_16BIT_SCLR.cmp                                                                  ;
+; REG_16BIT_SCLR.inc                                                                  ;
+; REG_16BIT_SCLR.qip                                                                  ;
+; REG_16BIT_SCLR.tdf                                                                  ;
+; REG_16BIT_SCLR_ENBL.bsf                                                             ;
+; REG_16BIT_SCLR_ENBL.cmp                                                             ;
+; REG_16BIT_SCLR_ENBL.inc                                                             ;
+; REG_16BIT_SCLR_ENBL.qip                                                             ;
+; REG_16BIT_SCLR_ENBL.tdf                                                             ;
+; REG_1BIT.bsf                                                                        ;
+; REG_1BIT.cmp                                                                        ;
+; REG_1BIT.inc                                                                        ;
+; REG_1BIT.qip                                                                        ;
+; REG_1BIT.tdf                                                                        ;
+; REG_1BIT_SCLR.bsf                                                                   ;
+; REG_1BIT_SCLR.cmp                                                                   ;
+; REG_1BIT_SCLR.inc                                                                   ;
+; REG_1BIT_SCLR.qip                                                                   ;
+; REG_1BIT_SCLR.tdf                                                                   ;
+; REG_24BIT_SCLR.bsf                                                                  ;
+; REG_24BIT_SCLR.cmp                                                                  ;
+; REG_24BIT_SCLR.inc                                                                  ;
+; REG_24BIT_SCLR.qip                                                                  ;
+; REG_24BIT_SCLR.tdf                                                                  ;
+; REG_24BIT_SCLR_ENBL.bsf                                                             ;
+; REG_24BIT_SCLR_ENBL.cmp                                                             ;
+; REG_24BIT_SCLR_ENBL.inc                                                             ;
+; REG_24BIT_SCLR_ENBL.qip                                                             ;
+; REG_24BIT_SCLR_ENBL.tdf                                                             ;
+; REG_2BIT_SCLR.bsf                                                                   ;
+; REG_2BIT_SCLR.cmp                                                                   ;
+; REG_2BIT_SCLR.inc                                                                   ;
+; REG_2BIT_SCLR.qip                                                                   ;
+; REG_2BIT_SCLR.tdf                                                                   ;
+; REG_4BIT_SCLR.bsf                                                                   ;
+; REG_4BIT_SCLR.cmp                                                                   ;
+; REG_4BIT_SCLR.inc                                                                   ;
+; REG_4BIT_SCLR.qip                                                                   ;
+; REG_4BIT_SCLR.tdf                                                                   ;
+; Reg_16.bsf                                                                          ;
+; Reg_16.inc                                                                          ;
+; Reg_16.qip                                                                          ;
+; Reg_16.tdf                                                                          ;
+; Reg_24.vhd                                                                          ;
+; Register/DECODE_4TO16.tdf                                                           ;
+; Register/DFF_16BIT.tdf                                                              ;
+; Register/MUX_16BIT_16TO1.tdf                                                        ;
+; Register/ZERO.tdf                                                                   ;
+; Register/regfile.bdf                                                                ;
+; assignment_defaults.qdf                                                             ;
+; immediate.vhd                                                                       ;
+; incremental_db/compiled_partitions/Project.db_info                                  ;
+; instr.mif                                                                           ;
+; io_test.mif                                                                         ;
+; memoryinitialization.mif                                                            ;
+; part1.do                                                                            ;
+; processor.bdf                                                                       ;
++-------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

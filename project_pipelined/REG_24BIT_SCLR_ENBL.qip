@@ -1,0 +1,6 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_FF"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "REG_24BIT_SCLR_ENBL.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "REG_24BIT_SCLR_ENBL.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "REG_24BIT_SCLR_ENBL.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "REG_24BIT_SCLR_ENBL.cmp"]
