@@ -1,0 +1,128 @@
+Quartus II Archive log --	C:/Users/David/Documents/GitHub/csce430/project_pipelined.qarlog
+
+Archive:	C:/Users/David/Documents/GitHub/csce430/project_pipelined.qar
+Date:		Sun Mar 29 16:02:32 2015
+Quartus II 32-bit		12.1 Build 177 11/07/2012 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/ALU.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/AND16BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/FA16BIT.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/FA1BIT.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/INV16BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/MUX2_1.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/MUX4_1_16bit.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/OR16BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/ALU/XOR16BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Adder.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/CONST_ONE.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/CONST_ONE.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/CONST_ONE.qip
+C:/Users/David/Documents/CSE230/Part5Complete/CONST_ONE.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Const.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/FIFTEENCONST.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/FIFTEENCONST.inc
+C:/Users/David/Documents/CSE230/Part5Complete/FIFTEENCONST.qip
+C:/Users/David/Documents/CSE230/Part5Complete/FIFTEENCONST.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/IOmem/IO_MemoryInterface.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/IOmem/IO_MemoryInterface.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/IOmem/Pin_Connections_FPGA_Board.pdf
+C:/Users/David/Documents/CSE230/Part5Complete/IOmem/Reg_16.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/IOmem/Reg_16.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/InstructionAddressGenerator.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX4BIT_3TO1.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX4BIT_3TO1.inc
+C:/Users/David/Documents/CSE230/Part5Complete/MUX4BIT_3TO1.qip
+C:/Users/David/Documents/CSE230/Part5Complete/MUX4BIT_3TO1.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_15BIT.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_15BIT.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_15BIT.qip
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_15BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_24BIT.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_24BIT.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_24BIT.qip
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_2_24BIT.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_3TO1.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_3TO1.qip
+C:/Users/David/Documents/CSE230/Part5Complete/MUX_3TO1.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/MainMemory.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/MemoryInterface.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/MuxINC.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/MuxPC.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/My Box Files/School/CSCE230 Project/ProjectPart4Complete_restored/processor_old.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/PC.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/PC_Temp.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/ForwardingUnit.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/ForwardingUnit.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/HazardDetectionUnit.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/HazardDetectionUnit.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/control_unit_230.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/control_unit_230.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/instr.mif
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/instrMem.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/Pipeline Files/instrMem.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Project.qpf
+C:/Users/David/Documents/CSE230/Part5Complete/Project.qsf
+C:/Users/David/Documents/CSE230/Part5Complete/Project_assignment_defaults.qdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR_ENBL.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR_ENBL.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR_ENBL.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR_ENBL.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_16BIT_SCLR_ENBL.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT_SCLR.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT_SCLR.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT_SCLR.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT_SCLR.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_1BIT_SCLR.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR_ENBL.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR_ENBL.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR_ENBL.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR_ENBL.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_24BIT_SCLR_ENBL.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_2BIT_SCLR.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_2BIT_SCLR.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_2BIT_SCLR.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_2BIT_SCLR.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_2BIT_SCLR.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_4BIT_SCLR.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/REG_4BIT_SCLR.cmp
+C:/Users/David/Documents/CSE230/Part5Complete/REG_4BIT_SCLR.inc
+C:/Users/David/Documents/CSE230/Part5Complete/REG_4BIT_SCLR.qip
+C:/Users/David/Documents/CSE230/Part5Complete/REG_4BIT_SCLR.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Reg_16.bsf
+C:/Users/David/Documents/CSE230/Part5Complete/Reg_16.inc
+C:/Users/David/Documents/CSE230/Part5Complete/Reg_16.qip
+C:/Users/David/Documents/CSE230/Part5Complete/Reg_16.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Reg_24.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/Register/DECODE_4TO16.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Register/DFF_16BIT.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Register/MUX_16BIT_16TO1.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Register/ZERO.tdf
+C:/Users/David/Documents/CSE230/Part5Complete/Register/regfile.bdf
+C:/Users/David/Documents/CSE230/Part5Complete/assignment_defaults.qdf
+C:/Users/David/Documents/CSE230/Part5Complete/immediate.vhd
+C:/Users/David/Documents/CSE230/Part5Complete/incremental_db/compiled_partitions/Project.db_info
+C:/Users/David/Documents/CSE230/Part5Complete/instr.mif
+C:/Users/David/Documents/CSE230/Part5Complete/io_test.mif
+C:/Users/David/Documents/CSE230/Part5Complete/memoryinitialization.mif
+C:/Users/David/Documents/CSE230/Part5Complete/part1.do
+C:/Users/David/Documents/CSE230/Part5Complete/processor.bdf
+	======= Total: 117 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
