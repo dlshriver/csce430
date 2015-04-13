@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Project
-Sun Mar 29 16:22:13 2015
+Mon Apr 06 10:27:37 2015
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -4318,7 +4318,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Sun Mar 29 16:22:10 2015
+    Info: Processing started: Mon Apr 06 10:27:34 2015
 Info: Command: quartus_sta Project -c Project
 Info: qsta_default_script.tcl version: #1
 Warning (20013): Ignored assignments for entity "Project" -- entity does not exist in design
@@ -4393,9 +4393,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 318 megabytes
-    Info: Processing ended: Sun Mar 29 16:22:13 2015
+    Info: Peak virtual memory: 332 megabytes
+    Info: Processing ended: Mon Apr 06 10:27:37 2015
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

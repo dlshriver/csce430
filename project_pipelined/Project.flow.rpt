@@ -1,5 +1,5 @@
 Flow report for Project
-Sun Mar 29 16:22:16 2015
+Mon Apr 06 10:28:53 2015
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Sun Mar 29 16:22:16 2015    ;
+; Flow Status                        ; Successful - Mon Apr 06 10:28:53 2015    ;
 ; Quartus II 32-bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; Project                                  ;
 ; Top-level Entity Name              ; processor                                ;
@@ -62,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/29/2015 16:21:11 ;
+; Start date & time ; 04/06/2015 10:26:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Project             ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                              ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 75236418115100.142766407108964                                     ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 44748154352498.142833400007436                                     ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                               ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_RUN_SCRIPT           ; part1.do                                                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                             ; <None>        ; --          ; --             ;
@@ -179,12 +179,13 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 395 MB              ; 00:00:17                           ;
-; Fitter                    ; 00:00:31     ; 1.0                     ; 458 MB              ; 00:00:32                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 351 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 318 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 315 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:58     ; --                      ; --                  ; 00:00:58                           ;
+; Analysis & Synthesis      ; 00:00:15     ; 1.0                     ; 410 MB              ; 00:00:11                           ;
+; Fitter                    ; 00:00:27     ; 1.0                     ; 467 MB              ; 00:00:24                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 360 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 332 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 321 MB              ; 00:00:02                           ;
+; MIF/HEX Update            ; 00:00:02     ; 1.0                     ; 362 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:53     ; --                      ; --                  ; 00:00:44                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -193,11 +194,12 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; Box              ; Windows 7 ; 6.1        ; x86_64         ;
+; Analysis & Synthesis      ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
+; MIF/HEX Update            ; NewBox           ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -209,6 +211,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off Project -c Proj
 quartus_asm --read_settings_files=off --write_settings_files=off Project -c Project
 quartus_sta Project -c Project
 quartus_eda --read_settings_files=off --write_settings_files=off Project -c Project
+quartus_cdb Project -c Project --update_mif
 
 
 

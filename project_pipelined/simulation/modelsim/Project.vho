@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 32-bit"
 -- VERSION "Version 12.1 Build 177 11/07/2012 SJ Web Edition"
 
--- DATE "03/29/2015 16:22:15"
+-- DATE "04/06/2015 10:27:39"
 
 -- 
 -- Device: Altera EP2C35F672C6 Package FBGA672
@@ -1459,37 +1459,6 @@ SIGNAL \inst44|LPM_MUX_component|auto_generated|result_node[12]~27_combout\ : st
 SIGNAL \inst7|Reg2|lpm_ff_component|dffs[15]~feeder_combout\ : std_logic;
 SIGNAL \inst7|Reg2|lpm_ff_component|dffs[12]~feeder_combout\ : std_logic;
 SIGNAL \inst7|Reg2|lpm_ff_component|dffs[8]~feeder_combout\ : std_logic;
-SIGNAL \inst8|y_select\ : std_logic_vector(1 DOWNTO 0);
-SIGNAL \inst8|alu_op\ : std_logic_vector(1 DOWNTO 0);
-SIGNAL \PC_reg|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst18|lpm_ff_component|dffs\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \inst38|inst|altsyncram_component|auto_generated|q_a\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \inst63|lpm_ff_component|dffs\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \inst22|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
-SIGNAL \KEY~combout\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \inst20|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg11|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg13|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg15|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg2|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg4|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg6|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst7|Reg8|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst64|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst24|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst42|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst31|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst65|lpm_ff_component|dffs\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \inst37|HEX_DISPLAY|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst51|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
-SIGNAL \inst62|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst61|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \PC_reg1|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst28|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst19|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst21|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
-SIGNAL \inst25|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst41|lpm_ff_component|dffs\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \inst8|c_select\ : std_logic_vector(1 DOWNTO 0);
 SIGNAL \inst72|lpm_ff_component|dffs\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \inst4|altsyncram_component|auto_generated|q_a\ : std_logic_vector(23 DOWNTO 0);
@@ -1524,6 +1493,37 @@ SIGNAL \inst54|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
 SIGNAL \inst27|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
 SIGNAL \inst17|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \inst53|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst8|y_select\ : std_logic_vector(1 DOWNTO 0);
+SIGNAL \inst8|alu_op\ : std_logic_vector(1 DOWNTO 0);
+SIGNAL \PC_reg|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst18|lpm_ff_component|dffs\ : std_logic_vector(23 DOWNTO 0);
+SIGNAL \inst38|inst|altsyncram_component|auto_generated|q_a\ : std_logic_vector(23 DOWNTO 0);
+SIGNAL \inst63|lpm_ff_component|dffs\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \inst22|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
+SIGNAL \KEY~combout\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \inst20|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg11|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg13|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg15|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg2|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg4|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg6|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst7|Reg8|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst64|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst24|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst42|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst31|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst65|lpm_ff_component|dffs\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \inst37|HEX_DISPLAY|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst51|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
+SIGNAL \inst62|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst61|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \PC_reg1|lpm_ff_component|dffs\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst28|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst19|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst21|lpm_ff_component|dffs\ : std_logic_vector(1 DOWNTO 0);
+SIGNAL \inst25|lpm_ff_component|dffs\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst41|lpm_ff_component|dffs\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \ALT_INV_clock~clkctrl_outclk\ : std_logic;
 SIGNAL \ALT_INV_KEY~combout\ : std_logic_vector(0 DOWNTO 0);
 SIGNAL \inst12|ALT_INV_inst10~7_combout\ : std_logic;
