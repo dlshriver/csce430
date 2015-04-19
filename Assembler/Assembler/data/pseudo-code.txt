@@ -1,0 +1,20 @@
+r1 = str1.length()
+r2 = str2.length()
+
+r10 = 0
+r11 = 0
+
+for r3 = 0 : r1
+	for r4 = 0 : r2
+		r5 = 0
+			while r6 == r7 :: r6 = str1.at(r5 + r3), r7 = str2.at(r5 + r4)
+				r5 += 1
+				if r5 > r10
+					r10 = r5
+					r11 = r3
+				if r3 + r5 >= r1
+					break
+				else if r4 + r5 >= r2
+					break
+print r10
+print r11
