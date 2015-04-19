@@ -216,6 +216,9 @@ public class Assembler {
 				imm = "";
 				
 				hexInstruct = op+cond+label;
+	
+			}else{
+				//TODO: Handle when a Tag is put in
 			}
 			
 			System.out.printf("%0x : %s;\n", numInstr, hexInstruct);

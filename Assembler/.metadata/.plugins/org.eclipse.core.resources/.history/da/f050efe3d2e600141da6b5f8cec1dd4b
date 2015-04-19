@@ -82,6 +82,7 @@ public class Assembler {
 		String rt = "";
 		String rd = "";
 		String opx = "";
+		String set = "";
 		String imm = "";
 		String label = "";
 		
@@ -100,73 +101,74 @@ public class Assembler {
 				if(tokens[0].equals("cmp")){
 					if(!tokens[1].contains("r")){
 						cond = hexCond.get(tokens[1]);
-						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
+						rs = tokens[2].replace("r", "");
+						rt = tokens[3].replace("r", "");
 						rd= "0";
 						if(tokens.length == 5){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+						rs = tokens[1].replace("r", "");
+						rt = tokens[2].replace("r", "");
 						rd = "0";
 						if(tokens.length == 4){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}
 				}else if(tokens[0].equals("jr")){
 					if(!tokens[1].contains("r")){
 						cond = hexCond.get(tokens[1]);
-						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+						rs = tokens[2].replace("r", "");
 						rt = "0";
 						rd = "0";
 						if(tokens.length == 4){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
+						rs = tokens[1].replace("r", "");
 						rt = "0";
 						rd = "0";
 						if(tokens.length == 3){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}
 				}else{
 					if(!tokens[1].contains("r")){
 						cond = hexCond.get(tokens[1]);
-						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
-						rd = ""+Integer.valueOf(tokens[4].replace("r", ""), 16);
+						rs = tokens[2].replace("r", "");
+						rt = tokens[3].replace("r", "");
+						rd = tokens[4].replace("r", "");
 						if(tokens.length == 6){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
-						rd = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
+						rs = tokens[1].replace("r", "");
+						rt = tokens[2].replace("r", "");
+						rd = tokens[3].replace("r", "");
 						if(tokens.length == 5){
-							int opxNum = Integer.parseInt(opx);
-							opxNum = (opxNum * 2)+1;
-							opx = Integer.toString(opxNum);
+							set = "1";
+						}else{
+							set = "0";
 						}
 					}
 				}
 					imm = "";
 					label = "";
 					
+					//TODO: correct opx to account for if the set bit is set
 					hexInstruct = op+cond+rs+rt+rd+opx;
 					
 			//D-Type
@@ -174,29 +176,30 @@ public class Assembler {
 				op = hexOp.get(tokens[0]);
 				if(!tokens[1].contains("r")){
 					cond = hexCond.get(tokens[1]);
-					rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
-					rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
-					imm = ""+Integer.valueOf(tokens[4], 16);;
+					rs = tokens[2].replace("r", "");
+					rt = tokens[3].replace("r", "");
+					imm = tokens[4];
 					if(tokens.length == 6){
-						int immNum = Integer.parseInt(imm);
-						immNum = (immNum*2)+1;
-						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
+						set = "1";
+					}else{
+						set = "0";
 					}
 				}else{
 					cond = hexCond.get("al");
-					rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
-					rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
-					imm = ""+Integer.valueOf(tokens[3], 16);
+					rs = tokens[1].replace("r", "");
+					rt = tokens[2].replace("r", "");
+					imm = tokens[3];
 					if(tokens.length == 5){
-						int immNum = Integer.parseInt(imm);
-						immNum = (immNum*2)+1;
-						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
+						set = "1";
+					}else{
+						set = "0";
 					}
 				}
 				rd = "";
 				opx = "";
 				label = "";
 				
+				//TODO: correct imm to account for if the set bit is set
 				hexInstruct = op+cond+rs+rt+imm;
 			
 			//B-Type
@@ -204,18 +207,22 @@ public class Assembler {
 				op = hexOp.get(tokens[0]);
 				if(!tokens[1].contains("r")){
 					cond = hexCond.get(tokens[1]);
-					label = ""+Integer.valueOf(tokens[2], 16);
+					label = tokens[2];
 				}else{
 					cond = hexCond.get("al");
-					label = ""+Integer.valueOf(tokens[1], 16);
+					label = tokens[1];
 				}
 				rs = "";
 				rt = "";
 				rd = "";
 				opx = "";
+				set = "";
 				imm = "";
 				
 				hexInstruct = op+cond+label;
+	
+			}else{
+				//TODO: Handle when a Tag is put in
 			}
 			
 			System.out.printf("%0x : %s;\n", numInstr, hexInstruct);
