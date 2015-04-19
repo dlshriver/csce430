@@ -237,10 +237,10 @@ public class Assembler {
 				op = hexOp.get(tokensMain[0]);
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[2]), 16);
+					label = ""+Integer.valueOf(tokensMain[2], 16);
 				}else{
 					cond = hexCond.get("al");
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[1]), 16);
+					label = ""+Integer.valueOf(tokensMain[1], 16);
 				}
 				rs = "";
 				rt = "";

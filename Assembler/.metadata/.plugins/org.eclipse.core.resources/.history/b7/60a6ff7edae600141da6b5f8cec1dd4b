@@ -20,7 +20,7 @@ public class Assembler {
 		hexOp.put("lw", "8");
 		hexOp.put("sw", "9");
 		hexOp.put("addi", "C");
-		hexOp.put("br", "0");
+		hexOp.put("b", "0");
 		hexOp.put("bal", "4");
 		hexOp.put("j", "2");
 		hexOp.put("jal", "6");
@@ -80,7 +80,7 @@ public class Assembler {
 					numInstr++;
 				}else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")){
 					numInstr++;
-				}else if(tokens[0].equals("br")||tokens[0].equals("bal")){
+				}else if(tokens[0].equals("b")||tokens[0].equals("bal")){
 					numInstr++;
 				}else{
 					continue;
@@ -233,14 +233,14 @@ public class Assembler {
 				hexInstruct = op+cond+rs+rt+imm;
 			
 			//B-Type
-			}else if(tokensMain[0].equals("br")||tokensMain[0].equals("bal")){
+			}else if(tokensMain[0].equals("b")||tokensMain[0].equals("bal")){
 				op = hexOp.get(tokensMain[0]);
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[2]), 16);
+					label = ""+Integer.valueOf(tokensMain[2], 16);
 				}else{
 					cond = hexCond.get("al");
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[1]), 16);
+					label = ""+Integer.valueOf(tokensMain[1], 16);
 				}
 				rs = "";
 				rt = "";

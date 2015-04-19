@@ -20,7 +20,7 @@ public class Assembler {
 		hexOp.put("lw", "8");
 		hexOp.put("sw", "9");
 		hexOp.put("addi", "C");
-		hexOp.put("br", "0");
+		hexOp.put("b", "0");
 		hexOp.put("bal", "4");
 		hexOp.put("j", "2");
 		hexOp.put("jal", "6");
@@ -67,25 +67,14 @@ public class Assembler {
 		
 		String currLine = "";
 		int numInstr = 0;
-		String tokens[];
 		
 		while(s1.hasNextLine()){
 			currLine = s1.nextLine();
 			if(currLine.contains(":")){
 				String branchLoc = Integer.toString(numInstr);
 				branchLocations.put(currLine, branchLoc);
-			}else{
-				tokens = currLine.split(" ");
-				if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
-					numInstr++;
-				}else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")){
-					numInstr++;
-				}else if(tokens[0].equals("br")||tokens[0].equals("bal")){
-					numInstr++;
-				}else{
-					continue;
-				}
 			}
+			numInstr++;
 		}
 		
 		s1.close();
@@ -108,7 +97,7 @@ public class Assembler {
 		
 		String assemblyInstruct = "";
 		
-		String[] tokensMain;
+		String[] tokens;
 		
 		String op = "";
 		String cond = "";
@@ -123,74 +112,74 @@ public class Assembler {
 		
 		while(s2.hasNextLine()){
 			assemblyInstruct = s2.nextLine();
-			tokensMain = assemblyInstruct.split(" ");
+			tokens = assemblyInstruct.split(" ");
 			String hexInstruct = "";
 			
 			//R-Type
-			if(tokensMain[0].equals("add")||tokensMain[0].equals("sub")||tokensMain[0].equals("and")||tokensMain[0].equals("or")||tokensMain[0].equals("xor")||tokensMain[0].equals("sll")||tokensMain[0].equals("cmp")||tokensMain[0].equals("jr")){
-				op = hexOp.get(tokensMain[0]);
-				opx = hexOpx.get(tokensMain[0]);
-				if(tokensMain[0].equals("cmp")){
-					if(!tokensMain[1].contains("r")){
-						cond = hexCond.get(tokensMain[1]);
-						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
+			if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
+				op = hexOp.get(tokens[0]);
+				opx = hexOpx.get(tokens[0]);
+				if(tokens[0].equals("cmp")){
+					if(!tokens[1].contains("r")){
+						cond = hexCond.get(tokens[1]);
+						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
 						rd= "0";
-						if(tokensMain.length == 5){
+						if(tokens.length == 5){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
 						rd = "0";
-						if(tokensMain.length == 4){
+						if(tokens.length == 4){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}
-				}else if(tokensMain[0].equals("jr")){
-					if(!tokensMain[1].contains("r")){
-						cond = hexCond.get(tokensMain[1]);
-						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+				}else if(tokens[0].equals("jr")){
+					if(!tokens[1].contains("r")){
+						cond = hexCond.get(tokens[1]);
+						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
-						if(tokensMain.length == 4){
+						if(tokens.length == 4){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
+						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
-						if(tokensMain.length == 3){
+						if(tokens.length == 3){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}
 				}else{
-					if(!tokensMain[1].contains("r")){
-						cond = hexCond.get(tokensMain[1]);
-						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
-						rd = ""+Integer.valueOf(tokensMain[4].replace("r", ""), 16);
-						if(tokensMain.length == 6){
+					if(!tokens[1].contains("r")){
+						cond = hexCond.get(tokens[1]);
+						rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
+						rd = ""+Integer.valueOf(tokens[4].replace("r", ""), 16);
+						if(tokens.length == 6){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
-						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-						rd = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
-						if(tokensMain.length == 5){
+						rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+						rd = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
+						if(tokens.length == 5){
 							int opxNum = Integer.parseInt(opx);
 							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
@@ -203,24 +192,24 @@ public class Assembler {
 					hexInstruct = op+cond+rs+rt+rd+opx;
 					
 			//D-Type
-			}else if(tokensMain[0].equals("lw")||tokensMain[0].equals("sw")||tokensMain[0].equals("addi")){
-				op = hexOp.get(tokensMain[0]);
-				if(!tokensMain[1].contains("r")){
-					cond = hexCond.get(tokensMain[1]);
-					rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-					rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
-					imm = ""+Integer.valueOf(tokensMain[4], 16);;
-					if(tokensMain.length == 6){
+			}else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")){
+				op = hexOp.get(tokens[0]);
+				if(!tokens[1].contains("r")){
+					cond = hexCond.get(tokens[1]);
+					rs = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+					rt = ""+Integer.valueOf(tokens[3].replace("r", ""), 16);
+					imm = ""+Integer.valueOf(tokens[4], 16);;
+					if(tokens.length == 6){
 						int immNum = Integer.parseInt(imm);
 						immNum = (immNum*2)+1;
 						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}
 				}else{
 					cond = hexCond.get("al");
-					rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
-					rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-					imm = ""+Integer.valueOf(tokensMain[3], 16);
-					if(tokensMain.length == 5){
+					rs = ""+Integer.valueOf(tokens[1].replace("r", ""), 16);
+					rt = ""+Integer.valueOf(tokens[2].replace("r", ""), 16);
+					imm = ""+Integer.valueOf(tokens[3], 16);
+					if(tokens.length == 5){
 						int immNum = Integer.parseInt(imm);
 						immNum = (immNum*2)+1;
 						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
@@ -233,14 +222,14 @@ public class Assembler {
 				hexInstruct = op+cond+rs+rt+imm;
 			
 			//B-Type
-			}else if(tokensMain[0].equals("br")||tokensMain[0].equals("bal")){
-				op = hexOp.get(tokensMain[0]);
-				if(!tokensMain[1].contains("r")){
-					cond = hexCond.get(tokensMain[1]);
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[2]), 16);
+			}else if(tokens[0].equals("b")||tokens[0].equals("bal")){
+				op = hexOp.get(tokens[0]);
+				if(!tokens[1].contains("r")){
+					cond = hexCond.get(tokens[1]);
+					label = ""+Integer.valueOf(tokens[2], 16);
 				}else{
 					cond = hexCond.get("al");
-					label = ""+Integer.valueOf(branchLocations.get(tokensMain[1]), 16);
+					label = ""+Integer.valueOf(tokens[1], 16);
 				}
 				rs = "";
 				rt = "";

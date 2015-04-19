@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tokens&apos; in &apos;csce430.Assembler.main(...)&apos; to &apos;tokensMain&apos;&#x0D;&#x0A;- Original project: &apos;Assembler&apos;&#x0D;&#x0A;- Original element: &apos;csce430.Assembler.main(String[]).tokens&apos;&#x0D;&#x0A;- Renamed element: &apos;tokens&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tokens&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;csce430{Assembler.java[Assembler~main~\[QString;@tokens!3002!3017!3011!3016!\[QString;!0!false" name="tokensMain" references="true" stamp="1429478422932" version="1.0"/>
+</session>
