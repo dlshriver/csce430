@@ -231,7 +231,7 @@ begin
 			ma_select <= '0';
 			mem_write <= '0';
 			mem_read <= '0';
-			branch <= '1';
+			branch <= execute;
 			jump <= '0';
 					
 			-- b instruction

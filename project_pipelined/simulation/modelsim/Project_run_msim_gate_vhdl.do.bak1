@@ -1,0 +1,10 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vcom -93 -work work {Project.vho}
+
+do "C:/Users/David/Documents/GitHub/csce430/project_pipelined/part1.do"

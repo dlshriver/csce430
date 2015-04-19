@@ -4,7 +4,7 @@ Info: Start Nativelink Simulation process
 
 Sim Mode              :  Gate
 Family                :  cycloneii
-Quartus root          :  c:/altera/12.1/quartus/bin/
+Quartus root          :  c:/altera/12.1/quartus/bin64/
 Quartus sim root      :  c:/altera/12.1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  vhdl
@@ -18,4 +18,5 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script c:/altera/12.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File Project_run_msim_gate_vhdl.do already exists - backing up current file as Project_run_msim_gate_vhdl.do.bak10
 Info: Spawning ModelSim-Altera Simulation software 

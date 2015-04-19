@@ -41,6 +41,10 @@ add wave WBreg
 #add wave op_code
 #add wave cond
 #add wave opx
+add wave pc_select
+add wave br_exe
+add wave jmp_exe
+add wave br_addr
 
 force key 1001 0, 1111 850000, 0011 1150000
 force sw 0001001100 0, 0011111100 850000, 0000000000 1000000
