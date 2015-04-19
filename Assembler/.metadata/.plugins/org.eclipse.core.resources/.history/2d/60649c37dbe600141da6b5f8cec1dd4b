@@ -237,12 +237,10 @@ public class Assembler {
 				op = hexOp.get(tokensMain[0]);
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
-					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[2]));
-					label = ""+Integer.valueOf(String.valueOf(offset), 16);
+					label = ""+Integer.valueOf(branchLocations.get(tokensMain[2]), 16);
 				}else{
 					cond = hexCond.get("al");
-					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[1]));
-					label = ""+Integer.valueOf(String.valueOf(offset), 16);
+					label = ""+Integer.valueOf(branchLocations.get(tokensMain[1]), 16);
 				}
 				rs = "";
 				rt = "";
