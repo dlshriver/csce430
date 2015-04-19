@@ -60,8 +60,6 @@ public class Assembler {
 		while(s.hasNextLine()){
 			instruction = s.nextLine();
 			tokens = instruction.split(" ");
-			String op = hexOp.get(tokens[0]);
-			
 		}
 	}
 }
