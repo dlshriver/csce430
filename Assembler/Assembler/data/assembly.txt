@@ -2,8 +2,11 @@ add al r1 r0 r0
 add al r2 r0 r0
 add al r10 r0 r0
 add al r11 r0 r0
+addi al r15 r0 32
+add al r15 r15 r15
+add al r15 r15 r15
 
-addi al r9 r0 0
+add al r9 r0 r0
 LENGTHS1:
 lw al r8 r9 0
 addi al r9 r9 1
@@ -12,7 +15,7 @@ sub al r0 r8 r0 s
 br eq LENGTHS1
 addi al r1 r1 -1
 
-addi al r9 r0 100
+add al r9 r0 r15
 LENGTHS2:
 lw al r8 r9 0
 addi al r9 r9 1
@@ -27,11 +30,11 @@ add al r4 r0 r0
 STR2FORLOOP:
 add al r5 r0 r0
 WHILELOOP:
-addi al r9 r0 0
+add al r9 r0 r0
 add al r9 r9 r5
 add al r9 r9 r3
 lw al r6 r9 0
-addi al r9 r0 100
+add al r9 r0 r15
 add al r9 r9 r5
 add al r9 r9 r4
 lw al r7 r9 0
