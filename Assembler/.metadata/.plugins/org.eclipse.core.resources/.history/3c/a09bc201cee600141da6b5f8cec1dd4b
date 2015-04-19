@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Assembler {
 
-	public static void main(String args[]) throws FileNotFoundException{
+	public static void main(String args[]){
 		HashMap <String, String> hexOp = new HashMap<String, String>();
 		hexOp.put("add", "A");
 		hexOp.put("sub", "A");
@@ -62,17 +62,7 @@ public class Assembler {
 			e.printStackTrace();
 		}
 		
-		File output = new File("data/project.mif");
-		FileOutputStream fis = new FileOutputStream(output);
-		PrintStream out = new PrintStream(fis);
-		System.setOut(out);
-		
-		int width = 24;
-		int depth = 256;
-		
-		System.out.printf("WIDTH = %d;\nDEPTH = %d;\nADDRESS_RADIX = HEX;\nDATA_RADIX = HEX;\nCONTENT BEGIN\n", width, depth);
-		
-		String assemblyInstruct = "";
+		String instruction = "";
 		
 		String[] tokens;
 		
@@ -90,9 +80,8 @@ public class Assembler {
 		
 		
 		while(s.hasNextLine()){
-			assemblyInstruct = s.nextLine();
-			tokens = assemblyInstruct.split(" ");
-			String hexInstruct = "";
+			instruction = s.nextLine();
+			tokens = instruction.split(" ");
 			
 			//R-Type
 			if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
@@ -168,9 +157,6 @@ public class Assembler {
 					imm = "";
 					label = "";
 					
-					//TODO: correct opx to account for if the set bit is set
-					hexInstruct = op+cond+rs+rt+rd+opx;
-					
 			//D-Type
 			}else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")){
 				op = hexOp.get(tokens[0]);
@@ -198,9 +184,6 @@ public class Assembler {
 				rd = "";
 				opx = "";
 				label = "";
-				
-				//TODO: correct imm to account for if the set bit is set
-				hexInstruct = op+cond+rs+rt+imm;
 			
 			//B-Type
 			}else if(tokens[0].equals("b")||tokens[0].equals("bal")){
@@ -218,17 +201,12 @@ public class Assembler {
 				opx = "";
 				set = "";
 				imm = "";
-				
-				hexInstruct = op+cond+label;
 	
 			}else{
 				//TODO: Handle when a Tag is put in
 			}
-			
-			System.out.printf("%0x : %s;\n", numInstr, hexInstruct);
 
 			numInstr++;
 		}
-		System.out.println("END;");
 	}
 }
