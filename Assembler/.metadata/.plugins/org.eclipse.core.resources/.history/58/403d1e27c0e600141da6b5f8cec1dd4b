@@ -46,20 +46,20 @@ public class Assembler {
 		
 		HashMap<String, String> branches = new HashMap<String, String>();
 		
+		if(args.length != 1){
+			System.out.println("Usage: java Assembler assembly.txt");
+			System.exit(1);
+		}
+		
+		String fileName = args[0];
 		Scanner s = null;
 		
 		try{
-			s = new Scanner(new File("data/assembly.txt"));
+			s = new Scanner(new File(fileName));
 		}catch (FileNotFoundException e){
 			e.printStackTrace();
 		}
 		
-		String instruction = "";
-		String[] tokens;
 		
-		while(s.hasNextLine()){
-			instruction = s.nextLine();
-			tokens = instruction.split(" ");
-		}
 	}
 }
