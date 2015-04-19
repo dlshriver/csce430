@@ -132,8 +132,8 @@ public class Assembler {
 				if(tokensMain[0].equals("cmp")){
 					if(!tokensMain[1].contains("r")){
 						cond = hexCond.get(tokensMain[1]);
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
-						rt = Integer.toHexString(Integer.parseInt(tokensMain[3].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
 						rd= "0";
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
 						opxNum = opxNum*2;
@@ -145,8 +145,8 @@ public class Assembler {
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[1].replace("r", "")));
-						rt = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rd = "0";
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
 						opxNum = opxNum*2;
@@ -160,7 +160,7 @@ public class Assembler {
 				}else if(tokensMain[0].equals("jr")){
 					if(!tokensMain[1].contains("r")){
 						cond = hexCond.get(tokensMain[1]);
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
@@ -173,7 +173,7 @@ public class Assembler {
 						}
 					}else{
 						cond = hexCond.get("al");
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[1].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
@@ -188,9 +188,9 @@ public class Assembler {
 				}else{
 					if(!tokensMain[1].contains("r")){
 						cond = hexCond.get(tokensMain[1]);
-						rd = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[3].replace("r", "")));
-						rt = Integer.toHexString(Integer.parseInt(tokensMain[4].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
+						rd = ""+Integer.valueOf(tokensMain[4].replace("r", ""), 16);
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
 						opxNum = opxNum*2;
 						if(tokensMain.length == 6){
@@ -201,9 +201,9 @@ public class Assembler {
 						}
 					}else{
 						cond = hexCond.get("al");
-						rd = Integer.toHexString(Integer.parseInt(tokensMain[1].replace("r", "")));
-						rs = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
-						rt = Integer.toHexString(Integer.parseInt(tokensMain[3].replace("r", "")));
+						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
+						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+						rd = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
 						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
 						opxNum = opxNum*2;
 						if(tokensMain.length == 5){
@@ -224,27 +224,27 @@ public class Assembler {
 				op = hexOp.get(tokensMain[0]);
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
-					rt = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
-					rs = Integer.toHexString(Integer.parseInt(tokensMain[3].replace("r", "")));
+					rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
+					rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
 					int immNum = Integer.parseInt(tokensMain[4]);
 					immNum = immNum*2;
 					if(tokensMain.length == 6){
 						immNum = immNum+1;
-						imm = Integer.toHexString(immNum);
+						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}else{
-						imm = Integer.toHexString(immNum);
+						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}
 				}else{
 					cond = hexCond.get("al");
-					rt = Integer.toHexString(Integer.parseInt(tokensMain[1].replace("r", "")));
-					rs = Integer.toHexString(Integer.parseInt(tokensMain[2].replace("r", "")));
+					rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
+					rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 					int immNum = Integer.parseInt(tokensMain[3]);
 					immNum = immNum*2;
 					if(tokensMain.length == 5){
 						immNum = immNum+1;
-						imm = Integer.toHexString(immNum);
+						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}else{
-						imm = Integer.toHexString(immNum);
+						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}
 				}
 				rd = "";
@@ -259,11 +259,11 @@ public class Assembler {
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
 					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[2]));
-					label = Integer.toHexString(offset);
+					label = ""+Integer.valueOf(String.valueOf(offset), 16);
 				}else{
 					cond = hexCond.get("al");
 					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[1]));
-					label = Integer.toHexString(offset);
+					label = ""+Integer.valueOf(String.valueOf(offset), 16);
 				}
 				rs = "";
 				rt = "";
