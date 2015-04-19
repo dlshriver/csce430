@@ -231,14 +231,8 @@ public class Assembler {
 					if(tokensMain.length == 6){
 						immNum = immNum+1;
 						imm = Integer.toHexString(immNum);
-						if(imm.length()<2){
-							imm = "0"+imm;
-						}
 					}else{
 						imm = Integer.toHexString(immNum);
-						if(imm.length()<2){
-							imm = "0"+imm;
-						}
 					}
 				}else{
 					cond = hexCond.get("al");
@@ -249,14 +243,8 @@ public class Assembler {
 					if(tokensMain.length == 5){
 						immNum = immNum+1;
 						imm = Integer.toHexString(immNum);
-						if(imm.length()<2){
-							imm = "0"+imm;
-						}
 					}else{
 						imm = Integer.toHexString(immNum);
-						if(imm.length()<2){
-							imm = "0"+imm;
-						}
 					}
 				}
 				rd = "";
@@ -271,13 +259,11 @@ public class Assembler {
 				if(!tokensMain[1].contains("r")){
 					cond = hexCond.get(tokensMain[1]);
 					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[2]));
-					label = Integer.toHexString(65536+offset);
-					label = label.substring(label.length()-4, label.length());
+					label = Integer.toHexString(offset);
 				}else{
 					cond = hexCond.get("al");
 					int offset = numInstr - Integer.parseInt(branchLocations.get(tokensMain[1]));
-					label = Integer.toHexString(65536+offset);
-					label = label.substring(label.length()-4, label.length());
+					label = Integer.toHexString(offset);
 				}
 				rs = "";
 				rt = "";
