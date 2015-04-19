@@ -44,16 +44,6 @@ public class Assembler {
 		hexCond.put("AL", "E");
 		hexCond.put("NV", "F");
 		
-		HashMap<String, String> hexOpx = new HashMap<String, String>();
-		hexOpx.put("add", "4");
-		hexOpx.put("sub", "0");
-		hexOpx.put("and", "2");
-		hexOpx.put("or", "3");
-		hexOpx.put("xor", "1");
-		hexOpx.put("sll", "0");
-		hexOpx.put("cmp", "0");
-		hexOpx.put("jr", "0");
-		
 		HashMap<String, String> branches = new HashMap<String, String>();
 		
 		Scanner s = null;
@@ -86,80 +76,25 @@ public class Assembler {
 			op = hexOp.get(tokens[0]);
 			
 			//R-Type
-			if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
-				if(tokens[0].equals("cmp")){
-					if(!tokens[1].contains("r")){
-						cond = hexCond.get(tokens[1]);
-						rs = tokens[2].replace("r", "");
-						rt = tokens[3].replace("r", "");
-						rd= "0";
-						if(tokens.length == 5){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}else{
-						cond = hexCond.get("AL");
-						rs = tokens[1].replace("r", "");
-						rt = tokens[2].replace("r", "");
-						rd = "0";
-						if(tokens.length == 4){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}
-				}else if(tokens[0].equals("jr")){
-					if(!tokens[1].contains("r")){
-						cond = hexCond.get(tokens[1]);
-						rs = tokens[2].replace("r", "");
-						rt = "0";
-						rd = "0";
-						if(tokens.length == 4){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}else{
-						cond = hexCond.get("AL");
-						rs = tokens[1].replace("r", "");
-						rt = "0";
-						rd = "0";
-						if(tokens.length == 3){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}
+			if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
+				if(!tokens[1].contains("r")){
+					cond = hexCond.get(tokens[1]);
 				}else{
-					if(!tokens[1].contains("r")){
-						cond = hexCond.get(tokens[1]);
-						rs = tokens[2].replace("r", "");
-						rt = tokens[3].replace("r", "");
-						rd = tokens[4].replace("r", "");
-						if(tokens.length == 6){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}else{
-						cond = hexCond.get("AL");
-						rs = tokens[1].replace("r", "");
-						rt = tokens[2].replace("r", "");
-						rd = tokens[3].replace("r", "");
-						if(tokens.length == 5){
-							set = "1";
-						}else{
-							set = "0";
-						}
-					}
+					cond = hexCond.get("AL");
+					rs = tokens[1].replace("r", """);"
+							+ "
 				}
-					opx = hexOpx.get(tokens[0]);
-					imm = "";
-					label = "";
-					jconst = "";
+				rs = "";
+				rt = "";
+				rd = "";
+				opx = "";
+				set = "";
+				imm = "";
+				label = "";
+				jconst = "";
+			}
 			//D-Type
-			}else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")||tokens[0].equals("si")){
+			else if(tokens[0].equals("lw")||tokens[0].equals("sw")||tokens[0].equals("addi")||tokens[0].equals("si")){
 				if(!tokens[1].contains("r")){
 					cond = hexCond.get(tokens[1]);
 				}else{
@@ -173,9 +108,9 @@ public class Assembler {
 				imm = "";
 				label = "";
 				jconst = "";
-			
+			}
 			//B-Type
-			}else if(tokens[0].equals("b")||tokens[0].equals("bal")){
+			else if(tokens[0].equals("b")||tokens[0].equals("bal")){
 				if(!tokens[1].contains("r")){
 					cond = hexCond.get(tokens[1]);
 				}else{
@@ -190,9 +125,9 @@ public class Assembler {
 				imm = "";
 				label = "";
 				jconst = "";
-			
+			}
 			//J-Type
-			}else if(tokens[0].equals("j")||tokens[0].equals("jal")||tokens[0].equals("li")){
+			else if(tokens[0].equals("j")||tokens[0].equals("jal")||tokens[0].equals("li")){
 				cond = "";
 				rs = "";
 				rt = "";
