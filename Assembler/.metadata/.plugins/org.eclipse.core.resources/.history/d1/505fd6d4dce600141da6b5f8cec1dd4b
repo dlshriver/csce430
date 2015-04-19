@@ -73,7 +73,7 @@ public class Assembler {
 			currLine = s1.nextLine();
 			if(currLine.contains(":")){
 				String branchLoc = Integer.toString(numInstr);
-				branchLocations.put(currLine.replace(":", ""), branchLoc);
+				branchLocations.put(currLine, branchLoc);
 			}else{
 				tokens = currLine.split(" ");
 				if(tokens[0].equals("add")||tokens[0].equals("sub")||tokens[0].equals("and")||tokens[0].equals("or")||tokens[0].equals("xor")||tokens[0].equals("sll")||tokens[0].equals("cmp")||tokens[0].equals("jr")){
@@ -129,18 +129,16 @@ public class Assembler {
 			//R-Type
 			if(tokensMain[0].equals("add")||tokensMain[0].equals("sub")||tokensMain[0].equals("and")||tokensMain[0].equals("or")||tokensMain[0].equals("xor")||tokensMain[0].equals("sll")||tokensMain[0].equals("cmp")||tokensMain[0].equals("jr")){
 				op = hexOp.get(tokensMain[0]);
+				opx = hexOpx.get(tokensMain[0]);
 				if(tokensMain[0].equals("cmp")){
 					if(!tokensMain[1].contains("r")){
 						cond = hexCond.get(tokensMain[1]);
 						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
 						rd= "0";
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 5){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
@@ -148,12 +146,9 @@ public class Assembler {
 						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
 						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rd = "0";
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 4){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}
@@ -163,12 +158,9 @@ public class Assembler {
 						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 4){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
@@ -176,12 +168,9 @@ public class Assembler {
 						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
 						rt = "0";
 						rd = "0";
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 3){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}
@@ -191,12 +180,9 @@ public class Assembler {
 						rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
 						rd = ""+Integer.valueOf(tokensMain[4].replace("r", ""), 16);
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 6){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}else{
@@ -204,12 +190,9 @@ public class Assembler {
 						rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
 						rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 						rd = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
-						int opxNum = Integer.parseInt(hexOpx.get(tokensMain[0]));
-						opxNum = opxNum*2;
 						if(tokensMain.length == 5){
-							opxNum = opxNum+1;
-							opx = Integer.toString(opxNum);
-						}else{
+							int opxNum = Integer.parseInt(opx);
+							opxNum = (opxNum * 2)+1;
 							opx = Integer.toString(opxNum);
 						}
 					}
@@ -226,24 +209,20 @@ public class Assembler {
 					cond = hexCond.get(tokensMain[1]);
 					rs = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
 					rt = ""+Integer.valueOf(tokensMain[3].replace("r", ""), 16);
-					int immNum = Integer.parseInt(tokensMain[4]);
-					immNum = immNum*2;
+					imm = ""+Integer.valueOf(tokensMain[4], 16);;
 					if(tokensMain.length == 6){
-						immNum = immNum+1;
-						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
-					}else{
+						int immNum = Integer.parseInt(imm);
+						immNum = (immNum*2)+1;
 						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}
 				}else{
 					cond = hexCond.get("al");
 					rs = ""+Integer.valueOf(tokensMain[1].replace("r", ""), 16);
 					rt = ""+Integer.valueOf(tokensMain[2].replace("r", ""), 16);
-					int immNum = Integer.parseInt(tokensMain[3]);
-					immNum = immNum*2;
+					imm = ""+Integer.valueOf(tokensMain[3], 16);
 					if(tokensMain.length == 5){
-						immNum = immNum+1;
-						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
-					}else{
+						int immNum = Integer.parseInt(imm);
+						immNum = (immNum*2)+1;
 						imm = ""+Integer.valueOf(String.valueOf(immNum), 16);
 					}
 				}
