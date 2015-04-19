@@ -102,7 +102,7 @@ public class Assembler {
 		System.setOut(out);
 		
 		int width = 24;
-		int depth = 1024;
+		int depth = 256;
 		
 		System.out.printf("WIDTH = %d;\nDEPTH = %d;\nADDRESS_RADIX = HEX;\nDATA_RADIX = HEX;\nCONTENT BEGIN\n", width, depth);
 		
