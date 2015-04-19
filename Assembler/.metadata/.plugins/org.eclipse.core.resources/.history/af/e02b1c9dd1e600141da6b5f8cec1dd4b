@@ -27,22 +27,22 @@ public class Assembler {
 		hexOp.put("li", "3");
 		
 		HashMap <String, String> hexCond = new HashMap<String, String>();
-		hexCond.put("eq", "0");
-		hexCond.put("ne", "1");
-		hexCond.put("cs", "2");
-		hexCond.put("cc", "3");
-		hexCond.put("mi", "4");
-		hexCond.put("pl", "5");
-		hexCond.put("vs", "6");
-		hexCond.put("vc", "7");
-		hexCond.put("hi", "8");
-		hexCond.put("ls", "9");
-		hexCond.put("ge", "A");
-		hexCond.put("lt", "B");
-		hexCond.put("gt", "C");
-		hexCond.put("le", "D");
-		hexCond.put("al", "E");
-		hexCond.put("nv", "F");
+		hexCond.put("EQ", "0");
+		hexCond.put("NE", "1");
+		hexCond.put("CS", "2");
+		hexCond.put("CC", "3");
+		hexCond.put("MI", "4");
+		hexCond.put("PL", "5");
+		hexCond.put("VS", "6");
+		hexCond.put("VC", "7");
+		hexCond.put("HI", "8");
+		hexCond.put("LS", "9");
+		hexCond.put("GE", "A");
+		hexCond.put("LT", "B");
+		hexCond.put("GT", "C");
+		hexCond.put("LE", "D");
+		hexCond.put("AL", "E");
+		hexCond.put("NV", "F");
 		
 		HashMap<String, String> hexOpx = new HashMap<String, String>();
 		hexOpx.put("add", "4");
@@ -110,7 +110,7 @@ public class Assembler {
 							set = "0";
 						}
 					}else{
-						cond = hexCond.get("al");
+						cond = hexCond.get("AL");
 						rs = tokens[1].replace("r", "");
 						rt = tokens[2].replace("r", "");
 						rd = "0";
@@ -132,7 +132,7 @@ public class Assembler {
 							set = "0";
 						}
 					}else{
-						cond = hexCond.get("al");
+						cond = hexCond.get("AL");
 						rs = tokens[1].replace("r", "");
 						rt = "0";
 						rd = "0";
@@ -154,7 +154,7 @@ public class Assembler {
 							set = "0";
 						}
 					}else{
-						cond = hexCond.get("al");
+						cond = hexCond.get("AL");
 						rs = tokens[1].replace("r", "");
 						rt = tokens[2].replace("r", "");
 						rd = tokens[3].replace("r", "");
@@ -185,7 +185,7 @@ public class Assembler {
 						set = "0";
 					}
 				}else{
-					cond = hexCond.get("al");
+					cond = hexCond.get("AL");
 					rs = tokens[1].replace("r", "");
 					rt = tokens[2].replace("r", "");
 					imm = tokens[3];
@@ -209,7 +209,7 @@ public class Assembler {
 					cond = hexCond.get(tokens[1]);
 					label = tokens[2];
 				}else{
-					cond = hexCond.get("al");
+					cond = hexCond.get("AL");
 					label = tokens[1];
 				}
 				rs = "";
