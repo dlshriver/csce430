@@ -1,5 +1,4 @@
 INDEX VERSION 1.126+C:\Users\The Acer\Documents\GitHub Repos\csce430\Assembler\.metadata\.plugins\org.eclipse.jdt.core
-971827738.index
 1697886153.index
 4041092966.index
 3133528496.index
