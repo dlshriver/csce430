@@ -27,8 +27,8 @@ public class Assembler {
 		hexOp.put("li", "3");
 		
 		HashMap <String, String> hexCond = new HashMap<String, String>();
-		hexCond.put("nv", "0");
-		hexCond.put("al", "1");
+		hexCond.put("eq", "0");
+		hexCond.put("ne", "1");
 		hexCond.put("cs", "2");
 		hexCond.put("cc", "3");
 		hexCond.put("mi", "4");
@@ -41,8 +41,8 @@ public class Assembler {
 		hexCond.put("lt", "B");
 		hexCond.put("gt", "C");
 		hexCond.put("le", "D");
-		hexCond.put("eq", "E");
-		hexCond.put("ne", "F");
+		hexCond.put("al", "E");
+		hexCond.put("nv", "F");
 		
 		HashMap<String, String> hexOpx = new HashMap<String, String>();
 		hexOpx.put("add", "4");
