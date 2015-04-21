@@ -14,17 +14,20 @@ add wave r2
 add wave r3
 add wave r4
 add wave r5
+add wave r8
+add wave r9
+add wave r15
 #add wave hex0
 #add wave sw
-#add wave key
+add wave key
 #add wave ledg
-#add wave n_val
-#add wave v_val
-#add wave c_val
-#add wave z_val
+add wave n_val
+add wave v_val
+add wave c_val
+add wave z_val
 #add wave z_out
 #add wave flag_enable_exe
-#add wave execute
+add wave execute
 add wave mem_addr
 add wave mem_write_mem
 add wave mem_data
@@ -34,7 +37,7 @@ add wave LEDG
 #add wave execute
 #add wave flush
 #add wave deassert
-#add wave muxymem
+add wave muxymem
 #add wave yselect_mem
 #add wave yselect
 add wave WBreg
@@ -46,8 +49,8 @@ add wave br_exe
 add wave jmp_exe
 add wave br_addr
 
-force key 1001 0, 1111 850000, 0011 1150000
-force sw 0001001100 0, 0011111100 850000, 0000000000 1000000
-force clock 0 0, 1 1000 -repeat 2000
+force key 1111 0, 1111 850000, 1111 1150000
+force sw 0000000000 0, 0000000001 500000, 0000000000 1000000
+force clock 0 0, 1 30 -repeat 60
 
 run 1000000

@@ -77,7 +77,7 @@ sub al r0 r9 r0 s
 br eq WAITLOOP1
 
 sw al r11 r14 0
-WAITLOOP1:
+WAITLOOP2:
 lw al r9 r15 0
 sub al r0 r9 r0 s
-br eq WAITLOOP1
+br eq WAITLOOP2

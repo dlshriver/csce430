@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Mon Apr 20 18:52:10 2015
+Mon Apr 20 21:59:34 2015
 Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -142,7 +142,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 20 18:52:10 2015    ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 20 21:59:34 2015    ;
 ; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; Project                                  ;
 ; Top-level Entity Name              ; processor                                ;
@@ -151,7 +151,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 787                                      ;
 ;     Dedicated logic registers      ; 546                                      ;
 ; Total registers                    ; 546                                      ;
-; Total pins                         ; 343                                      ;
+; Total pins                         ; 391                                      ;
 ; Total virtual pins                 ; 0                                        ;
 ; Total memory bits                  ; 49,152                                   ;
 ; Embedded Multiplier 9-bit elements ; 0                                        ;
@@ -365,12 +365,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Dedicated logic registers            ; 546   ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 343   ;
+; I/O pins                                    ; 391   ;
 ; Total memory bits                           ; 49152 ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out                             ; 581   ;
-; Total fan-out                               ; 5702  ;
-; Average fan-out                             ; 3.31  ;
+; Total fan-out                               ; 5750  ;
+; Average fan-out                             ; 3.24  ;
 +---------------------------------------------+-------+
 
 
@@ -379,7 +379,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
-; |processor                                   ; 787 (6)           ; 546 (0)      ; 49152       ; 0            ; 0       ; 0         ; 343  ; 0            ; |processor                                                                                                       ;              ;
+; |processor                                   ; 787 (6)           ; 546 (0)      ; 49152       ; 0            ; 0       ; 0         ; 391  ; 0            ; |processor                                                                                                       ;              ;
 ;    |ALU:inst12|                              ; 103 (10)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12                                                                                            ;              ;
 ;       |FA16BIT:inst20|                       ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20                                                                             ;              ;
 ;          |FA1BIT:inst10|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20|FA1BIT:inst10                                                               ;              ;
@@ -2614,7 +2614,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -2624,7 +2624,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Mon Apr 20 18:51:55 2015
+    Info: Processing started: Mon Apr 20 21:59:17 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file my box files/school/csce230 project/projectpart4complete_restored/processor_old.bdf
@@ -3101,15 +3101,15 @@ Warning (20013): Ignored assignments for entity "Project" -- entity does not exi
     Warning (20014): Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1653 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1701 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
-    Info (21059): Implemented 328 output pins
+    Info (21059): Implemented 376 output pins
     Info (21061): Implemented 1262 logic cells
     Info (21064): Implemented 48 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 62 warnings
     Info: Peak virtual memory: 547 megabytes
-    Info: Processing ended: Mon Apr 20 18:52:10 2015
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Processing ended: Mon Apr 20 21:59:34 2015
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:17
 
 
