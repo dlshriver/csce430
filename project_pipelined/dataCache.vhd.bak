@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity dataCache is
+	port (mem_read, clock: in std_logic;
+		  address: in std_logic_vector(15 downto 0);
+		  data, hit, miss: out std_logic_vector(15 downto 0));
+end dataCache;
+
+
+architecture cache of dataCache is
+	shared variable fetched = '0';
+	shared variable hit = 0;
+	shared variable miss = 0;
+begin
+	controller : process is
+		variable setOne : array(std_logic_vector(15 downto 0)) of std_logic_vector(15 downto 0);
+		variable setTwo : array(std_logic_vector(15 downto 0)) of std_logic_vector(15 downto 0);
+	begin
+		loop
+			wait until clock = '1';
+			if (mem_read = '1' and fetched = '0') then
+				fetched := '1';
+				miss <= miss + 1;
+				for count in 0 to 128 loop
+					setOne(count) := 0
+				end loop;
+			elsif (mem_read = '1' and fetched = '1') then
+				hit <= hit + 1;
+			end if;
+		end loop;
+	end process;
+end architecture cache;
