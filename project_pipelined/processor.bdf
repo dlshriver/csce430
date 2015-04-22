@@ -56,7 +56,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -80 24 88 40)
+	(rect -808 -464 -640 -448)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 9 0 34 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -136 40 -80 56))
+	(annotation_block (location)(rect -864 -448 -808 -432))
 )
 (pin
 	(output)
@@ -4480,11 +4480,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "clock" (rect 98 16 123 28)(font "Arial" ))
-	(pt 88 32)
-	(pt 160 32)
-)
-(connector
 	(pt 280 152)
 	(pt 320 152)
 	(bus)
@@ -6744,6 +6739,11 @@ applicable agreement for further details.
 	(pt 648 -120)
 	(pt 600 -120)
 	(bus)
+)
+(connector
+	(text "clock" (rect -630 -472 -605 -460)(font "Arial" ))
+	(pt -640 -456)
+	(pt -568 -456)
 )
 (junction (pt 1976 288))
 (junction (pt 2216 0))

@@ -49,7 +49,7 @@ add wave br_exe
 add wave jmp_exe
 add wave br_addr
 
-force key 1111 0, 1111 850000, 1111 1150000
+force key 1111 0, 0111 500 -repeat 1000
 force sw 0000000000 0, 0000000001 500000, 0000000000 1000000
 force clock 0 0, 1 30 -repeat 60
 
