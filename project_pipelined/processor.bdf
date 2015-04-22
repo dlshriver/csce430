@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2011 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -1288,60 +1288,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 128 80))
-	)
-)
-(symbol
-	(rect 344 320 560 448)
-	(text "instrMem" (rect 81 0 144 16)(font "Arial" (font_size 10)))
-	(text "inst4" (rect 8 112 31 124)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "address[9..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
-		(text "address[9..0]" (rect 4 18 79 32)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 88 32)(line_width 3))
-	)
-	(port
-		(pt 0 112)
-		(input)
-		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 4 98 33 112)(font "Arial" (font_size 8)))
-		(line (pt 0 112)(pt 80 112))
-	)
-	(port
-		(pt 216 32)
-		(output)
-		(text "q[23..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
-		(text "q[23..0]" (rect 177 18 219 32)(font "Arial" (font_size 8)))
-		(line (pt 216 32)(pt 136 32)(line_width 3))
-	)
-	(drawing
-		(text "24 bits" (rect 109 24 121 57)(font "Arial" )(vertical))
-		(text "1024 words" (rect 120 12 132 67)(font "Arial" )(vertical))
-		(text "Block type: AUTO" (rect 48 114 137 126)(font "Arial" ))
-		(line (pt 104 24)(pt 136 24))
-		(line (pt 136 24)(pt 136 96))
-		(line (pt 136 96)(pt 104 96))
-		(line (pt 104 96)(pt 104 24))
-		(line (pt 118 58)(pt 123 63))
-		(line (pt 118 62)(pt 123 57))
-		(line (pt 88 27)(pt 96 27))
-		(line (pt 96 27)(pt 96 39))
-		(line (pt 96 39)(pt 88 39))
-		(line (pt 88 39)(pt 88 27))
-		(line (pt 88 34)(pt 90 36))
-		(line (pt 90 36)(pt 88 38))
-		(line (pt 80 36)(pt 88 36))
-		(line (pt 96 32)(pt 104 32)(line_width 3))
-		(line (pt 80 112)(pt 80 36))
-		(line (pt 0 0)(pt 217 0))
-		(line (pt 217 0)(pt 217 130))
-		(line (pt 0 130)(pt 217 130))
-		(line (pt 0 0)(pt 0 130))
-		(line (pt 0 0)(pt 0 0))
-		(line (pt 0 0)(pt 0 0))
-		(line (pt 0 0)(pt 0 0))
-		(line (pt 0 0)(pt 0 0))
 	)
 )
 (symbol
@@ -2909,31 +2855,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 256 416 304 448)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst47" (rect 3 21 32 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
 	(rect 2160 -216 2264 -168)
 	(text "FIFTEENCONST" (rect 4 1 118 17)(font "Arial" (font_size 10)))
 	(text "LINK" (rect 8 32 32 44)(font "Arial" ))
@@ -4479,6 +4400,60 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 192 160))
 	)
 )
+(symbol
+	(rect 352 336 584 432)
+	(text "instrCache" (rect 5 0 58 12)(font "Arial" ))
+	(text "inst62" (rect 8 80 37 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 21 27 46 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "address[15..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "address[15..0]" (rect 21 43 91 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "data[23..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "data[23..0]" (rect 134 27 187 39)(font "Arial" ))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 80))
+	)
+)
+(symbol
+	(rect 216 352 264 384)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst76" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(pt 280 152)
 	(pt 320 152)
@@ -4552,11 +4527,6 @@ applicable agreement for further details.
 (connector
 	(pt 1192 288)
 	(pt 1280 288)
-	(bus)
-)
-(connector
-	(pt 672 352)
-	(pt 560 352)
 	(bus)
 )
 (connector
@@ -5073,15 +5043,6 @@ applicable agreement for further details.
 	(pt 912 16)
 )
 (connector
-	(text "clock" (rect 210 416 235 428)(font "Arial" ))
-	(pt 256 432)
-	(pt 200 432)
-)
-(connector
-	(pt 304 432)
-	(pt 344 432)
-)
-(connector
 	(text "pc_enable" (rect 1192 496 1241 508)(font "Arial" ))
 	(pt 1224 512)
 	(pt 1192 512)
@@ -5304,12 +5265,6 @@ applicable agreement for further details.
 	(text "regD_mem[3..0]" (rect 2858 -216 2938 -204)(font "Arial" ))
 	(pt 2848 -200)
 	(pt 2912 -200)
-	(bus)
-)
-(connector
-	(text "PC_instr_addr[9..0]" (rect 248 336 343 348)(font "Arial" ))
-	(pt 296 352)
-	(pt 344 352)
 	(bus)
 )
 (connector
@@ -6744,6 +6699,36 @@ applicable agreement for further details.
 	(text "clock" (rect -630 -472 -605 -460)(font "Arial" ))
 	(pt -640 -456)
 	(pt -568 -456)
+)
+(connector
+	(text "PC_instr_addr[15..0]" (rect 280 368 381 380)(font "Arial" ))
+	(pt 352 384)
+	(pt 280 384)
+	(bus)
+)
+(connector
+	(pt 592 352)
+	(pt 592 368)
+	(bus)
+)
+(connector
+	(pt 672 352)
+	(pt 592 352)
+	(bus)
+)
+(connector
+	(pt 592 368)
+	(pt 584 368)
+	(bus)
+)
+(connector
+	(pt 264 368)
+	(pt 352 368)
+)
+(connector
+	(text "clock" (rect 170 352 195 364)(font "Arial" ))
+	(pt 184 368)
+	(pt 216 368)
 )
 (junction (pt 1976 288))
 (junction (pt 2216 0))

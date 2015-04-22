@@ -3,80 +3,80 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'clock'
-Slack : -13.976
-TNS   : -3164.867
+Slack : -13.696
+TNS   : -1664.357
 
 Type  : Slow Model Setup 'KEY[0]'
-Slack : -3.359
-TNS   : -3.974
+Slack : -1.164
+TNS   : -1.790
 
 Type  : Slow Model Hold 'clock'
-Slack : -3.844
-TNS   : -30.666
+Slack : -3.220
+TNS   : -12.710
 
 Type  : Slow Model Hold 'KEY[0]'
-Slack : -1.966
-TNS   : -12.900
+Slack : -1.778
+TNS   : -7.186
 
 Type  : Slow Model Recovery 'clock'
-Slack : -0.172
-TNS   : -13.058
+Slack : -0.283
+TNS   : -20.704
 
 Type  : Slow Model Recovery 'KEY[0]'
-Slack : 0.406
+Slack : 1.368
 TNS   : 0.000
 
 Type  : Slow Model Removal 'KEY[0]'
-Slack : -1.795
-TNS   : -7.601
+Slack : -1.548
+TNS   : -6.172
 
 Type  : Slow Model Removal 'clock'
-Slack : 0.199
+Slack : 0.291
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'clock'
 Slack : -2.000
-TNS   : -1174.140
+TNS   : -845.380
 
 Type  : Slow Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222
-TNS   : -1.486
+TNS   : -2.800
 
 Type  : Fast Model Setup 'clock'
-Slack : -6.348
-TNS   : -1339.813
+Slack : -6.228
+TNS   : -666.553
 
 Type  : Fast Model Setup 'KEY[0]'
-Slack : -1.408
-TNS   : -1.408
+Slack : -0.017
+TNS   : -0.017
 
 Type  : Fast Model Hold 'clock'
-Slack : -1.959
-TNS   : -16.197
+Slack : -1.555
+TNS   : -6.339
 
 Type  : Fast Model Hold 'KEY[0]'
-Slack : -1.084
-TNS   : -6.577
+Slack : -1.066
+TNS   : -4.174
 
 Type  : Fast Model Recovery 'clock'
-Slack : 0.369
+Slack : 0.275
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'KEY[0]'
-Slack : 0.679
+Slack : 1.440
 TNS   : 0.000
 
 Type  : Fast Model Removal 'KEY[0]'
-Slack : -1.041
-TNS   : -4.182
+Slack : -0.964
+TNS   : -3.836
 
 Type  : Fast Model Removal 'clock'
-Slack : -0.082
-TNS   : -10.252
+Slack : -0.068
+TNS   : -1.248
 
 Type  : Fast Model Minimum Pulse Width 'clock'
 Slack : -2.000
-TNS   : -1174.140
+TNS   : -845.380
 
 Type  : Fast Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222

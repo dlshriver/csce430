@@ -7,4 +7,4 @@ vmap work gate_work
 
 vcom -93 -work work {Project.vho}
 
-do "C:/Users/David/Documents/GitHub/csce430/project_pipelined/part1.do"
+do "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/part1.do"

@@ -17,7 +17,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_l4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MemoryInterface:inst38|Const:inst3|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MemoryInterface:inst38|MainMemory:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ghe1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|processor|instrMem:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_sr71.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|FIFTEENCONST:LINK|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_sf6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX2_1:inst40|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX4BIT_3TO1:inst5|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_qmc.tdf"/>
