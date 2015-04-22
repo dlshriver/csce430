@@ -16,9 +16,11 @@ add wave r4
 add wave r5
 add wave r8
 add wave r9
+add wave r10
+add wave r11
 add wave r15
 #add wave hex0
-#add wave sw
+add wave sw
 add wave key
 #add wave ledg
 add wave n_val
@@ -49,8 +51,8 @@ add wave br_exe
 add wave jmp_exe
 add wave br_addr
 
-force key 1111 0, 0111 500 -repeat 1000
-force sw 0000000000 0, 0000000001 500000, 0000000000 1000000
+force key 1111 0
+force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000
 force clock 0 0, 1 30 -repeat 60
 
 run 100000
