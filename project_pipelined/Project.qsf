@@ -86,10 +86,23 @@ set_location_assignment PIN_AD11 -to HEX0[3]
 set_location_assignment PIN_AE11 -to HEX0[4]
 set_location_assignment PIN_V14 -to HEX0[5]
 set_location_assignment PIN_V13 -to HEX0[6]
-set_location_assignment PIN_D13 -to clock
 set_global_assignment -name SEARCH_PATH IOmem/ -tag from_archive
 set_global_assignment -name SEARCH_PATH "My Box Files/School/CSCE230 Project/ProjectPart4Complete_restored/" -tag from_archive
 set_global_assignment -name SEARCH_PATH "Pipeline Files/" -tag from_archive
+set_location_assignment PIN_G26 -to KEY[0]
+set_location_assignment PIN_N23 -to KEY[1]
+set_location_assignment PIN_P23 -to KEY[2]
+set_location_assignment PIN_W26 -to KEY[3]
+set_location_assignment PIN_AA14 -to LEDG[8]
+set_location_assignment PIN_Y13 -to LEDG[9]
+set_location_assignment PIN_AA13 -to LEDG[10]
+set_location_assignment PIN_AC14 -to LEDG[11]
+set_location_assignment PIN_AD15 -to LEDG[12]
+set_location_assignment PIN_AE15 -to LEDG[13]
+set_location_assignment PIN_AF13 -to LEDG[14]
+set_location_assignment PIN_AE13 -to LEDG[15]
+set_location_assignment PIN_D13 -to clk27
+set_global_assignment -name VHDL_FILE Counter.vhd
 set_global_assignment -name MIF_FILE io_test.mif
 set_global_assignment -name BDF_FILE "My Box Files/School/CSCE230 Project/ProjectPart4Complete_restored/processor_old.bdf"
 set_global_assignment -name VHDL_FILE "Pipeline Files/instrMem.vhd"
@@ -154,21 +167,7 @@ set_global_assignment -name QIP_FILE REG_16BIT_SCLR_ENBL.qip
 set_global_assignment -name QIP_FILE REG_24BIT_SCLR_ENBL.qip
 set_global_assignment -name QIP_FILE MUX_2_15BIT.qip
 set_global_assignment -name MIF_FILE instr.mif
-set_location_assignment PIN_G26 -to KEY[0]
-set_location_assignment PIN_N23 -to KEY[1]
-set_location_assignment PIN_P23 -to KEY[2]
-set_location_assignment PIN_W26 -to KEY[3]
 set_global_assignment -name VHDL_FILE instrCache.vhd
 set_global_assignment -name VHDL_FILE dataCache.vhd
-set_location_assignment PIN_AA14 -to LEDG[8]
-set_location_assignment PIN_Y13 -to LEDG[9]
-set_location_assignment PIN_AA13 -to LEDG[10]
-set_location_assignment PIN_AC14 -to LEDG[11]
-set_location_assignment PIN_AD15 -to LEDG[12]
-set_location_assignment PIN_AE15 -to LEDG[13]
-set_location_assignment PIN_AF13 -to LEDG[14]
-set_location_assignment PIN_AE13 -to LEDG[15]
-set_global_assignment -name QIP_FILE Decode4to16.qip
 set_global_assignment -name QIP_FILE MUX16to1.qip
-set_global_assignment -name QIP_FILE Counter.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

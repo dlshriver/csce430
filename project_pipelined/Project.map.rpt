@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Wed Apr 22 20:40:37 2015
+Thu Apr 23 13:50:10 2015
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
 
 
@@ -32,82 +32,82 @@ Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
  24. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst32|lpm_ff:lpm_ff_component
  25. Parameter Settings for User Entity Instance: REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_component
  26. Parameter Settings for User Entity Instance: MUX_2_15BIT:inst82|LPM_MUX:LPM_MUX_component
- 27. Parameter Settings for User Entity Instance: PC:PC_reg|lpm_ff:lpm_ff_component
- 28. Parameter Settings for User Entity Instance: MUX_3TO1:inst6|LPM_MUX:lpm_mux_component
- 29. Parameter Settings for User Entity Instance: Adder:PC_adder|lpm_add_sub:lpm_add_sub_component
- 30. Parameter Settings for User Entity Instance: CONST_ONE:ONE|lpm_constant:LPM_CONSTANT_component
- 31. Parameter Settings for User Entity Instance: Adder:inst74|lpm_add_sub:lpm_add_sub_component
- 32. Parameter Settings for User Entity Instance: REG_16BIT_SCLR_ENBL:inst29|lpm_ff:lpm_ff_component
- 33. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst35|lpm_ff:lpm_ff_component
- 34. Parameter Settings for User Entity Instance: MUX_3TO1:inst13|LPM_MUX:lpm_mux_component
- 35. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst9|lpm_ff:lpm_ff_component
- 36. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst52|LPM_MUX:lpm_mux_component
- 37. Parameter Settings for User Entity Instance: regfile:inst7|ZERO:inst54|lpm_constant:LPM_CONSTANT_component
- 38. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component
- 39. Parameter Settings for User Entity Instance: regfile:inst7|DECODE_4TO16:inst|lpm_decode:lpm_decode_component
- 40. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg11|lpm_ff:lpm_ff_component
- 41. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg12|lpm_ff:lpm_ff_component
- 42. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg13|lpm_ff:lpm_ff_component
- 43. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg14|lpm_ff:lpm_ff_component
- 44. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg15|lpm_ff:lpm_ff_component
- 45. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg1|lpm_ff:lpm_ff_component
- 46. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg2|lpm_ff:lpm_ff_component
- 47. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg3|lpm_ff:lpm_ff_component
- 48. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg4|lpm_ff:lpm_ff_component
- 49. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg5|lpm_ff:lpm_ff_component
- 50. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg6|lpm_ff:lpm_ff_component
- 51. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg7|lpm_ff:lpm_ff_component
- 52. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg8|lpm_ff:lpm_ff_component
- 53. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg9|lpm_ff:lpm_ff_component
- 54. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst53|LPM_MUX:lpm_mux_component
- 55. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst64|lpm_ff:lpm_ff_component
- 56. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst52|lpm_ff:lpm_ff_component
- 57. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst24|lpm_ff:lpm_ff_component
- 58. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst45|lpm_ff:lpm_ff_component
- 59. Parameter Settings for User Entity Instance: MUX_3TO1:inst46|LPM_MUX:lpm_mux_component
- 60. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst33|lpm_ff:lpm_ff_component
- 61. Parameter Settings for User Entity Instance: MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component
- 62. Parameter Settings for User Entity Instance: MUX2_1:inst40|LPM_MUX:lpm_mux_component
- 63. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component
- 64. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component
- 65. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst42|lpm_ff:lpm_ff_component
- 66. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst20|lpm_ff:lpm_ff_component
- 67. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst60|lpm_ff:lpm_ff_component
- 68. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst59|lpm_ff:lpm_ff_component
- 69. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst31|lpm_ff:lpm_ff_component
- 70. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst34|lpm_ff:lpm_ff_component
- 71. Parameter Settings for User Entity Instance: MUX_3TO1:inst14|LPM_MUX:lpm_mux_component
- 72. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst10|lpm_ff:lpm_ff_component
- 73. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component
- 74. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst63|lpm_ff:lpm_ff_component
- 75. Parameter Settings for User Entity Instance: MUX4BIT_3TO1:inst5|LPM_MUX:lpm_mux_component
- 76. Parameter Settings for User Entity Instance: FIFTEENCONST:LINK|lpm_constant:lpm_constant_component
- 77. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst22|lpm_ff:lpm_ff_component
- 78. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component
- 79. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|MUX16to1:inst|LPM_MUX:LPM_MUX_component
- 80. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component
- 81. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component
- 82. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:HEX_DISPLAY|lpm_ff:lpm_ff_component
- 83. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:LED|lpm_ff:lpm_ff_component
- 84. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst51|lpm_ff:lpm_ff_component
- 85. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst23|lpm_ff:lpm_ff_component
- 86. Parameter Settings for User Entity Instance: PC:PC_reg1|lpm_ff:lpm_ff_component
- 87. Parameter Settings for User Entity Instance: REG_1BIT:inst55|lpm_ff:lpm_ff_component
- 88. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst28|lpm_ff:lpm_ff_component
- 89. Parameter Settings for User Entity Instance: REG_1BIT:inst54|lpm_ff:lpm_ff_component
- 90. Parameter Settings for User Entity Instance: REG_1BIT:inst19|lpm_ff:lpm_ff_component
- 91. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst27|lpm_ff:lpm_ff_component
- 92. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst21|lpm_ff:lpm_ff_component
- 93. Parameter Settings for User Entity Instance: MUX2_1:inst15|LPM_MUX:lpm_mux_component
- 94. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst25|lpm_ff:lpm_ff_component
- 95. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component
- 96. Parameter Settings for User Entity Instance: Counter:inst89|lpm_counter:LPM_COUNTER_component
- 97. Parameter Settings for User Entity Instance: Counter:inst90|lpm_counter:LPM_COUNTER_component
- 98. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst41|lpm_ff:lpm_ff_component
- 99. Parameter Settings for User Entity Instance: Adder:inst3|lpm_add_sub:lpm_add_sub_component
-100. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst36|lpm_ff:lpm_ff_component
-101. Parameter Settings for User Entity Instance: ZERO:inst66|lpm_constant:LPM_CONSTANT_component
-102. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst77|lpm_ff:lpm_ff_component
+ 27. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst47|lpm_ff:lpm_ff_component
+ 28. Parameter Settings for User Entity Instance: PC:PC_reg|lpm_ff:lpm_ff_component
+ 29. Parameter Settings for User Entity Instance: MUX_3TO1:inst6|LPM_MUX:lpm_mux_component
+ 30. Parameter Settings for User Entity Instance: Adder:PC_adder|lpm_add_sub:lpm_add_sub_component
+ 31. Parameter Settings for User Entity Instance: CONST_ONE:ONE|lpm_constant:LPM_CONSTANT_component
+ 32. Parameter Settings for User Entity Instance: Adder:inst74|lpm_add_sub:lpm_add_sub_component
+ 33. Parameter Settings for User Entity Instance: REG_16BIT_SCLR_ENBL:inst29|lpm_ff:lpm_ff_component
+ 34. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst35|lpm_ff:lpm_ff_component
+ 35. Parameter Settings for User Entity Instance: MUX_3TO1:inst13|LPM_MUX:lpm_mux_component
+ 36. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst9|lpm_ff:lpm_ff_component
+ 37. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst52|LPM_MUX:lpm_mux_component
+ 38. Parameter Settings for User Entity Instance: regfile:inst7|ZERO:inst54|lpm_constant:LPM_CONSTANT_component
+ 39. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component
+ 40. Parameter Settings for User Entity Instance: regfile:inst7|DECODE_4TO16:inst|lpm_decode:lpm_decode_component
+ 41. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg11|lpm_ff:lpm_ff_component
+ 42. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg12|lpm_ff:lpm_ff_component
+ 43. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg13|lpm_ff:lpm_ff_component
+ 44. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg14|lpm_ff:lpm_ff_component
+ 45. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg15|lpm_ff:lpm_ff_component
+ 46. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg1|lpm_ff:lpm_ff_component
+ 47. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg2|lpm_ff:lpm_ff_component
+ 48. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg3|lpm_ff:lpm_ff_component
+ 49. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg4|lpm_ff:lpm_ff_component
+ 50. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg5|lpm_ff:lpm_ff_component
+ 51. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg6|lpm_ff:lpm_ff_component
+ 52. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg7|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg8|lpm_ff:lpm_ff_component
+ 54. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg9|lpm_ff:lpm_ff_component
+ 55. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst53|LPM_MUX:lpm_mux_component
+ 56. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst64|lpm_ff:lpm_ff_component
+ 57. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst52|lpm_ff:lpm_ff_component
+ 58. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst24|lpm_ff:lpm_ff_component
+ 59. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst45|lpm_ff:lpm_ff_component
+ 60. Parameter Settings for User Entity Instance: MUX_3TO1:inst46|LPM_MUX:lpm_mux_component
+ 61. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst33|lpm_ff:lpm_ff_component
+ 62. Parameter Settings for User Entity Instance: MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component
+ 63. Parameter Settings for User Entity Instance: MUX2_1:inst40|LPM_MUX:lpm_mux_component
+ 64. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component
+ 65. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component
+ 66. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst42|lpm_ff:lpm_ff_component
+ 67. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst20|lpm_ff:lpm_ff_component
+ 68. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst60|lpm_ff:lpm_ff_component
+ 69. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst59|lpm_ff:lpm_ff_component
+ 70. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst31|lpm_ff:lpm_ff_component
+ 71. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst34|lpm_ff:lpm_ff_component
+ 72. Parameter Settings for User Entity Instance: MUX_3TO1:inst14|LPM_MUX:lpm_mux_component
+ 73. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst10|lpm_ff:lpm_ff_component
+ 74. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component
+ 75. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst63|lpm_ff:lpm_ff_component
+ 76. Parameter Settings for User Entity Instance: MUX4BIT_3TO1:inst5|LPM_MUX:lpm_mux_component
+ 77. Parameter Settings for User Entity Instance: FIFTEENCONST:LINK|lpm_constant:lpm_constant_component
+ 78. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst22|lpm_ff:lpm_ff_component
+ 79. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component
+ 80. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|MUX16to1:inst|LPM_MUX:LPM_MUX_component
+ 81. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component
+ 82. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component
+ 83. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:HEX_DISPLAY|lpm_ff:lpm_ff_component
+ 84. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:LED|lpm_ff:lpm_ff_component
+ 85. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst51|lpm_ff:lpm_ff_component
+ 86. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst23|lpm_ff:lpm_ff_component
+ 87. Parameter Settings for User Entity Instance: PC:PC_reg1|lpm_ff:lpm_ff_component
+ 88. Parameter Settings for User Entity Instance: REG_1BIT:inst55|lpm_ff:lpm_ff_component
+ 89. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst28|lpm_ff:lpm_ff_component
+ 90. Parameter Settings for User Entity Instance: REG_1BIT:inst54|lpm_ff:lpm_ff_component
+ 91. Parameter Settings for User Entity Instance: REG_1BIT:inst19|lpm_ff:lpm_ff_component
+ 92. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst27|lpm_ff:lpm_ff_component
+ 93. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst21|lpm_ff:lpm_ff_component
+ 94. Parameter Settings for User Entity Instance: MUX2_1:inst15|LPM_MUX:lpm_mux_component
+ 95. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst25|lpm_ff:lpm_ff_component
+ 96. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component
+ 97. Parameter Settings for User Entity Instance: Counter:inst89|lpm_counter:LPM_COUNTER_component
+ 98. Parameter Settings for User Entity Instance: Counter:inst90|lpm_counter:LPM_COUNTER_component
+ 99. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst41|lpm_ff:lpm_ff_component
+100. Parameter Settings for User Entity Instance: Adder:inst3|lpm_add_sub:lpm_add_sub_component
+101. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst36|lpm_ff:lpm_ff_component
+102. Parameter Settings for User Entity Instance: ZERO:inst66|lpm_constant:LPM_CONSTANT_component
 103. Elapsed Time Per Partition
 104. Analysis & Synthesis Messages
 
@@ -135,15 +135,15 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 22 20:40:37 2015          ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 23 13:50:10 2015          ;
 ; Quartus II Version                 ; 11.0 Build 208 07/03/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; Project                                        ;
 ; Top-level Entity Name              ; processor                                      ;
 ; Family                             ; Cyclone II                                     ;
-; Total logic elements               ; 1,449                                          ;
-;     Total combinational functions  ; 1,014                                          ;
-;     Dedicated logic registers      ; 675                                            ;
-; Total registers                    ; 675                                            ;
+; Total logic elements               ; 6,741                                          ;
+;     Total combinational functions  ; 3,258                                          ;
+;     Dedicated logic registers      ; 3,781                                          ;
+; Total registers                    ; 3781                                           ;
 ; Total pins                         ; 464                                            ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0                                              ;
@@ -256,6 +256,7 @@ applicable agreement for further details.
 +----------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
 ; File Name with User-Entered Path       ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                        ;
 +----------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------+
+; Counter.vhd                            ; yes             ; User Wizard-Generated File         ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Counter.vhd                            ;
 ; Pipeline Files/HazardDetectionUnit.vhd ; yes             ; User VHDL File                     ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Pipeline Files/HazardDetectionUnit.vhd ;
 ; Pipeline Files/ForwardingUnit.vhd      ; yes             ; User VHDL File                     ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Pipeline Files/ForwardingUnit.vhd      ;
 ; Pipeline Files/control_unit_230.vhd    ; yes             ; User VHDL File                     ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Pipeline Files/control_unit_230.vhd    ;
@@ -286,7 +287,6 @@ applicable agreement for further details.
 ; instrCache.vhd                         ; yes             ; User VHDL File                     ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/instrCache.vhd                         ;
 ; dataCache.vhd                          ; yes             ; User VHDL File                     ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/dataCache.vhd                          ;
 ; MUX16to1.vhd                           ; yes             ; User Wizard-Generated File         ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/MUX16to1.vhd                           ;
-; Counter.vhd                            ; yes             ; User Wizard-Generated File         ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Counter.vhd                            ;
 ; lpm_ff.inc                             ; yes             ; Auto-Found AHDL File               ; c:/altera/11.0sp1/quartus/libraries/megafunctions/lpm_ff.inc                                        ;
 ; lpm_decode.inc                         ; yes             ; Megafunction                       ; c:/altera/11.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                    ;
 ; lpm_mux.inc                            ; yes             ; Auto-Found AHDL File               ; c:/altera/11.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                       ;
@@ -343,27 +343,27 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 1,449 ;
+; Estimated Total logic elements              ; 6,741 ;
 ;                                             ;       ;
-; Total combinational functions               ; 1014  ;
+; Total combinational functions               ; 3258  ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 723   ;
-;     -- 3 input functions                    ; 184   ;
-;     -- <=2 input functions                  ; 107   ;
+;     -- 4 input functions                    ; 2797  ;
+;     -- 3 input functions                    ; 224   ;
+;     -- <=2 input functions                  ; 237   ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 925   ;
-;     -- arithmetic mode                      ; 89    ;
+;     -- normal mode                          ; 3139  ;
+;     -- arithmetic mode                      ; 119   ;
 ;                                             ;       ;
-; Total registers                             ; 675   ;
-;     -- Dedicated logic registers            ; 675   ;
+; Total registers                             ; 3781  ;
+;     -- Dedicated logic registers            ; 3781  ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
 ; I/O pins                                    ; 464   ;
 ; Maximum fan-out node                        ; clock ;
-; Maximum fan-out                             ; 654   ;
-; Total fan-out                               ; 6441  ;
-; Average fan-out                             ; 2.99  ;
+; Maximum fan-out                             ; 3760  ;
+; Total fan-out                               ; 24432 ;
+; Average fan-out                             ; 3.26  ;
 +---------------------------------------------+-------+
 
 
@@ -372,7 +372,7 @@ applicable agreement for further details.
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                              ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------+--------------+
-; |processor                                ; 1014 (6)          ; 675 (0)      ; 0           ; 0            ; 0       ; 0         ; 464  ; 0            ; |processor                                                                                       ;              ;
+; |processor                                ; 3258 (7)          ; 3781 (0)     ; 0           ; 0            ; 0       ; 0         ; 464  ; 0            ; |processor                                                                                       ;              ;
 ;    |ALU:inst12|                           ; 105 (10)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12                                                                            ;              ;
 ;       |FA16BIT:inst20|                    ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20                                                             ;              ;
 ;          |FA1BIT:inst10|                  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20|FA1BIT:inst10                                               ;              ;
@@ -420,9 +420,9 @@ applicable agreement for further details.
 ;          |lpm_ff:lpm_ff_component|        ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component                  ;              ;
 ;       |Reg_16:SWITCHES|                   ; 0 (0)             ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:SWITCHES                                             ;              ;
 ;          |lpm_ff:lpm_ff_component|        ; 0 (0)             ; 10 (10)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component                     ;              ;
-;    |MUX2_1:inst15|                        ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15                                                                         ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component                                               ;              ;
-;          |mux_m4e:auto_generated|         ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated                        ;              ;
+;    |MUX2_1:inst15|                        ; 21 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15                                                                         ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 21 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component                                               ;              ;
+;          |mux_m4e:auto_generated|         ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated                        ;              ;
 ;    |MUX4BIT_3TO1:inst5|                   ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5                                                                    ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5|lpm_mux:lpm_mux_component                                          ;              ;
 ;          |mux_qmc:auto_generated|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5|lpm_mux:lpm_mux_component|mux_qmc:auto_generated                   ;              ;
@@ -432,15 +432,15 @@ applicable agreement for further details.
 ;    |MUX_2_24BIT:inst44|                   ; 23 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44                                                                    ;              ;
 ;       |lpm_mux:LPM_MUX_component|         ; 23 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component                                          ;              ;
 ;          |mux_l4e:auto_generated|         ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated                   ;              ;
-;    |MUX_3TO1:inst13|                      ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                       ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                             ;              ;
-;          |mux_doc:auto_generated|         ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                      ;              ;
+;    |MUX_3TO1:inst13|                      ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                       ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                             ;              ;
+;          |mux_doc:auto_generated|         ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                      ;              ;
 ;    |MUX_3TO1:inst14|                      ; 34 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14                                                                       ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 34 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component                                             ;              ;
 ;          |mux_doc:auto_generated|         ; 34 (34)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated                      ;              ;
-;    |MUX_3TO1:inst46|                      ; 27 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                       ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 27 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                             ;              ;
-;          |mux_doc:auto_generated|         ; 27 (27)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                      ;              ;
+;    |MUX_3TO1:inst46|                      ; 31 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                       ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 31 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                             ;              ;
+;          |mux_doc:auto_generated|         ; 31 (31)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                      ;              ;
 ;    |MUX_3TO1:inst6|                       ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6                                                                        ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component                                              ;              ;
 ;          |mux_doc:auto_generated|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component|mux_doc:auto_generated                       ;              ;
@@ -488,6 +488,8 @@ applicable agreement for further details.
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst31|lpm_ff:lpm_ff_component                                          ;              ;
 ;    |REG_1BIT_SCLR:inst32|                 ; 0 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst32                                                                  ;              ;
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst32|lpm_ff:lpm_ff_component                                          ;              ;
+;    |REG_1BIT_SCLR:inst47|                 ; 0 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst47                                                                  ;              ;
+;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst47|lpm_ff:lpm_ff_component                                          ;              ;
 ;    |REG_1BIT_SCLR:inst52|                 ; 0 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst52                                                                  ;              ;
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst52|lpm_ff:lpm_ff_component                                          ;              ;
 ;    |REG_1BIT_SCLR:inst59|                 ; 0 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_1BIT_SCLR:inst59                                                                  ;              ;
@@ -513,7 +515,7 @@ applicable agreement for further details.
 ;    |REG_4BIT_SCLR:inst65|                 ; 0 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65                                                                  ;              ;
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component                                          ;              ;
 ;    |control_unit_230:inst8|               ; 54 (54)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|control_unit_230:inst8                                                                ;              ;
-;    |instrCache:inst62|                    ; 204 (204)         ; 89 (89)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instrCache:inst62                                                                     ;              ;
+;    |instrCache:inst62|                    ; 2435 (2435)       ; 3194 (3194)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instrCache:inst62                                                                     ;              ;
 ;    |regfile:inst7|                        ; 386 (17)          ; 240 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7                                                                         ;              ;
 ;       |DFF_16BIT:Reg10|                   ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7|DFF_16BIT:Reg10                                                         ;              ;
 ;          |lpm_ff:lpm_ff_component|        ; 0 (0)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component                                 ;              ;
@@ -570,7 +572,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |processor|Adder:inst3                             ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Adder.vhd                 ;
 ; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |processor|Adder:inst74                            ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Adder.vhd                 ;
 ; Altera ; LPM_CONSTANT ; 12.1    ; N/A          ; N/A          ; |processor|CONST_ONE:ONE                           ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/CONST_ONE.vhd             ;
-; Altera ; LPM_COUNTER  ; 11.0    ; N/A          ; N/A          ; |processor|Counter:inst89                          ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Counter.vhd               ;
+; Altera ; LPM_COUNTER  ; N/A     ; N/A          ; N/A          ; |processor|Counter:inst89                          ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Counter.vhd               ;
 ; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |processor|FIFTEENCONST:LINK                       ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/fifteenconst.tdf          ;
 ; Altera ; LPM_MUX      ; 11.0    ; N/A          ; N/A          ; |processor|IO_MemoryInterface:inst37|MUX16to1:inst ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/MUX16to1.vhd              ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|IO_MemoryInterface:inst37|Reg_16:LED    ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/IOmem/Reg_16.vhd          ;
@@ -583,10 +585,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_16BIT_SCLR:inst17                   ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_16bit_sclr.tdf        ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_16BIT_SCLR:inst45                   ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_16bit_sclr.tdf        ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_16BIT_SCLR:inst9                    ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_16bit_sclr.tdf        ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_1BIT_SCLR:inst77                    ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_1bit_sclr.tdf         ;
+; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_1BIT_SCLR:inst47                    ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_1bit_sclr.tdf         ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_24BIT_SCLR:inst41                   ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_24bit_sclr.tdf        ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_24BIT_SCLR_ENBL:inst72              ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_24bit_sclr_enbl.tdf   ;
-; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|REG_2BIT_SCLR:inst51                    ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/reg_2bit_sclr.tdf         ;
 ; Altera ; LPM_CONSTANT ; N/A     ; N/A          ; N/A          ; |processor|ZERO:inst66                             ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Register/ZERO.tdf         ;
 ; Altera ; LPM_DECODE   ; N/A     ; N/A          ; N/A          ; |processor|regfile:inst7|DECODE_4TO16:inst         ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Register/DECODE_4TO16.tdf ;
 ; Altera ; LPM_FF       ; N/A     ; N/A          ; N/A          ; |processor|regfile:inst7|DFF_16BIT:Reg1            ; C:/Users/dshriver/Documents/Github/csce430/project_pipelined/Register/DFF_16BIT.tdf    ;
@@ -627,7 +628,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component|dffs[4..15] ; Stuck at GND due to stuck port data_in                             ;
 ; REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
 ; REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|cacheMiss                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; REG_1BIT_SCLR:inst26|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
 ; REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[6..14]                        ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[15] ;
 ; REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component|dffs[7]                            ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[15] ;
@@ -639,7 +639,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component|dffs[1]                            ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[0]  ;
 ; instrCache:inst62|hitCount[16..31]                                               ; Lost fanout                                                        ;
 ; instrCache:inst62|missCount[16..31]                                              ; Lost fanout                                                        ;
-; Total Number of Removed Registers = 70                                           ;                                                                    ;
+; Total Number of Removed Registers = 69                                           ;                                                                    ;
 +----------------------------------------------------------------------------------+--------------------------------------------------------------------+
 
 
@@ -658,12 +658,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 675   ;
-; Number of registers using Synchronous Clear  ; 241   ;
+; Total registers                              ; 3781  ;
+; Number of registers using Synchronous Clear  ; 242   ;
 ; Number of registers using Synchronous Load   ; 48    ;
 ; Number of registers using Asynchronous Clear ; 240   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 436   ;
+; Number of registers using Clock Enable       ; 3539  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -673,10 +673,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+-----------------------------------------------------------------------------------------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                                    ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+-----------------------------------------------------------------------------------------------+----------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|PC:PC_reg|lpm_ff:lpm_ff_component|dffs[9]                                          ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|PC:PC_reg|lpm_ff:lpm_ff_component|dffs[3]                                          ;                            ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[15]   ;                            ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[14]   ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[13]   ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[10]   ;                            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated|result_node[1] ;                            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|control_unit_230:inst8|mem_write                                                   ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+-----------------------------------------------------------------------------------------------+----------------------------+
@@ -899,6 +899,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; LPM_PIPELINE           ; 0          ; Signed Integer                                      ;
 ; CBXI_PARAMETER         ; mux_m4e    ; Untyped                                             ;
 ; DEVICE_FAMILY          ; Cyclone II ; Untyped                                             ;
++------------------------+------------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst47|lpm_ff:lpm_ff_component ;
++------------------------+------------+-----------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                ;
++------------------------+------------+-----------------------------------------------------+
+; LPM_WIDTH              ; 1          ; Untyped                                             ;
+; LPM_AVALUE             ; UNUSED     ; Untyped                                             ;
+; LPM_SVALUE             ; UNUSED     ; Untyped                                             ;
+; LPM_FFTYPE             ; DFF        ; Untyped                                             ;
+; DEVICE_FAMILY          ; Cyclone II ; Untyped                                             ;
+; CBXI_PARAMETER         ; NOTHING    ; Untyped                                             ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                        ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                      ;
 +------------------------+------------+-----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2347,31 +2366,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst77|lpm_ff:lpm_ff_component ;
-+------------------------+------------+-----------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                ;
-+------------------------+------------+-----------------------------------------------------+
-; LPM_WIDTH              ; 1          ; Untyped                                             ;
-; LPM_AVALUE             ; UNUSED     ; Untyped                                             ;
-; LPM_SVALUE             ; UNUSED     ; Untyped                                             ;
-; LPM_FFTYPE             ; DFF        ; Untyped                                             ;
-; DEVICE_FAMILY          ; Cyclone II ; Untyped                                             ;
-; CBXI_PARAMETER         ; NOTHING    ; Untyped                                             ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                          ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                        ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                        ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                      ;
-+------------------------+------------+-----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:18     ;
 +----------------+--------------+
 
 
@@ -2381,9 +2381,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Wed Apr 22 20:40:23 2015
+    Info: Processing started: Thu Apr 23 13:49:45 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info: Found 2 design units, including 1 entities, in source file counter.vhd
+    Info: Found design unit 1: counter-SYN
+    Info: Found entity 1: Counter
 Info: Found 1 design units, including 1 entities, in source file my box files/school/csce230 project/projectpart4complete_restored/processor_old.bdf
     Info: Found entity 1: processor_old
 Info: Found 2 design units, including 1 entities, in source file pipeline files/instrmem.vhd
@@ -2488,15 +2491,9 @@ Info: Found 2 design units, including 1 entities, in source file instrcache.vhd
 Info: Found 2 design units, including 1 entities, in source file datacache.vhd
     Info: Found design unit 1: dataCache-behavior
     Info: Found entity 1: dataCache
-Info: Found 2 design units, including 1 entities, in source file decode4to16.vhd
-    Info: Found design unit 1: decode4to16-SYN
-    Info: Found entity 1: Decode4to16
 Info: Found 2 design units, including 1 entities, in source file mux16to1.vhd
     Info: Found design unit 1: mux16to1-SYN
     Info: Found entity 1: MUX16to1
-Info: Found 2 design units, including 1 entities, in source file counter.vhd
-    Info: Found design unit 1: counter-SYN
-    Info: Found entity 1: Counter
 Info: Elaborating entity "processor" for the top level hierarchy
 Info: Elaborating entity "REG_1BIT" for hierarchy "REG_1BIT:inst53"
 Info: Elaborating entity "lpm_ff" for hierarchy "REG_1BIT:inst53|lpm_ff:lpm_ff_component"
@@ -2625,6 +2622,7 @@ Info: Instantiated megafunction "REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_compon
     Info: Parameter "LPM_WIDTH" = "24"
     Info: Parameter "LPM_FFTYPE" = "DFF"
 Info: Elaborating entity "instrCache" for hierarchy "instrCache:inst62"
+Warning (10541): VHDL Signal Declaration warning at instrCache.vhd(22): used implicit default value for signal "ram" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info: Elaborating entity "MUX_2_15BIT" for hierarchy "MUX_2_15BIT:inst82"
 Info: Elaborating entity "PC" for hierarchy "PC:PC_reg"
 Info: Elaborating entity "lpm_ff" for hierarchy "PC:PC_reg|lpm_ff:lpm_ff_component"
@@ -2824,7 +2822,13 @@ Info: Found 1 design units, including 1 entities, in source file db/cntr_bpi.tdf
 Info: Elaborating entity "cntr_bpi" for hierarchy "Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated"
 Info: Elaborating entity "REG_16BIT_SCLR" for hierarchy "REG_16BIT_SCLR:inst36"
 Info: Elaborating entity "ZERO" for hierarchy "ZERO:inst66"
-Info: Elaborating entity "REG_1BIT_SCLR" for hierarchy "REG_1BIT_SCLR:inst77"
+Info: Found 3 instances of uninferred RAM logic
+    Info: RAM logic "instrCache:inst62|set2" is uninferred due to asynchronous read logic
+    Info: RAM logic "instrCache:inst62|set1" is uninferred due to asynchronous read logic
+    Info: RAM logic "instrCache:inst62|ram" is uninferred due to asynchronous read logic
+Warning: 953 out of 1024 addresses are uninitialized. The Quartus II software will initialize them to "0". There are 1 warnings found, and 1 warnings are reported.
+    Warning: Addresses ranging from 71 to 1023 are not initialized
+Critical Warning: Memory depth (2048) in the design file differs from memory depth (1024) in the Memory Initialization File "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/instr.mif" -- setting initial value for remaining addresses to 0
 Warning: Latch control_unit_230:inst8|jump has unsafe behavior
     Warning: Ports D and ENA on the latch are fed by the same signal REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_component|dffs[23]
 Warning: Latch control_unit_230:inst8|branch has unsafe behavior
@@ -2853,7 +2857,6 @@ Warning: Latch control_unit_230:inst8|rf_write has unsafe behavior
     Warning: Ports D and ENA on the latch are fed by the same signal REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_component|dffs[23]
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "flush" is stuck at GND
-    Warning (13410): Pin "insCacheMiss" is stuck at GND
     Warning (13410): Pin "memout[23]" is stuck at GND
     Warning (13410): Pin "memout[22]" is stuck at GND
     Warning (13410): Pin "memout[21]" is stuck at GND
@@ -2905,14 +2908,14 @@ Warning: Ignored assignments for entity "Project" -- entity does not exist in de
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Project -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
 Info: Generating hard_block partition "hard_block:auto_generated_inst"
-Info: Implemented 2025 device resources after synthesis - the final resource count might be different
+Info: Implemented 7340 device resources after synthesis - the final resource count might be different
     Info: Implemented 15 input pins
     Info: Implemented 449 output pins
-    Info: Implemented 1561 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 78 warnings
-    Info: Peak virtual memory: 325 megabytes
-    Info: Processing ended: Wed Apr 22 20:40:37 2015
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Implemented 6876 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 81 warnings
+    Info: Peak virtual memory: 327 megabytes
+    Info: Processing ended: Thu Apr 23 13:50:10 2015
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:24
 
 

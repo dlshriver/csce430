@@ -61,8 +61,8 @@ applicable agreement for further details.
 	(port
 		(pt 232 80)
 		(output)
-		(text "cacheMiss" (rect 0 0 63 12)(font "Arial" ))
-		(text "cacheMiss" (rect 148 75 211 87)(font "Arial" ))
+		(text "cacheStall" (rect 0 0 70 12)(font "Arial" ))
+		(text "cacheStall" (rect 141 75 211 87)(font "Arial" ))
 		(line (pt 232 80)(pt 216 80)(line_width 1))
 	)
 	(drawing

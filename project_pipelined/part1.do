@@ -56,6 +56,6 @@ add wave insCacheMiss
 
 force key 1111 0
 force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000
-force clock 0 0, 1 30 -repeat 60
+force clock 1 0, 0 30 -repeat 60
 
 run 100000
