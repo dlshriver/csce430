@@ -1,33 +1,33 @@
-# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# Reading C:/altera/10.0/modelsim_ase/tcl/vsim/pref.tcl 
 # do Project_run_msim_gate_vhdl.do 
 # if {[file exists gate_work]} {
 # 	vdel -lib gate_work -all
 # }
 # vlib gate_work
 # vmap work gate_work
-# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:\altera\10.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:\altera\10.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
 # vcom -93 -work work {Project.vho}
-# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
 # -- Loading package std_logic_1164
-# -- Loading package VITAL_Timing
-# -- Loading package VITAL_Primitives
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
 # -- Loading package cycloneii_atom_pack
 # -- Loading package cycloneii_components
 # -- Compiling entity processor
 # -- Compiling architecture structure of processor
+# -- Loading package standard
 # 
-# do "C:/Users/David/Documents/GitHub/csce430/project_pipelined/part1.do"
+# do "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/part1.do"
 # vsim processor
 # vsim processor 
 # Loading std.standard
-# Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
 # Loading cycloneii.cycloneii_atom_pack(body)
@@ -43,12 +43,55 @@
 # Loading cycloneii.cycloneii_asynch_io(behave)
 # Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
 # Loading cycloneii.cycloneii_ena_reg(behave)
-# Loading cycloneii.cycloneii_ram_block(block_arch)
-# Loading cycloneii.cycloneii_ram_register(reg_arch)
-# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
-# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
-# This may because you are loading cell libraries which are not recommended with
-# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave clk27
+# ** Error: (vish-4014) No objects found matching 'clk27'.
+# Error in macro C:\Users\dshriver\Documents\Github\csce430\project_pipelined\part1.do line 3
+# (vish-4014) No objects found matching 'clk27'.
+#     while executing
+# "add wave clk27"
+do Project_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Project.vho}
+# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# -- Loading package standard
+# 
+# do "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/part1.do"
+# vsim processor
+# vsim processor 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.processor(structure)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
 # view wave
 # .main_pane.wave.interior.cs.body.pw.wf
 # add wave clock
@@ -65,9 +108,14 @@
 # add wave r3
 # add wave r4
 # add wave r5
+# add wave r8
+# add wave r9
+#add wave r10
+#add wave r11
+# add wave r15
 #add wave hex0
-#add wave sw
-#add wave key
+# add wave sw
+# add wave key
 #add wave ledg
 #add wave n_val
 #add wave v_val
@@ -75,11 +123,11 @@
 #add wave z_val
 #add wave z_out
 #add wave flag_enable_exe
-#add wave execute
-# add wave mem_addr
-# add wave mem_write_mem
-# add wave mem_data
-# add wave forwardB
+# add wave execute
+#add wave mem_addr
+#add wave mem_write_mem
+#add wave mem_data
+#add wave forwardB
 # add wave LEDG
 #add wave ID_reset
 #add wave execute
@@ -88,13 +136,23 @@
 #add wave muxymem
 #add wave yselect_mem
 #add wave yselect
-# add wave WBreg
+#add wave WBreg
 #add wave op_code
 #add wave cond
 #add wave opx
+#add wave pc_select
+# add wave br_addr
+# add wave br_miss
+# add wave br_total
+# add wave instrMiss
+# add wave instrHit
+# add wave insCacheMiss
+# add wave dataHit
+# add wave dataMiss
+# add wave dataCacheStall
 # 
-# force key 1001 0, 1111 850000, 0011 1150000
-# force sw 0001001100 0, 0011111100 850000, 0000000000 1000000
-# force clock 0 0, 1 1000 -repeat 2000
+# force key 1111 0
+# force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000
+# force clock 1 0, 0 30 -repeat 60
 # 
-# run 40000
+# run 100000

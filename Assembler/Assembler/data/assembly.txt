@@ -61,14 +61,25 @@ addi al r3 r3 1
 sub al r0 r3 r1 s
 br lt STR1FORLOOP
 
-sw al r10 r14 0
-WAITLOOP1:
-lw al r9 r15 0
-sub al r0 r9 r0 s
-br eq WAITLOOP1
+add al r14 r15 r15
+add al r14 r14 r14
+add al r14 r14 r14
+add al r14 r14 r14
+add al r14 r14 r14
 
-sw al r11 r14 0
-WAITLOOP1:
+add al r15 r14 r14
+add al r15 r15 r15
+add al r15 r15 r15
+
+
+DISPLAYLOOP:
 lw al r9 r15 0
-sub al r0 r9 r0 s
-br eq WAITLOOP1
+sw al r10 r14 0
+addi r0 r9 -1 s
+br eq DISPLAYLOOP
+lw al r9 r15 0
+sw al r11 r14 0
+addi r0 r9 -1 s
+br eq DISPLAYLOOP
+sw al r0 r14 0
+br al DISPLAYLOOP

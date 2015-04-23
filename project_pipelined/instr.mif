@@ -1,33 +1,77 @@
--- Copyright (C) 1991-2012 Altera Corporation
--- Your use of Altera Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
--- functions, and any output files from any of the foregoing 
--- (including device programming or simulation files), and any 
--- associated documentation or information are expressly subject 
--- to the terms and conditions of the Altera Program License 
--- Subscription Agreement, Altera MegaCore Function License 
--- Agreement, or other applicable license agreement, including, 
--- without limitation, that your use is for the sole purpose of 
--- programming logic devices manufactured by Altera and sold by 
--- Altera or its authorized distributors.  Please refer to the 
--- applicable agreement for further details.
-
--- Quartus II generated Memory Initialization File (.mif)
-
-WIDTH=24;
-DEPTH=1024;
-
-ADDRESS_RADIX=UNS;
-DATA_RADIX=HEX;
-
+WIDTH = 24;
+DEPTH = 1024;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
 CONTENT BEGIN
-	0     :   000000;
-	1     :   8E0200;
-	2     :   8E0302;
-	3     :   9E2300;
-	4     :   CE33FF;
-	5     :   01FFFF;
-	6     :   CE4402;
-	7     :   FE0000;
-	[8..1023]  :   000000;
+0 : A10018;
+1 : A10028;
+2 : A100A8;
+3 : A100B8;
+4 : C10F40;
+5 : A1FFF8;
+6 : A1FFF8;
+7 : A10098;
+8 : 819800;
+9 : C19902;
+A : C11102;
+B : A18001;
+C : 0FFFFC;
+D : C111FE;
+E : A10F98;
+F : 819800;
+10 : C19902;
+11 : C12202;
+12 : A18001;
+13 : 0FFFFC;
+14 : C122FE;
+15 : A10038;
+16 : A10048;
+17 : A10058;
+18 : A10098;
+19 : A19598;
+1A : A19398;
+1B : 819600;
+1C : A10F98;
+1D : A19598;
+1E : A19498;
+1F : 819700;
+20 : A16701;
+21 : 0F000D;
+22 : C15502;
+23 : A15A01;
+24 : 0D0003;
+25 : A105A8;
+26 : A103B8;
+27 : A135C8;
+28 : A1C101;
+29 : 0A0005;
+2A : A145C8;
+2B : A1C201;
+2C : 0A0002;
+2D : 01FFEB;
+2E : C14402;
+2F : A14201;
+30 : 0BFFE7;
+31 : C13302;
+32 : A13101;
+33 : 0BFFE3;
+34 : A1FFE8;
+35 : A1EEE8;
+36 : A1EEE8;
+37 : A1EEE8;
+38 : A1EEE8;
+39 : A1EEF8;
+3A : A1FFF8;
+3B : A1FFF8;
+3C : 81F900;
+3D : C190FF;
+3E : 0E0005;
+3F : C190FD;
+40 : 0E0005;
+41 : 91E000;
+42 : 01FFFA;
+43 : 91EA00;
+44 : 01FFF8;
+45 : 91EB00;
+46 : 01FFF6;
 END;

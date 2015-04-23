@@ -43,9 +43,9 @@ begin
 
 		exe <= execute;
 	
-		if(cond = "0000" and z = '1') then
+		if(cond = "1110" and z = '1') then
 			execute <= '1';
-		elsif(cond = "0001" and z = '0') then
+		elsif(cond = "1111" and z = '0') then
 			execute <= '1';
 		elsif(cond = "0010" and c = '1') then
 			execute <= '1';
@@ -71,9 +71,9 @@ begin
 			execute <= '1';
 		elsif(cond = "1101" and n = '1' and ((n = '0' and v = '1') or (n = '1' and v = '0'))) then
 			execute <= '1';
-		elsif(cond = "1110") then
+		elsif(cond = "0001") then
 			execute <= '1';
-		elsif(cond = "1111") then
+		elsif(cond = "0000") then
 			execute <= '0';
 		else
 			execute <= '0';
@@ -231,7 +231,7 @@ begin
 			ma_select <= '0';
 			mem_write <= '0';
 			mem_read <= '0';
-			branch <= '1';
+			branch <= execute;
 			jump <= '0';
 					
 			-- b instruction

@@ -1,0 +1,11 @@
+
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_24BIT_SCLR_ENBL.tdf
+
+Apr 22 07PM:04:09>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_24BIT_SCLR_ENBL.tdf
+
+Apr 22 07PM:04:10>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
