@@ -17,8 +17,9 @@ Architecture behavior of instrCache is
 	shared variable hitCount : integer := 0;
 	shared variable missCount : integer := 0;
 	shared variable stallCount : integer := 0;
+	shared variable prevAddr : std_logic_vector(15 downto 0) := x"FFFF";
 	
-	type mem_t is array(0 to 1024) of std_logic_vector(23 downto 0);
+	type mem_t is array(0 to 255) of std_logic_vector(23 downto 0);
 	signal ram : mem_t;
 	attribute ram_init_file : string;
 	attribute ram_init_file of ram :
@@ -33,7 +34,10 @@ Begin
 	begin
 		if rising_edge(clock) then
 			if (prefetch = '1') then
-				hitCount := hitCount + 1;
+				if address /= prevAddr then
+					hitCount := hitCount + 1;
+				end if;
+				prevAddr := address;
 				hit <= std_logic_vector(to_unsigned(hitCount, 16));
 				if address(7) = '0' then
 					data <= set1(conv_integer(address(6 downto 0)));
@@ -43,17 +47,14 @@ Begin
 				cacheStall <= '0';
 			else
 				cacheStall <= '1';
-				if (stallCount = 128) then
+				if (stallCount = 256) then
 					prefetch := '1';
 					missCount := missCount + 1;
 					miss <= std_logic_vector(to_unsigned(missCount, 16));
-					for i in 0 to 127 loop
-						--set1(i) <= ram(i);
-					end loop;
-				else
+				elsif (stallCount < 128) then
 					set1(stallCount) <= ram(stallCount);
-					stallCount := stallCount + 1;
 				end if;
+				stallCount := stallCount + 1;
 			end if;
 		end if;
 	end process controller;

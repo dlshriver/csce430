@@ -39,20 +39,23 @@ add wave LEDG
 #add wave execute
 #add wave flush
 #add wave deassert
-add wave muxymem
+#add wave muxymem
 #add wave yselect_mem
 #add wave yselect
-add wave WBreg
+#add wave WBreg
 #add wave op_code
 #add wave cond
 #add wave opx
-add wave pc_select
+#add wave pc_select
 add wave br_addr
 add wave br_miss
 add wave br_total
 add wave instrMiss
 add wave instrHit
 add wave insCacheMiss
+add wave dataHit
+add wave dataMiss
+add wave dataCacheStall
 
 force key 1111 0
 force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000

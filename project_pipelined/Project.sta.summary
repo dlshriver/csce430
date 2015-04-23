@@ -3,80 +3,80 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'clock'
-Slack : -13.565
-TNS   : -30897.247
+Slack : -13.290
+TNS   : -43711.414
 
 Type  : Slow Model Setup 'KEY[0]'
-Slack : -4.507
-TNS   : -8.370
+Slack : -3.417
+TNS   : -7.719
 
 Type  : Slow Model Hold 'clock'
-Slack : -3.883
-TNS   : -53.528
+Slack : -5.318
+TNS   : -83.432
 
 Type  : Slow Model Hold 'KEY[0]'
-Slack : -1.911
-TNS   : -12.438
+Slack : -1.989
+TNS   : -8.902
 
 Type  : Slow Model Recovery 'KEY[0]'
-Slack : -0.440
-TNS   : -0.440
+Slack : -0.193
+TNS   : -0.193
 
 Type  : Slow Model Recovery 'clock'
-Slack : -0.033
-TNS   : -1.147
+Slack : -0.185
+TNS   : -21.612
 
 Type  : Slow Model Removal 'KEY[0]'
-Slack : -1.752
-TNS   : -7.321
+Slack : -0.778
+TNS   : -2.443
 
 Type  : Slow Model Removal 'clock'
-Slack : 0.190
+Slack : 0.197
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'clock'
 Slack : -1.380
-TNS   : -3782.380
+TNS   : -5439.380
 
 Type  : Slow Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222
-TNS   : -5.416
+TNS   : -3.790
 
 Type  : Fast Model Setup 'clock'
-Slack : -5.781
-TNS   : -12892.878
+Slack : -5.674
+TNS   : -17775.938
 
 Type  : Fast Model Setup 'KEY[0]'
-Slack : -1.913
-TNS   : -2.453
+Slack : -1.420
+TNS   : -1.761
 
 Type  : Fast Model Hold 'clock'
-Slack : -1.860
-TNS   : -28.499
+Slack : -2.529
+TNS   : -40.770
 
 Type  : Fast Model Hold 'KEY[0]'
-Slack : -1.068
-TNS   : -6.879
+Slack : -1.022
+TNS   : -4.604
 
 Type  : Fast Model Recovery 'KEY[0]'
-Slack : 0.276
+Slack : 0.321
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'clock'
-Slack : 0.393
+Slack : 0.337
 TNS   : 0.000
 
 Type  : Fast Model Removal 'KEY[0]'
-Slack : -0.993
-TNS   : -4.039
+Slack : -0.463
+TNS   : -1.535
 
 Type  : Fast Model Removal 'clock'
-Slack : -0.087
-TNS   : -11.653
+Slack : -0.110
+TNS   : -5.779
 
 Type  : Fast Model Minimum Pulse Width 'clock'
 Slack : -1.380
-TNS   : -3782.380
+TNS   : -5439.380
 
 Type  : Fast Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222
