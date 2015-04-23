@@ -11357,36 +11357,6 @@ dataCache:inst4
 
 # end
 # entity
-instrCache
-# storage
-db|Project.(82).cnf
-db|Project.(82).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-instrcache.vhd
-9cefa359b31cd9a14df58aeb4da7b53
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-instrCache:inst62
-}
-# macro_sequence
-
-# end
-# entity
 IO_MemoryInterface
 # storage
 db|Project.(75).cnf
@@ -13413,26 +13383,6 @@ clock
 
 # end
 # entity
-processor
-# storage
-db|Project.(0).cnf
-db|Project.(0).cnf
-# case_insensitive
-# source_file
-processor.bdf
-a7e12c38a76933b5d59463d392a7f2fc
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 Counter
 # storage
 db|Project.(87).cnf
@@ -13458,6 +13408,7 @@ ON
 }
 # hierarchies {
 Counter:inst89
+Counter:inst90
 }
 # macro_sequence
 
@@ -13627,6 +13578,7 @@ alt_counter_stratix.inc
 }
 # hierarchies {
 Counter:inst89|lpm_counter:LPM_COUNTER_component
+Counter:inst90|lpm_counter:LPM_COUNTER_component
 }
 # macro_sequence
 
@@ -13702,6 +13654,57 @@ clk_en
 }
 # hierarchies {
 Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
+Counter:inst90|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+processor
+# storage
+db|Project.(0).cnf
+db|Project.(0).cnf
+# case_insensitive
+# source_file
+processor.bdf
+22534634c6bfc562f7f116fe8f338
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+instrCache
+# storage
+db|Project.(82).cnf
+db|Project.(82).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+instrcache.vhd
+446dff79c47f966b26f7c13e41057c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+instrCache:inst62
 }
 # macro_sequence
 

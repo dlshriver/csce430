@@ -16,24 +16,24 @@ add wave r4
 add wave r5
 add wave r8
 add wave r9
-add wave r10
-add wave r11
+#add wave r10
+#add wave r11
 add wave r15
 #add wave hex0
 add wave sw
 add wave key
 #add wave ledg
-add wave n_val
-add wave v_val
-add wave c_val
-add wave z_val
+#add wave n_val
+#add wave v_val
+#add wave c_val
+#add wave z_val
 #add wave z_out
 #add wave flag_enable_exe
 add wave execute
-add wave mem_addr
-add wave mem_write_mem
-add wave mem_data
-add wave forwardB
+#add wave mem_addr
+#add wave mem_write_mem
+#add wave mem_data
+#add wave forwardB
 add wave LEDG
 #add wave ID_reset
 #add wave execute
@@ -48,7 +48,11 @@ add wave WBreg
 #add wave opx
 add wave pc_select
 add wave br_addr
-add wave br_hit
+add wave br_miss
+add wave br_total
+add wave instrMiss
+add wave instrHit
+add wave insCacheMiss
 
 force key 1111 0
 force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000

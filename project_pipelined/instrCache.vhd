@@ -1,19 +1,26 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
 
 entity instrCache is
 	port (clock		: in std_logic;
 			address	: in std_logic_vector(15 downto 0);
-			data		: out std_logic_vector(23 downto 0));
+			data		: out std_logic_vector(23 downto 0);
+			hit		: out std_logic_vector(15 downto 0);
+			miss		: out std_logic_vector(15 downto 0);
+			cacheMiss: out std_logic);
 end instrCache;
 
 Architecture behavior of instrCache is
+	shared variable prefetch : std_logic := '0';
+	shared variable hitCount : integer := 0;
+	shared variable missCount : integer := 0;
 Begin
 	controller : process (clock) is
 		type set is array(0 to 127) of std_logic_vector(23 downto 0);
 		type iCache is array(0 to 1) of set;
-		constant set1 : set := (x"A10018",  x"A10028",  x"A100A8",  x"A100B8",  
+		constant set1 : set := (x"000000", x"A10018",  x"A10028",  x"A100A8",  x"A100B8",  
 			x"C10F40",  x"A1FFF8",  x"A1FFF8",  x"A10098",  
 			x"819800",  x"C19902",  x"C11102",  x"A18001",  
 			x"0FFFFC",  x"C111FE",  x"A10F98",  x"819800",  
@@ -33,10 +40,25 @@ Begin
 			x"01FFF8",  x"91EB00",  x"01FFF6",  others => x"000000");
 		constant set2 : set := (others => x"000000");
 	begin
-		if address(7) = '0' then
-			data <= set1(conv_integer(address(6 downto 0)));
-		else
-			data <= set2(conv_integer(address(6 downto 0)));
+		if rising_edge(clock) then
+			if (prefetch = '1') then
+				cacheMiss <= '0';
+				hitCount := hitCount + 1;
+				hit <= std_logic_vector(to_unsigned(hitCount, 16));
+				if address(7) = '0' then
+					data <= set1(conv_integer(address(6 downto 0)));
+				else
+					data <= set2(conv_integer(address(6 downto 0)));
+				end if;
+			else
+				prefetch := '1';
+				cacheMiss <= '1';
+				missCount := missCount + 1;
+				miss <= std_logic_vector(to_unsigned(missCount, 16));
+				for i in 0 to 128 loop
+				end loop;
+				cacheMiss <= '0';
+			end if;
 		end if;
 	end process controller;
 End behavior;
