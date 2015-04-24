@@ -1,77 +1,127 @@
-WIDTH = 24;
-DEPTH = 1024;
-ADDRESS_RADIX = HEX;
-DATA_RADIX = HEX;
+-- Copyright (C) 1991-2011 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
 CONTENT BEGIN
-0 : A10018;
-1 : A10028;
-2 : A100A8;
-3 : A100B8;
-4 : C10F40;
-5 : A1FFF8;
-6 : A1FFF8;
-7 : A10098;
-8 : 819800;
-9 : C19902;
-A : C11102;
-B : A18001;
-C : 0FFFFC;
-D : C111FE;
-E : A10F98;
-F : 819800;
-10 : C19902;
-11 : C12202;
-12 : A18001;
-13 : 0FFFFC;
-14 : C122FE;
-15 : A10038;
-16 : A10048;
-17 : A10058;
-18 : A10098;
-19 : A19598;
-1A : A19398;
-1B : 819600;
-1C : A10F98;
-1D : A19598;
-1E : A19498;
-1F : 819700;
-20 : A16701;
-21 : 0F000D;
-22 : C15502;
-23 : A15A01;
-24 : 0D0003;
-25 : A105A8;
-26 : A103B8;
-27 : A135C8;
-28 : A1C101;
-29 : 0A0005;
-2A : A145C8;
-2B : A1C201;
-2C : 0A0002;
-2D : 01FFEB;
-2E : C14402;
-2F : A14201;
-30 : 0BFFE7;
-31 : C13302;
-32 : A13101;
-33 : 0BFFE3;
-34 : A1FFE8;
-35 : A1EEE8;
-36 : A1EEE8;
-37 : A1EEE8;
-38 : A1EEE8;
-39 : A1EEF8;
-3A : A1FFF8;
-3B : A1FFF8;
-3C : 81F900;
-3D : C190FF;
-3E : 0E0005;
-3F : C190FD;
-40 : 0E0005;
-41 : 91E000;
-42 : 01FFFA;
-43 : 91EA00;
-44 : 01FFF8;
-45 : 91EB00;
-46 : 01FFF6;
+	000  :   A10018;
+	001  :   A10028;
+	002  :   A100A8;
+	003  :   A100B8;
+	004  :   C10F40;
+	[005..006]  :   A1FFF8;
+	007  :   A10098;
+	008  :   819800;
+	009  :   C19902;
+	00A  :   C11102;
+	00B  :   A18001;
+	00C  :   0FFFFC;
+	00D  :   C111FE;
+	00E  :   A10F98;
+	00F  :   819800;
+	010  :   C19902;
+	011  :   C12202;
+	012  :   A18001;
+	013  :   0FFFFC;
+	014  :   C122FE;
+	015  :   A10038;
+	016  :   A10048;
+	017  :   A10058;
+	018  :   A10098;
+	019  :   A19598;
+	01A  :   A19398;
+	01B  :   819600;
+	01C  :   A10F98;
+	01D  :   A19598;
+	01E  :   A19498;
+	01F  :   819700;
+	020  :   A16701;
+	021  :   0F000D;
+	022  :   C15502;
+	023  :   A15A01;
+	024  :   0D0003;
+	025  :   A105A8;
+	026  :   A103B8;
+	027  :   A135C8;
+	028  :   A1C101;
+	029  :   0A0005;
+	02A  :   A145C8;
+	02B  :   A1C201;
+	02C  :   0A0002;
+	02D  :   01FFEB;
+	02E  :   C14402;
+	02F  :   A14201;
+	030  :   0BFFE7;
+	031  :   C13302;
+	032  :   A13101;
+	033  :   0BFFE3;
+	034  :   A1FFE8;
+	[035..038]  :   A1EEE8;
+	039  :   A1EEF8;
+	03A  :   C1EF10;
+	03B  :   C1ED14;
+	03C  :   81D100;
+	03D  :   C1ED16;
+	03E  :   81D200;
+	03F  :   C1ED18;
+	040  :   81D300;
+	041  :   C1ED1A;
+	042  :   81D400;
+	043  :   C1ED1C;
+	044  :   81D500;
+	045  :   C1ED1E;
+	046  :   81D600;
+	047  :   81F900;
+	048  :   C199FF;
+	049  :   0E0011;
+	04A  :   C199FF;
+	04B  :   0E0011;
+	04C  :   C199FF;
+	04D  :   0E0011;
+	04E  :   C199FF;
+	04F  :   0E0011;
+	050  :   C199FF;
+	051  :   0E0011;
+	052  :   C199FF;
+	053  :   0E0011;
+	054  :   C199FF;
+	055  :   0E0011;
+	056  :   C199FF;
+	057  :   0E0011;
+	058  :   A100D8;
+	059  :   01FFEE;
+	05A  :   A10AD8;
+	05B  :   01FFEC;
+	05C  :   A10BD8;
+	05D  :   01FFEA;
+	05E  :   A101D8;
+	05F  :   01FFE8;
+	060  :   A102D8;
+	061  :   01FFE6;
+	062  :   A103D8;
+	063  :   01FFE4;
+	064  :   A104D8;
+	065  :   01FFE2;
+	066  :   A105D8;
+	067  :   01FFE0;
+	068  :   A106D8;
+	069  :   01FFDE;
+	[06A..3FF]  :   000000;
 END;

@@ -3,80 +3,80 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'clock'
-Slack : -13.290
-TNS   : -43711.414
+Slack : -12.914
+TNS   : -41379.484
 
 Type  : Slow Model Setup 'KEY[0]'
-Slack : -3.417
-TNS   : -7.719
-
-Type  : Slow Model Hold 'clock'
-Slack : -5.318
-TNS   : -83.432
+Slack : -1.429
+TNS   : -1.429
 
 Type  : Slow Model Hold 'KEY[0]'
-Slack : -1.989
-TNS   : -8.902
+Slack : -2.219
+TNS   : -12.221
 
-Type  : Slow Model Recovery 'KEY[0]'
-Slack : -0.193
-TNS   : -0.193
+Type  : Slow Model Hold 'clock'
+Slack : 0.391
+TNS   : 0.000
 
 Type  : Slow Model Recovery 'clock'
-Slack : -0.185
-TNS   : -21.612
+Slack : -0.571
+TNS   : -116.164
+
+Type  : Slow Model Recovery 'KEY[0]'
+Slack : 1.360
+TNS   : 0.000
 
 Type  : Slow Model Removal 'KEY[0]'
-Slack : -0.778
-TNS   : -2.443
+Slack : -2.088
+TNS   : -4.580
 
 Type  : Slow Model Removal 'clock'
-Slack : 0.197
+Slack : 0.665
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'clock'
 Slack : -1.380
-TNS   : -5439.380
+TNS   : -5264.380
 
 Type  : Slow Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222
-TNS   : -3.790
+TNS   : -1.222
 
 Type  : Fast Model Setup 'clock'
-Slack : -5.674
-TNS   : -17775.938
+Slack : -5.361
+TNS   : -16699.524
 
 Type  : Fast Model Setup 'KEY[0]'
-Slack : -1.420
-TNS   : -1.761
-
-Type  : Fast Model Hold 'clock'
-Slack : -2.529
-TNS   : -40.770
+Slack : -0.188
+TNS   : -0.188
 
 Type  : Fast Model Hold 'KEY[0]'
-Slack : -1.022
-TNS   : -4.604
+Slack : -0.959
+TNS   : -5.927
 
-Type  : Fast Model Recovery 'KEY[0]'
-Slack : 0.321
+Type  : Fast Model Hold 'clock'
+Slack : 0.159
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'clock'
-Slack : 0.337
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'KEY[0]'
+Slack : 1.339
 TNS   : 0.000
 
 Type  : Fast Model Removal 'KEY[0]'
-Slack : -0.463
-TNS   : -1.535
+Slack : -1.087
+TNS   : -2.539
 
 Type  : Fast Model Removal 'clock'
-Slack : -0.110
-TNS   : -5.779
+Slack : 0.145
+TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'clock'
 Slack : -1.380
-TNS   : -5439.380
+TNS   : -5264.380
 
 Type  : Fast Model Minimum Pulse Width 'KEY[0]'
 Slack : -1.222

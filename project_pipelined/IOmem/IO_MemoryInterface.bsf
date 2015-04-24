@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 248 176)
+	(rect 16 16 280 176)
 	(text "IO_MemoryInterface" (rect 5 0 119 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 144 25 156)(font "Arial" ))
 	(port
@@ -66,27 +66,34 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
-		(pt 232 32)
+		(pt 0 128)
+		(input)
+		(text "mem_addr_rest[11..0]" (rect 0 0 123 14)(font "Arial" (font_size 8)))
+		(text "mem_addr_rest[11..0]" (rect 21 123 144 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 264 32)
 		(output)
 		(text "data_out[15..0]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
-		(text "data_out[15..0]" (rect 127 27 211 41)(font "Arial" (font_size 8)))
-		(line (pt 232 32)(pt 216 32)(line_width 3))
+		(text "data_out[15..0]" (rect 159 27 243 41)(font "Arial" (font_size 8)))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
 	)
 	(port
-		(pt 232 48)
+		(pt 264 48)
 		(output)
 		(text "LEDG[15..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "LEDG[15..0]" (rect 144 43 211 57)(font "Arial" (font_size 8)))
-		(line (pt 232 48)(pt 216 48)(line_width 3))
+		(text "LEDG[15..0]" (rect 176 43 243 57)(font "Arial" (font_size 8)))
+		(line (pt 264 48)(pt 248 48)(line_width 3))
 	)
 	(port
-		(pt 232 64)
+		(pt 264 64)
 		(output)
 		(text "HEX0[6..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
-		(text "HEX0[6..0]" (rect 152 59 211 73)(font "Arial" (font_size 8)))
-		(line (pt 232 64)(pt 216 64)(line_width 3))
+		(text "HEX0[6..0]" (rect 184 59 243 73)(font "Arial" (font_size 8)))
+		(line (pt 264 64)(pt 248 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 216 144))
+		(rectangle (rect 16 16 248 144))
 	)
 )
