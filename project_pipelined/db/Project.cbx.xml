@@ -23,6 +23,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX_2_15BIT:inst82|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|regfile:inst7|MUX_16BIT_16TO1:inst52|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_3qc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX2_1:inst15|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX_2_15BIT:inst83|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_m4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX_3TO1:inst46|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_doc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|regfile:inst7|MUX_16BIT_16TO1:inst53|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_3qc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|processor|regfile:inst7|ZERO:inst54|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_9k6.tdf"/>

@@ -46,6 +46,11 @@
 # view wave
 # .main_pane.wave.interior.cs.body.pw.wf
 # add wave clock
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dshriver  Hostname: CSELAB4-07  ProcessID: 2480
+#           Attempting to use alternate WLF file "./wlft8ha6df".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8ha6df
 # add wave reset
 # add wave -radix hex memout
 # add wave -radix hex PC_instr_addr
@@ -102,7 +107,7 @@
 # add wave dataMiss
 # add wave dataCacheStall
 # 
-# force key 1111 0
+# force key 1111 0, 1110 25000 -repeat 50000
 # force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000
 # force clock 1 0, 0 30 -repeat 60
 # 

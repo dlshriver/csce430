@@ -465,6 +465,7 @@ muxlut.inc
 ALU:inst12|MUX2_1:inst6|lpm_mux:lpm_mux_component
 ALU:inst12|MUX2_1:inst7|lpm_mux:lpm_mux_component
 MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component
+MUX_2_15BIT:inst83|lpm_mux:LPM_MUX_component
 MUX2_1:inst40|lpm_mux:lpm_mux_component
 MUX2_1:inst15|lpm_mux:lpm_mux_component
 }
@@ -634,6 +635,7 @@ data0
 ALU:inst12|MUX2_1:inst6|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 ALU:inst12|MUX2_1:inst7|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated
+MUX_2_15BIT:inst83|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated
 MUX2_1:inst40|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 }
@@ -2699,6 +2701,7 @@ ON
 }
 # hierarchies {
 MUX_2_15BIT:inst82
+MUX_2_15BIT:inst83
 }
 # macro_sequence
 
@@ -12196,66 +12199,6 @@ REG_1BIT_SCLR:inst91
 
 # end
 # entity
-dataCache
-# storage
-db|Project.(120).cnf
-db|Project.(120).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-datacache.vhd
-882b6b4ab52c16b2ea5d71331da62c3f
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-dataCache:inst4
-}
-# macro_sequence
-
-# end
-# entity
-instrCache
-# storage
-db|Project.(26).cnf
-db|Project.(26).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-instrcache.vhd
-8a41f961c53186077d18617515b4775
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-instrCache:inst62
-}
-# macro_sequence
-
-# end
-# entity
 IO_MemoryInterface
 # storage
 db|Project.(133).cnf
@@ -12283,7 +12226,7 @@ db|Project.(0).cnf
 # case_insensitive
 # source_file
 processor.bdf
-3d245e7f51516f5b7ea82628c765abfb
+877bb1204eedf73eb7855960611b50
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -12291,6 +12234,66 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+instrCache
+# storage
+db|Project.(26).cnf
+db|Project.(26).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+instrcache.vhd
+e249a864b7a5dc7afd6f18327a4d9b0
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+instrCache:inst62
+}
+# macro_sequence
+
+# end
+# entity
+dataCache
+# storage
+db|Project.(120).cnf
+db|Project.(120).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+datacache.vhd
+9808b96ac1f7edc8c9517547e19233
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+dataCache:inst4
 }
 # macro_sequence
 

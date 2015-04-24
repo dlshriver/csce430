@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Thu Apr 23 20:28:45 2015
+Thu Apr 23 21:29:10 2015
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
 
 
@@ -35,83 +35,84 @@ Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
  27. Parameter Settings for User Entity Instance: MUX_2_15BIT:inst82|LPM_MUX:LPM_MUX_component
  28. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst47|lpm_ff:lpm_ff_component
  29. Parameter Settings for User Entity Instance: PC:PC_reg|lpm_ff:lpm_ff_component
- 30. Parameter Settings for User Entity Instance: MUX_3TO1:inst6|LPM_MUX:lpm_mux_component
- 31. Parameter Settings for User Entity Instance: Adder:PC_adder|lpm_add_sub:lpm_add_sub_component
- 32. Parameter Settings for User Entity Instance: CONST_ONE:ONE|lpm_constant:LPM_CONSTANT_component
- 33. Parameter Settings for User Entity Instance: Adder:inst74|lpm_add_sub:lpm_add_sub_component
- 34. Parameter Settings for User Entity Instance: REG_16BIT_SCLR_ENBL:inst29|lpm_ff:lpm_ff_component
- 35. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst35|lpm_ff:lpm_ff_component
- 36. Parameter Settings for User Entity Instance: MUX_3TO1:inst13|LPM_MUX:lpm_mux_component
- 37. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst9|lpm_ff:lpm_ff_component
- 38. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst52|LPM_MUX:lpm_mux_component
- 39. Parameter Settings for User Entity Instance: regfile:inst7|ZERO:inst54|lpm_constant:LPM_CONSTANT_component
- 40. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component
- 41. Parameter Settings for User Entity Instance: regfile:inst7|DECODE_4TO16:inst|lpm_decode:lpm_decode_component
- 42. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg11|lpm_ff:lpm_ff_component
- 43. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg12|lpm_ff:lpm_ff_component
- 44. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg13|lpm_ff:lpm_ff_component
- 45. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg14|lpm_ff:lpm_ff_component
- 46. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg15|lpm_ff:lpm_ff_component
- 47. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg1|lpm_ff:lpm_ff_component
- 48. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg2|lpm_ff:lpm_ff_component
- 49. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg3|lpm_ff:lpm_ff_component
- 50. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg4|lpm_ff:lpm_ff_component
- 51. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg5|lpm_ff:lpm_ff_component
- 52. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg6|lpm_ff:lpm_ff_component
- 53. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg7|lpm_ff:lpm_ff_component
- 54. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg8|lpm_ff:lpm_ff_component
- 55. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg9|lpm_ff:lpm_ff_component
- 56. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst53|LPM_MUX:lpm_mux_component
- 57. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst64|lpm_ff:lpm_ff_component
- 58. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst52|lpm_ff:lpm_ff_component
- 59. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst24|lpm_ff:lpm_ff_component
- 60. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst45|lpm_ff:lpm_ff_component
- 61. Parameter Settings for User Entity Instance: MUX_3TO1:inst46|LPM_MUX:lpm_mux_component
- 62. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst33|lpm_ff:lpm_ff_component
- 63. Parameter Settings for User Entity Instance: MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component
- 64. Parameter Settings for User Entity Instance: MUX2_1:inst40|LPM_MUX:lpm_mux_component
- 65. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component
- 66. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component
- 67. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst42|lpm_ff:lpm_ff_component
- 68. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst20|lpm_ff:lpm_ff_component
- 69. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst60|lpm_ff:lpm_ff_component
- 70. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst59|lpm_ff:lpm_ff_component
- 71. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst31|lpm_ff:lpm_ff_component
- 72. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst34|lpm_ff:lpm_ff_component
- 73. Parameter Settings for User Entity Instance: MUX_3TO1:inst14|LPM_MUX:lpm_mux_component
- 74. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst10|lpm_ff:lpm_ff_component
- 75. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component
- 76. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst63|lpm_ff:lpm_ff_component
- 77. Parameter Settings for User Entity Instance: MUX4BIT_3TO1:inst5|LPM_MUX:lpm_mux_component
- 78. Parameter Settings for User Entity Instance: FIFTEENCONST:LINK|lpm_constant:lpm_constant_component
- 79. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst22|lpm_ff:lpm_ff_component
- 80. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component
- 81. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|MUX16to1:inst|LPM_MUX:LPM_MUX_component
- 82. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component
- 83. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component
- 84. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:HEX_DISPLAY|lpm_ff:lpm_ff_component
- 85. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:LED|lpm_ff:lpm_ff_component
- 86. Parameter Settings for User Entity Instance: Counter:inst90|lpm_counter:LPM_COUNTER_component
- 87. Parameter Settings for User Entity Instance: Counter:inst89|lpm_counter:LPM_COUNTER_component
- 88. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst51|lpm_ff:lpm_ff_component
- 89. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst23|lpm_ff:lpm_ff_component
- 90. Parameter Settings for User Entity Instance: PC:PC_reg1|lpm_ff:lpm_ff_component
- 91. Parameter Settings for User Entity Instance: REG_1BIT:inst55|lpm_ff:lpm_ff_component
- 92. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst28|lpm_ff:lpm_ff_component
- 93. Parameter Settings for User Entity Instance: REG_1BIT:inst54|lpm_ff:lpm_ff_component
- 94. Parameter Settings for User Entity Instance: REG_1BIT:inst19|lpm_ff:lpm_ff_component
- 95. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst27|lpm_ff:lpm_ff_component
- 96. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst21|lpm_ff:lpm_ff_component
- 97. Parameter Settings for User Entity Instance: MUX2_1:inst15|LPM_MUX:lpm_mux_component
- 98. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst25|lpm_ff:lpm_ff_component
- 99. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component
-100. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst41|lpm_ff:lpm_ff_component
-101. Parameter Settings for User Entity Instance: Adder:inst3|lpm_add_sub:lpm_add_sub_component
-102. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst36|lpm_ff:lpm_ff_component
-103. Parameter Settings for User Entity Instance: ZERO:inst66|lpm_constant:LPM_CONSTANT_component
-104. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst91|lpm_ff:lpm_ff_component
-105. Elapsed Time Per Partition
-106. Analysis & Synthesis Messages
+ 30. Parameter Settings for User Entity Instance: MUX_2_15BIT:inst83|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: MUX_3TO1:inst6|LPM_MUX:lpm_mux_component
+ 32. Parameter Settings for User Entity Instance: Adder:PC_adder|lpm_add_sub:lpm_add_sub_component
+ 33. Parameter Settings for User Entity Instance: CONST_ONE:ONE|lpm_constant:LPM_CONSTANT_component
+ 34. Parameter Settings for User Entity Instance: Adder:inst74|lpm_add_sub:lpm_add_sub_component
+ 35. Parameter Settings for User Entity Instance: REG_16BIT_SCLR_ENBL:inst29|lpm_ff:lpm_ff_component
+ 36. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst35|lpm_ff:lpm_ff_component
+ 37. Parameter Settings for User Entity Instance: MUX_3TO1:inst13|LPM_MUX:lpm_mux_component
+ 38. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst9|lpm_ff:lpm_ff_component
+ 39. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst52|LPM_MUX:lpm_mux_component
+ 40. Parameter Settings for User Entity Instance: regfile:inst7|ZERO:inst54|lpm_constant:LPM_CONSTANT_component
+ 41. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component
+ 42. Parameter Settings for User Entity Instance: regfile:inst7|DECODE_4TO16:inst|lpm_decode:lpm_decode_component
+ 43. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg11|lpm_ff:lpm_ff_component
+ 44. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg12|lpm_ff:lpm_ff_component
+ 45. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg13|lpm_ff:lpm_ff_component
+ 46. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg14|lpm_ff:lpm_ff_component
+ 47. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg15|lpm_ff:lpm_ff_component
+ 48. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg1|lpm_ff:lpm_ff_component
+ 49. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg2|lpm_ff:lpm_ff_component
+ 50. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg3|lpm_ff:lpm_ff_component
+ 51. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg4|lpm_ff:lpm_ff_component
+ 52. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg5|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg6|lpm_ff:lpm_ff_component
+ 54. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg7|lpm_ff:lpm_ff_component
+ 55. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg8|lpm_ff:lpm_ff_component
+ 56. Parameter Settings for User Entity Instance: regfile:inst7|DFF_16BIT:Reg9|lpm_ff:lpm_ff_component
+ 57. Parameter Settings for User Entity Instance: regfile:inst7|MUX_16BIT_16TO1:inst53|LPM_MUX:lpm_mux_component
+ 58. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst64|lpm_ff:lpm_ff_component
+ 59. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst52|lpm_ff:lpm_ff_component
+ 60. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst24|lpm_ff:lpm_ff_component
+ 61. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst45|lpm_ff:lpm_ff_component
+ 62. Parameter Settings for User Entity Instance: MUX_3TO1:inst46|LPM_MUX:lpm_mux_component
+ 63. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst33|lpm_ff:lpm_ff_component
+ 64. Parameter Settings for User Entity Instance: MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component
+ 65. Parameter Settings for User Entity Instance: MUX2_1:inst40|LPM_MUX:lpm_mux_component
+ 66. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component
+ 67. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component
+ 68. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst42|lpm_ff:lpm_ff_component
+ 69. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst20|lpm_ff:lpm_ff_component
+ 70. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst60|lpm_ff:lpm_ff_component
+ 71. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst59|lpm_ff:lpm_ff_component
+ 72. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst31|lpm_ff:lpm_ff_component
+ 73. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst34|lpm_ff:lpm_ff_component
+ 74. Parameter Settings for User Entity Instance: MUX_3TO1:inst14|LPM_MUX:lpm_mux_component
+ 75. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst10|lpm_ff:lpm_ff_component
+ 76. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component
+ 77. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst63|lpm_ff:lpm_ff_component
+ 78. Parameter Settings for User Entity Instance: MUX4BIT_3TO1:inst5|LPM_MUX:lpm_mux_component
+ 79. Parameter Settings for User Entity Instance: FIFTEENCONST:LINK|lpm_constant:lpm_constant_component
+ 80. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst22|lpm_ff:lpm_ff_component
+ 81. Parameter Settings for User Entity Instance: REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component
+ 82. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|MUX16to1:inst|LPM_MUX:LPM_MUX_component
+ 83. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component
+ 84. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component
+ 85. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:HEX_DISPLAY|lpm_ff:lpm_ff_component
+ 86. Parameter Settings for User Entity Instance: IO_MemoryInterface:inst37|Reg_16:LED|lpm_ff:lpm_ff_component
+ 87. Parameter Settings for User Entity Instance: Counter:inst90|lpm_counter:LPM_COUNTER_component
+ 88. Parameter Settings for User Entity Instance: Counter:inst89|lpm_counter:LPM_COUNTER_component
+ 89. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst51|lpm_ff:lpm_ff_component
+ 90. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst23|lpm_ff:lpm_ff_component
+ 91. Parameter Settings for User Entity Instance: PC:PC_reg1|lpm_ff:lpm_ff_component
+ 92. Parameter Settings for User Entity Instance: REG_1BIT:inst55|lpm_ff:lpm_ff_component
+ 93. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst28|lpm_ff:lpm_ff_component
+ 94. Parameter Settings for User Entity Instance: REG_1BIT:inst54|lpm_ff:lpm_ff_component
+ 95. Parameter Settings for User Entity Instance: REG_1BIT:inst19|lpm_ff:lpm_ff_component
+ 96. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst27|lpm_ff:lpm_ff_component
+ 97. Parameter Settings for User Entity Instance: REG_2BIT_SCLR:inst21|lpm_ff:lpm_ff_component
+ 98. Parameter Settings for User Entity Instance: MUX2_1:inst15|LPM_MUX:lpm_mux_component
+ 99. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst25|lpm_ff:lpm_ff_component
+100. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component
+101. Parameter Settings for User Entity Instance: REG_24BIT_SCLR:inst41|lpm_ff:lpm_ff_component
+102. Parameter Settings for User Entity Instance: Adder:inst3|lpm_add_sub:lpm_add_sub_component
+103. Parameter Settings for User Entity Instance: REG_16BIT_SCLR:inst36|lpm_ff:lpm_ff_component
+104. Parameter Settings for User Entity Instance: ZERO:inst66|lpm_constant:LPM_CONSTANT_component
+105. Parameter Settings for User Entity Instance: REG_1BIT_SCLR:inst91|lpm_ff:lpm_ff_component
+106. Elapsed Time Per Partition
+107. Analysis & Synthesis Messages
 
 
 
@@ -137,13 +138,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 23 20:28:45 2015          ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 23 21:29:10 2015          ;
 ; Quartus II Version                 ; 11.0 Build 208 07/03/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; Project                                        ;
 ; Top-level Entity Name              ; processor                                      ;
 ; Family                             ; Cyclone II                                     ;
-; Total logic elements               ; 10,118                                         ;
-;     Total combinational functions  ; 5,036                                          ;
+; Total logic elements               ; 10,115                                         ;
+;     Total combinational functions  ; 5,033                                          ;
 ;     Dedicated logic registers      ; 5,456                                          ;
 ; Total registers                    ; 5456                                           ;
 ; Total pins                         ; 457                                            ;
@@ -345,17 +346,17 @@ applicable agreement for further details.
 +---------------------------------------------+--------+
 ; Resource                                    ; Usage  ;
 +---------------------------------------------+--------+
-; Estimated Total logic elements              ; 10,118 ;
+; Estimated Total logic elements              ; 10,115 ;
 ;                                             ;        ;
-; Total combinational functions               ; 5036   ;
+; Total combinational functions               ; 5033   ;
 ; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 4409   ;
-;     -- 3 input functions                    ; 267    ;
-;     -- <=2 input functions                  ; 360    ;
+;     -- 4 input functions                    ; 4401   ;
+;     -- 3 input functions                    ; 317    ;
+;     -- <=2 input functions                  ; 315    ;
 ;                                             ;        ;
 ; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 4859   ;
-;     -- arithmetic mode                      ; 177    ;
+;     -- normal mode                          ; 4852   ;
+;     -- arithmetic mode                      ; 181    ;
 ;                                             ;        ;
 ; Total registers                             ; 5456   ;
 ;     -- Dedicated logic registers            ; 5456   ;
@@ -364,8 +365,8 @@ applicable agreement for further details.
 ; I/O pins                                    ; 457    ;
 ; Maximum fan-out node                        ; clock  ;
 ; Maximum fan-out                             ; 5456   ;
-; Total fan-out                               ; 36244  ;
-; Average fan-out                             ; 3.31   ;
+; Total fan-out                               ; 36408  ;
+; Average fan-out                             ; 3.33   ;
 +---------------------------------------------+--------+
 
 
@@ -374,7 +375,7 @@ applicable agreement for further details.
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                 ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
-; |processor                                ; 5036 (8)          ; 5456 (0)     ; 0           ; 0            ; 0       ; 0         ; 457  ; 0            ; |processor                                                                                          ;              ;
+; |processor                                ; 5033 (8)          ; 5456 (0)     ; 0           ; 0            ; 0       ; 0         ; 457  ; 0            ; |processor                                                                                          ;              ;
 ;    |ALU:inst12|                           ; 104 (11)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12                                                                               ;              ;
 ;       |FA16BIT:inst20|                    ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20                                                                ;              ;
 ;          |FA1BIT:inst10|                  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20|FA1BIT:inst10                                                  ;              ;
@@ -412,7 +413,7 @@ applicable agreement for further details.
 ;       |lpm_counter:LPM_COUNTER_component| ; 16 (0)            ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|Counter:inst90|lpm_counter:LPM_COUNTER_component                                         ;              ;
 ;          |cntr_bpi:auto_generated|        ; 16 (16)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|Counter:inst90|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated                 ;              ;
 ;    |ForwardingUnit:inst71|                ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ForwardingUnit:inst71                                                                    ;              ;
-;    |HazardDetectionUnit:inst67|           ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|HazardDetectionUnit:inst67                                                               ;              ;
+;    |HazardDetectionUnit:inst67|           ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|HazardDetectionUnit:inst67                                                               ;              ;
 ;    |IO_MemoryInterface:inst37|            ; 34 (0)            ; 14 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37                                                                ;              ;
 ;       |MUX16to1:inst|                     ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|MUX16to1:inst                                                  ;              ;
 ;          |lpm_mux:LPM_MUX_component|      ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|MUX16to1:inst|lpm_mux:LPM_MUX_component                        ;              ;
@@ -430,18 +431,18 @@ applicable agreement for further details.
 ;    |MUX_2_15BIT:inst82|                   ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82                                                                       ;              ;
 ;       |lpm_mux:LPM_MUX_component|         ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component                                             ;              ;
 ;          |mux_m4e:auto_generated|         ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated                      ;              ;
-;    |MUX_2_24BIT:inst44|                   ; 68 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44                                                                       ;              ;
-;       |lpm_mux:LPM_MUX_component|         ; 68 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component                                             ;              ;
-;          |mux_l4e:auto_generated|         ; 68 (68)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated                      ;              ;
-;    |MUX_3TO1:inst13|                      ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                          ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                                ;              ;
-;          |mux_doc:auto_generated|         ; 36 (36)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
-;    |MUX_3TO1:inst14|                      ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14                                                                          ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component                                                ;              ;
-;          |mux_doc:auto_generated|         ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
-;    |MUX_3TO1:inst46|                      ; 39 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                          ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 39 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                                ;              ;
-;          |mux_doc:auto_generated|         ; 39 (39)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
+;    |MUX_2_24BIT:inst44|                   ; 67 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44                                                                       ;              ;
+;       |lpm_mux:LPM_MUX_component|         ; 67 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component                                             ;              ;
+;          |mux_l4e:auto_generated|         ; 67 (67)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated                      ;              ;
+;    |MUX_3TO1:inst13|                      ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                          ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                                ;              ;
+;          |mux_doc:auto_generated|         ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
+;    |MUX_3TO1:inst14|                      ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14                                                                          ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component                                                ;              ;
+;          |mux_doc:auto_generated|         ; 36 (36)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
+;    |MUX_3TO1:inst46|                      ; 38 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                          ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 38 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                                ;              ;
+;          |mux_doc:auto_generated|         ; 38 (38)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
 ;    |MUX_3TO1:inst6|                       ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6                                                                           ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component                                                 ;              ;
 ;          |mux_doc:auto_generated|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component|mux_doc:auto_generated                          ;              ;
@@ -510,8 +511,8 @@ applicable agreement for further details.
 ;    |REG_4BIT_SCLR:inst65|                 ; 0 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65                                                                     ;              ;
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component                                             ;              ;
 ;    |control_unit_230:inst8|               ; 42 (42)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|control_unit_230:inst8                                                                   ;              ;
-;    |dataCache:inst4|                      ; 1707 (1707)       ; 1865 (1865)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|dataCache:inst4                                                                          ;              ;
-;    |instrCache:inst62|                    ; 2429 (2429)       ; 3049 (3049)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instrCache:inst62                                                                        ;              ;
+;    |dataCache:inst4|                      ; 1706 (1706)       ; 1865 (1865)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|dataCache:inst4                                                                          ;              ;
+;    |instrCache:inst62|                    ; 2430 (2430)       ; 3049 (3049)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instrCache:inst62                                                                        ;              ;
 ;    |regfile:inst7|                        ; 394 (21)          ; 240 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7                                                                            ;              ;
 ;       |DFF_16BIT:Reg10|                   ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7|DFF_16BIT:Reg10                                                            ;              ;
 ;          |lpm_ff:lpm_ff_component|        ; 0 (0)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7|DFF_16BIT:Reg10|lpm_ff:lpm_ff_component                                    ;              ;
@@ -624,9 +625,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; REG_1BIT_SCLR:inst30|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
 ; REG_1BIT_SCLR:inst58|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
 ; REG_1BIT_SCLR:inst26|lpm_ff:lpm_ff_component|dffs[0]                             ; Stuck at GND due to stuck port data_in                             ;
+; dataCache:inst4|missCount[0]                                                     ; Merged with dataCache:inst4|miss[0]                                ;
+; dataCache:inst4|missCount[1]                                                     ; Merged with dataCache:inst4|miss[1]                                ;
+; dataCache:inst4|missCount[2]                                                     ; Merged with dataCache:inst4|miss[2]                                ;
+; dataCache:inst4|missCount[3]                                                     ; Merged with dataCache:inst4|miss[3]                                ;
+; dataCache:inst4|missCount[4]                                                     ; Merged with dataCache:inst4|miss[4]                                ;
+; dataCache:inst4|missCount[5]                                                     ; Merged with dataCache:inst4|miss[5]                                ;
+; dataCache:inst4|missCount[6]                                                     ; Merged with dataCache:inst4|miss[6]                                ;
+; dataCache:inst4|missCount[7]                                                     ; Merged with dataCache:inst4|miss[7]                                ;
+; dataCache:inst4|missCount[8]                                                     ; Merged with dataCache:inst4|miss[8]                                ;
+; dataCache:inst4|missCount[9]                                                     ; Merged with dataCache:inst4|miss[9]                                ;
+; dataCache:inst4|missCount[10]                                                    ; Merged with dataCache:inst4|miss[10]                               ;
+; dataCache:inst4|missCount[11]                                                    ; Merged with dataCache:inst4|miss[11]                               ;
+; dataCache:inst4|missCount[12]                                                    ; Merged with dataCache:inst4|miss[12]                               ;
+; dataCache:inst4|missCount[13]                                                    ; Merged with dataCache:inst4|miss[13]                               ;
+; dataCache:inst4|missCount[14]                                                    ; Merged with dataCache:inst4|miss[14]                               ;
+; dataCache:inst4|missCount[15]                                                    ; Merged with dataCache:inst4|miss[15]                               ;
 ; dataCache:inst4|hitCount[0]                                                      ; Merged with dataCache:inst4|hit[0]                                 ;
 ; dataCache:inst4|hitCount[1]                                                      ; Merged with dataCache:inst4|hit[1]                                 ;
-; dataCache:inst4|hitCount[2]                                                      ; Merged with dataCache:inst4|hit[2]                                 ;
 ; dataCache:inst4|hitCount[3]                                                      ; Merged with dataCache:inst4|hit[3]                                 ;
 ; dataCache:inst4|hitCount[4]                                                      ; Merged with dataCache:inst4|hit[4]                                 ;
 ; dataCache:inst4|hitCount[5]                                                      ; Merged with dataCache:inst4|hit[5]                                 ;
@@ -638,21 +654,33 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; dataCache:inst4|hitCount[11]                                                     ; Merged with dataCache:inst4|hit[11]                                ;
 ; dataCache:inst4|hitCount[12]                                                     ; Merged with dataCache:inst4|hit[12]                                ;
 ; dataCache:inst4|hitCount[13]                                                     ; Merged with dataCache:inst4|hit[13]                                ;
-; dataCache:inst4|hitCount[14]                                                     ; Merged with dataCache:inst4|hit[14]                                ;
 ; dataCache:inst4|hitCount[15]                                                     ; Merged with dataCache:inst4|hit[15]                                ;
+; instrCache:inst62|missCount[0]                                                   ; Merged with instrCache:inst62|miss[0]                              ;
+; instrCache:inst62|missCount[1]                                                   ; Merged with instrCache:inst62|miss[1]                              ;
+; instrCache:inst62|missCount[2]                                                   ; Merged with instrCache:inst62|miss[2]                              ;
+; instrCache:inst62|missCount[3]                                                   ; Merged with instrCache:inst62|miss[3]                              ;
+; instrCache:inst62|missCount[4]                                                   ; Merged with instrCache:inst62|miss[4]                              ;
+; instrCache:inst62|missCount[5]                                                   ; Merged with instrCache:inst62|miss[5]                              ;
+; instrCache:inst62|missCount[6]                                                   ; Merged with instrCache:inst62|miss[6]                              ;
+; instrCache:inst62|missCount[7]                                                   ; Merged with instrCache:inst62|miss[7]                              ;
+; instrCache:inst62|missCount[8]                                                   ; Merged with instrCache:inst62|miss[8]                              ;
+; instrCache:inst62|missCount[9]                                                   ; Merged with instrCache:inst62|miss[9]                              ;
+; instrCache:inst62|missCount[10]                                                  ; Merged with instrCache:inst62|miss[10]                             ;
+; instrCache:inst62|missCount[11]                                                  ; Merged with instrCache:inst62|miss[11]                             ;
+; instrCache:inst62|missCount[12]                                                  ; Merged with instrCache:inst62|miss[12]                             ;
+; instrCache:inst62|missCount[13]                                                  ; Merged with instrCache:inst62|miss[13]                             ;
+; instrCache:inst62|missCount[14]                                                  ; Merged with instrCache:inst62|miss[14]                             ;
+; instrCache:inst62|missCount[15]                                                  ; Merged with instrCache:inst62|miss[15]                             ;
 ; instrCache:inst62|hitCount[0]                                                    ; Merged with instrCache:inst62|hit[0]                               ;
 ; instrCache:inst62|hitCount[1]                                                    ; Merged with instrCache:inst62|hit[1]                               ;
 ; instrCache:inst62|hitCount[2]                                                    ; Merged with instrCache:inst62|hit[2]                               ;
 ; instrCache:inst62|hitCount[3]                                                    ; Merged with instrCache:inst62|hit[3]                               ;
-; instrCache:inst62|hitCount[4]                                                    ; Merged with instrCache:inst62|hit[4]                               ;
-; instrCache:inst62|hitCount[5]                                                    ; Merged with instrCache:inst62|hit[5]                               ;
 ; instrCache:inst62|hitCount[6]                                                    ; Merged with instrCache:inst62|hit[6]                               ;
 ; instrCache:inst62|hitCount[7]                                                    ; Merged with instrCache:inst62|hit[7]                               ;
 ; instrCache:inst62|hitCount[8]                                                    ; Merged with instrCache:inst62|hit[8]                               ;
 ; instrCache:inst62|hitCount[9]                                                    ; Merged with instrCache:inst62|hit[9]                               ;
 ; instrCache:inst62|hitCount[10]                                                   ; Merged with instrCache:inst62|hit[10]                              ;
 ; instrCache:inst62|hitCount[11]                                                   ; Merged with instrCache:inst62|hit[11]                              ;
-; instrCache:inst62|hitCount[12]                                                   ; Merged with instrCache:inst62|hit[12]                              ;
 ; instrCache:inst62|hitCount[13]                                                   ; Merged with instrCache:inst62|hit[13]                              ;
 ; instrCache:inst62|hitCount[14]                                                   ; Merged with instrCache:inst62|hit[14]                              ;
 ; instrCache:inst62|hitCount[15]                                                   ; Merged with instrCache:inst62|hit[15]                              ;
@@ -664,38 +692,11 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component|dffs[3]                            ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[2]  ;
 ; REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component|dffs[2]                            ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[1]  ;
 ; REG_24BIT_SCLR:inst18|lpm_ff:lpm_ff_component|dffs[1]                            ; Merged with REG_16BIT_SCLR:inst17|lpm_ff:lpm_ff_component|dffs[0]  ;
-; dataCache:inst4|miss[5]                                                          ; Merged with dataCache:inst4|missCount[5]                           ;
-; dataCache:inst4|miss[4]                                                          ; Merged with dataCache:inst4|missCount[4]                           ;
-; dataCache:inst4|miss[3]                                                          ; Merged with dataCache:inst4|missCount[3]                           ;
-; dataCache:inst4|miss[2]                                                          ; Merged with dataCache:inst4|missCount[2]                           ;
-; dataCache:inst4|miss[1]                                                          ; Merged with dataCache:inst4|missCount[1]                           ;
-; dataCache:inst4|miss[0]                                                          ; Merged with dataCache:inst4|missCount[0]                           ;
-; dataCache:inst4|miss[6]                                                          ; Merged with dataCache:inst4|missCount[6]                           ;
-; dataCache:inst4|miss[7]                                                          ; Merged with dataCache:inst4|missCount[7]                           ;
-; dataCache:inst4|miss[8]                                                          ; Merged with dataCache:inst4|missCount[8]                           ;
-; dataCache:inst4|miss[9]                                                          ; Merged with dataCache:inst4|missCount[9]                           ;
-; dataCache:inst4|miss[10]                                                         ; Merged with dataCache:inst4|missCount[10]                          ;
-; dataCache:inst4|miss[11]                                                         ; Merged with dataCache:inst4|missCount[11]                          ;
-; dataCache:inst4|miss[12]                                                         ; Merged with dataCache:inst4|missCount[12]                          ;
-; dataCache:inst4|miss[13]                                                         ; Merged with dataCache:inst4|missCount[13]                          ;
-; dataCache:inst4|miss[14]                                                         ; Merged with dataCache:inst4|missCount[14]                          ;
-; dataCache:inst4|miss[15]                                                         ; Merged with dataCache:inst4|missCount[15]                          ;
-; instrCache:inst62|miss[2]                                                        ; Merged with instrCache:inst62|missCount[2]                         ;
-; instrCache:inst62|miss[1]                                                        ; Merged with instrCache:inst62|missCount[1]                         ;
-; instrCache:inst62|miss[0]                                                        ; Merged with instrCache:inst62|missCount[0]                         ;
-; instrCache:inst62|miss[3]                                                        ; Merged with instrCache:inst62|missCount[3]                         ;
-; instrCache:inst62|miss[4]                                                        ; Merged with instrCache:inst62|missCount[4]                         ;
-; instrCache:inst62|miss[5]                                                        ; Merged with instrCache:inst62|missCount[5]                         ;
-; instrCache:inst62|miss[6]                                                        ; Merged with instrCache:inst62|missCount[6]                         ;
-; instrCache:inst62|miss[7]                                                        ; Merged with instrCache:inst62|missCount[7]                         ;
-; instrCache:inst62|miss[8]                                                        ; Merged with instrCache:inst62|missCount[8]                         ;
-; instrCache:inst62|miss[9]                                                        ; Merged with instrCache:inst62|missCount[9]                         ;
-; instrCache:inst62|miss[10]                                                       ; Merged with instrCache:inst62|missCount[10]                        ;
-; instrCache:inst62|miss[11]                                                       ; Merged with instrCache:inst62|missCount[11]                        ;
-; instrCache:inst62|miss[12]                                                       ; Merged with instrCache:inst62|missCount[12]                        ;
-; instrCache:inst62|miss[13]                                                       ; Merged with instrCache:inst62|missCount[13]                        ;
-; instrCache:inst62|miss[14]                                                       ; Merged with instrCache:inst62|missCount[14]                        ;
-; instrCache:inst62|miss[15]                                                       ; Merged with instrCache:inst62|missCount[15]                        ;
+; dataCache:inst4|hitCount[2]                                                      ; Merged with dataCache:inst4|hit[2]                                 ;
+; dataCache:inst4|hitCount[14]                                                     ; Merged with dataCache:inst4|hit[14]                                ;
+; instrCache:inst62|hitCount[4]                                                    ; Merged with instrCache:inst62|hit[4]                               ;
+; instrCache:inst62|hitCount[5]                                                    ; Merged with instrCache:inst62|hit[5]                               ;
+; instrCache:inst62|hitCount[12]                                                   ; Merged with instrCache:inst62|hit[12]                              ;
 ; dataCache:inst4|set1~47                                                          ; Stuck at GND due to stuck port data_in                             ;
 ; dataCache:inst4|set1~71                                                          ; Stuck at GND due to stuck port data_in                             ;
 ; dataCache:inst4|set1~95                                                          ; Stuck at GND due to stuck port data_in                             ;
@@ -5048,134 +5049,134 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; dataCache:inst4|set2~3048                                                        ; Stuck at GND due to stuck port data_in                             ;
 ; dataCache:inst4|set2~3072                                                        ; Stuck at GND due to stuck port data_in                             ;
 ; dataCache:inst4|set2~3096                                                        ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~76                                                        ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~52                                                        ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~124                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~76                                                        ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~100                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~172                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~124                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~148                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~220                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~172                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~196                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~268                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~220                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~244                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~316                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~268                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~292                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~364                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~316                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~340                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~412                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~364                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~388                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~460                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~412                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~436                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~508                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~460                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~484                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~556                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~508                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~532                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~604                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~556                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~580                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~652                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~604                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~628                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~700                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~652                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~676                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~748                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~700                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~724                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~796                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~748                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~772                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~844                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~796                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~820                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~892                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~844                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~868                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~940                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~892                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~916                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~988                                                       ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~940                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~964                                                       ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1036                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~988                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1012                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1084                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1036                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1060                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1132                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1084                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1108                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1180                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1132                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1156                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1228                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1180                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1204                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1276                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1228                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1252                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1324                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1276                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1300                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1372                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1324                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1348                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1420                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1372                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1396                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1468                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1420                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1444                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1516                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1468                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1492                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1564                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1516                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1540                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1612                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1564                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1588                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1660                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1612                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1636                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1708                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1660                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1684                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1756                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1708                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1732                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1804                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1756                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1780                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1852                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1804                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1828                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1900                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1852                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1876                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1948                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1900                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1924                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~1996                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1948                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~1972                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2044                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~1996                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2020                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2092                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2044                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2068                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2140                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2092                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2116                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2188                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2140                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2164                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2236                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2188                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2212                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2284                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2236                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2260                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2332                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2284                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2308                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2380                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2332                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2356                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2428                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2380                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2404                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2476                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2428                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2452                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2524                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2476                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2500                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2572                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2524                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2548                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2620                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2572                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2596                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2668                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2620                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2644                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2716                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2668                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2692                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2764                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2716                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2740                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2812                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2764                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2788                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2860                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2812                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2836                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2908                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2860                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2884                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~2956                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2908                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2932                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~3004                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~2956                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~2980                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~3052                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~3004                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~3028                                                      ; Stuck at GND due to stuck port data_in                             ;
-; instrCache:inst62|set1~3100                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~3052                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|set1~3076                                                      ; Stuck at GND due to stuck port data_in                             ;
+; instrCache:inst62|set1~3100                                                      ; Stuck at GND due to stuck port data_in                             ;
 ; dataCache:inst4|data_out[7..23]                                                  ; Stuck at GND due to stuck port data_in                             ;
 ; instrCache:inst62|data[20]                                                       ; Stuck at GND due to stuck port data_in                             ;
 ; REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_component|dffs[20]                      ; Stuck at GND due to stuck port data_in                             ;
@@ -5216,11 +5217,11 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 5456  ;
-; Number of registers using Synchronous Clear  ; 220   ;
+; Number of registers using Synchronous Clear  ; 366   ;
 ; Number of registers using Synchronous Load   ; 39    ;
 ; Number of registers using Asynchronous Clear ; 240   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 5237  ;
+; Number of registers using Clock Enable       ; 5226  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -5230,38 +5231,43 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +-----------------------------------------+---------+
 ; Inverted Register                       ; Fan out ;
 +-----------------------------------------+---------+
-; instrCache:inst62|prevAddr[1]           ; 2       ;
-; instrCache:inst62|prevAddr[0]           ; 2       ;
-; instrCache:inst62|prevAddr[3]           ; 2       ;
-; instrCache:inst62|prevAddr[2]           ; 2       ;
-; instrCache:inst62|prevAddr[5]           ; 2       ;
-; instrCache:inst62|prevAddr[4]           ; 2       ;
-; instrCache:inst62|prevAddr[7]           ; 2       ;
-; instrCache:inst62|prevAddr[6]           ; 2       ;
-; instrCache:inst62|prevAddr[9]           ; 2       ;
-; instrCache:inst62|prevAddr[8]           ; 2       ;
-; instrCache:inst62|prevAddr[11]          ; 2       ;
-; instrCache:inst62|prevAddr[10]          ; 2       ;
-; instrCache:inst62|prevAddr[13]          ; 2       ;
-; instrCache:inst62|prevAddr[12]          ; 2       ;
-; instrCache:inst62|prevAddr[15]          ; 2       ;
-; instrCache:inst62|prevAddr[14]          ; 2       ;
+; instrCache:inst62|prevAddr[1]           ; 1       ;
+; instrCache:inst62|prevAddr[0]           ; 1       ;
+; instrCache:inst62|prevAddr[3]           ; 1       ;
+; instrCache:inst62|prevAddr[2]           ; 1       ;
+; instrCache:inst62|prevAddr[5]           ; 1       ;
+; instrCache:inst62|prevAddr[4]           ; 1       ;
+; instrCache:inst62|prevAddr[6]           ; 1       ;
+; instrCache:inst62|prevAddr[7]           ; 1       ;
+; instrCache:inst62|prevAddr[9]           ; 1       ;
+; instrCache:inst62|prevAddr[8]           ; 1       ;
+; instrCache:inst62|prevAddr[11]          ; 1       ;
+; instrCache:inst62|prevAddr[10]          ; 1       ;
+; instrCache:inst62|prevAddr[13]          ; 1       ;
+; instrCache:inst62|prevAddr[12]          ; 1       ;
+; instrCache:inst62|prevAddr[15]          ; 1       ;
+; instrCache:inst62|prevAddr[14]          ; 1       ;
 ; Total number of inverted registers = 16 ;         ;
 +-----------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                                  ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------+----------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|PC:PC_reg|lpm_ff:lpm_ff_component|dffs[3]                                        ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[10] ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[2]  ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[14] ;                            ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |processor|dataCache:inst4|set1                                                             ;                            ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|control_unit_230:inst8|y_select[0]                                               ;                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------+----------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------------------------------------------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                                 ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------------------------------------------------+----------------------------+
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |processor|instrCache:inst62|hitCount[28]                                                  ;                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |processor|instrCache:inst62|missCount[25]                                                 ;                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; |processor|dataCache:inst4|hit[0]                                                          ;                            ;
+; 3:1                ; 64 bits   ; 128 LEs       ; 64 LEs               ; 64 LEs                 ; |processor|dataCache:inst4|stallCount[21]                                                  ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |processor|instrCache:inst62|prevAddr[1]                                                   ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[3] ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[7]  ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[8] ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated|result_node[6] ;                            ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|control_unit_230:inst8|y_select[0]                                              ;                            ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; |processor|dataCache:inst4|set1                                                            ;                            ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------------------------------------------------+----------------------------+
 
 
 +--------------------------------------------------------------------------------------+
@@ -5520,6 +5526,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                             ;
 ; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                           ;
 +------------------------+------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX_2_15BIT:inst83|LPM_MUX:LPM_MUX_component ;
++------------------------+------------+-----------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                ;
++------------------------+------------+-----------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                        ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                      ;
+; LPM_WIDTH              ; 16         ; Signed Integer                                      ;
+; LPM_SIZE               ; 2          ; Signed Integer                                      ;
+; LPM_WIDTHS             ; 1          ; Signed Integer                                      ;
+; LPM_PIPELINE           ; 0          ; Signed Integer                                      ;
+; CBXI_PARAMETER         ; mux_m4e    ; Untyped                                             ;
+; DEVICE_FAMILY          ; Cyclone II ; Untyped                                             ;
++------------------------+------------+-----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -6972,7 +6997,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:28     ;
+; Top            ; 00:00:29     ;
 +----------------+--------------+
 
 
@@ -6982,7 +7007,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Apr 23 20:28:09 2015
+    Info: Processing started: Thu Apr 23 21:28:34 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info: Found 2 design units, including 1 entities, in source file counter.vhd
@@ -7223,7 +7248,7 @@ Info: Instantiated megafunction "REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_compon
     Info: Parameter "LPM_WIDTH" = "24"
     Info: Parameter "LPM_FFTYPE" = "DFF"
 Info: Elaborating entity "instrCache" for hierarchy "instrCache:inst62"
-Warning (10541): VHDL Signal Declaration warning at instrCache.vhd(23): used implicit default value for signal "ram" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at instrCache.vhd(24): used implicit default value for signal "ram" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info: Elaborating entity "MUX_2_15BIT" for hierarchy "MUX_2_15BIT:inst82"
 Info: Elaborating entity "PC" for hierarchy "PC:PC_reg"
 Info: Elaborating entity "lpm_ff" for hierarchy "PC:PC_reg|lpm_ff:lpm_ff_component"
@@ -7334,7 +7359,7 @@ Info: Found 1 design units, including 1 entities, in source file db/mux_l4e.tdf
     Info: Found entity 1: mux_l4e
 Info: Elaborating entity "mux_l4e" for hierarchy "MUX_2_24BIT:inst44|LPM_MUX:LPM_MUX_component|mux_l4e:auto_generated"
 Info: Elaborating entity "dataCache" for hierarchy "dataCache:inst4"
-Warning (10541): VHDL Signal Declaration warning at dataCache.vhd(25): used implicit default value for signal "ram" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10541): VHDL Signal Declaration warning at dataCache.vhd(26): used implicit default value for signal "ram" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info: Elaborating entity "ForwardingUnit" for hierarchy "ForwardingUnit:inst71"
 Warning: Using design file reg_24bit_sclr.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: REG_24BIT_SCLR
@@ -7422,12 +7447,11 @@ Info: Elaborating entity "immediate" for hierarchy "immediate:inst"
 Info: Elaborating entity "REG_16BIT_SCLR" for hierarchy "REG_16BIT_SCLR:inst36"
 Info: Elaborating entity "ZERO" for hierarchy "ZERO:inst66"
 Info: Elaborating entity "REG_1BIT_SCLR" for hierarchy "REG_1BIT_SCLR:inst91"
-Info: Found 5 instances of uninferred RAM logic
+Info: Found 4 instances of uninferred RAM logic
     Info: RAM logic "dataCache:inst4|set2" is uninferred due to asynchronous read logic
     Info: RAM logic "dataCache:inst4|set1" is uninferred due to asynchronous read logic
     Info: RAM logic "instrCache:inst62|set2" is uninferred due to asynchronous read logic
     Info: RAM logic "instrCache:inst62|set1" is uninferred due to asynchronous read logic
-    Info: RAM logic "dataCache:inst4|ram" is uninferred due to asynchronous read logic
 Critical Warning: Memory depth (256) in the design file differs from memory depth (1024) in the Memory Initialization File "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/instr.mif" -- truncated remaining initial content value to fit RAM
 Warning: Latch control_unit_230:inst8|branch has unsafe behavior
     Warning: Ports D and ENA on the latch are fed by the same signal REG_24BIT_SCLR_ENBL:inst72|lpm_ff:lpm_ff_component|dffs[21]
@@ -7561,14 +7585,14 @@ Warning: Ignored assignments for entity "Project" -- entity does not exist in de
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Project -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
 Info: Generating hard_block partition "hard_block:auto_generated_inst"
-Info: Implemented 10664 device resources after synthesis - the final resource count might be different
+Info: Implemented 10660 device resources after synthesis - the final resource count might be different
     Info: Implemented 15 input pins
     Info: Implemented 442 output pins
-    Info: Implemented 10207 logic cells
+    Info: Implemented 10203 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 80 warnings
     Info: Peak virtual memory: 343 megabytes
-    Info: Processing ended: Thu Apr 23 20:28:45 2015
+    Info: Processing ended: Thu Apr 23 21:29:10 2015
     Info: Elapsed time: 00:00:36
-    Info: Total CPU time (on all processors): 00:00:35
+    Info: Total CPU time (on all processors): 00:00:36
 
 

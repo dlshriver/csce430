@@ -9,3 +9,53 @@ C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_24BIT_SCLR_ENBL
 
 Apr 22 07PM:04:10>: Megafunction LPM_FF is not listed in any 
 wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_1BIT_SCLR.tdf
+
+Apr 23 09PM:03:51>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_1BIT_SCLR.tdf
+
+Apr 23 09PM:03:54>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/REG_1BIT_SCLR.tdf
+
+Apr 23 09PM:04:00>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:04:35>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:04:37>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:04:54>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:05:10>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:05:14>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:07:35>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/dshriver/Documents/Github/csce430/project_pipelined/PC.vhd
+
+Apr 23 09PM:18:30>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
