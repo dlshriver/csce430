@@ -21,6 +21,7 @@ Architecture behavior of dataCache is
 	shared variable hitCount : integer := 0;
 	shared variable missCount : integer := 0;
 	shared variable stallCount : integer := 0;
+	signal setEntry : integer := 0;
 	
 	type mem_t is array(0 to 255) of std_logic_vector(23 downto 0);
 	signal ram : mem_t;
@@ -28,10 +29,13 @@ Architecture behavior of dataCache is
 	attribute ram_init_file of ram :
 	signal is "memoryinitialization.mif";
 	
-	type set is array(0 to 127) of std_logic_vector(23 downto 0);
-	type iCache is array(0 to 1) of set;
-	signal set1 : set := (others => x"000000");
-	signal set2 : set := (others => x"000000");
+	type entry is array(0 to 127) of std_logic_vector(23 downto 0);
+	type meta is array(0 to 1) of std_logic_vector(1 downto 0);
+	type set is array(0 to 1) of entry;
+	signal entry1 : entry := (others => x"000000");
+	signal entry2 : entry := (others => x"000000");
+	signal set1 : set := (entry1, entry2);
+	signal set1Meta : meta := (others => "00");
 Begin
 	controller : process (clock, reset) is
 	begin
@@ -49,9 +53,9 @@ Begin
 				end if;
 				hit <= std_logic_vector(to_unsigned(hitCount, 16));
 				if address(7) = '0' then
-					data_out <= set1(conv_integer(address(6 downto 0)));
+					data_out <= set1(0)(conv_integer(address(6 downto 0)));
 				else
-					data_out <= set2(conv_integer(address(6 downto 0)));
+					data_out <= set1(1)(conv_integer(address(6 downto 0)));
 				end if;
 				cacheStall <= '0';
 			else
@@ -62,9 +66,9 @@ Begin
 					miss <= std_logic_vector(to_unsigned(missCount, 16));
 				else
 					if std_logic_vector(to_unsigned(stallCount, 16))(7) = '0' then
-						set1(conv_integer(std_logic_vector(to_unsigned(stallCount, 16))(6 downto 0))) <= ram(stallCount);
+						set1(0)(conv_integer(std_logic_vector(to_unsigned(stallCount, 16))(6 downto 0))) <= ram(stallCount);
 					else
-						set2(conv_integer(std_logic_vector(to_unsigned(stallCount, 16))(6 downto 0))) <= ram(stallCount);
+						set1(1)(conv_integer(std_logic_vector(to_unsigned(stallCount, 16))(6 downto 0))) <= ram(stallCount);
 					end if;
 					stallCount := stallCount + 1;
 				end if;
