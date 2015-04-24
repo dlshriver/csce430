@@ -524,7 +524,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 3584 -176 3763 -160)
+	(rect 3944 -184 4123 -168)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "mem_write_mem" (rect 90 0 173 12)(font "Arial" ))
 	(pt 0 8)
@@ -540,7 +540,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 3600 -224 3779 -208)
+	(rect 3960 -232 4139 -216)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "mem_data[15..0]" (rect 90 0 173 12)(font "Arial" ))
 	(pt 0 8)
@@ -2632,7 +2632,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 3296 -24 3344 8)
+	(rect 3296 -136 3344 -104)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst43" (rect 3 21 32 33)(font "Arial" ))
 	(port
@@ -4776,9 +4776,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 3384 -104 3648 56)
+	(rect 3384 -216 3648 40)
 	(text "IO_MemoryInterface" (rect 5 0 119 14)(font "Arial" (font_size 8)))
-	(text "inst37" (rect 8 144 37 156)(font "Arial" ))
+	(text "inst37" (rect 8 240 37 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -4829,6 +4829,48 @@ applicable agreement for further details.
 		(line (pt 0 128)(pt 16 128)(line_width 3))
 	)
 	(port
+		(pt 0 144)
+		(input)
+		(text "br_hit[15..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "br_hit[15..0]" (rect 21 139 88 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "br_miss[15..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "br_miss[15..0]" (rect 21 155 101 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "iCacheHit[15..0]" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "iCacheHit[15..0]" (rect 21 171 109 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "iCacheMiss[15..0]" (rect 0 0 100 14)(font "Arial" (font_size 8)))
+		(text "iCacheMiss[15..0]" (rect 21 187 121 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "dCacheHit[15..0]" (rect 0 0 93 14)(font "Arial" (font_size 8)))
+		(text "dCacheHit[15..0]" (rect 21 203 114 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "dCacheMiss[15..0]" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "dCacheMiss[15..0]" (rect 21 219 126 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
 		(pt 264 32)
 		(output)
 		(text "data_out[15..0]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
@@ -4850,7 +4892,7 @@ applicable agreement for further details.
 		(line (pt 264 64)(pt 248 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 248 144))
+		(rectangle (rect 16 16 248 240))
 	)
 )
 (connector
@@ -5286,46 +5328,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3384 -72)
-	(pt 3360 -72)
-)
-(connector
-	(pt 3360 -72)
-	(pt 3360 112)
-)
-(connector
 	(text "clock" (rect 3234 96 3259 108)(font "Arial" ))
 	(pt 3280 112)
 	(pt 3224 112)
-)
-(connector
-	(text "mem_data_mem[15..0]" (rect 3304 -40 3418 -28)(font "Arial" ))
-	(pt 3384 -24)
-	(pt 3304 -24)
-	(bus)
-)
-(connector
-	(text "mem_addr[15..12]" (rect 3306 -56 3395 -44)(font "Arial" ))
-	(pt 3384 -40)
-	(pt 3296 -40)
-	(bus)
-)
-(connector
-	(pt 3384 -8)
-	(pt 3344 -8)
-	(bus)
-)
-(connector
-	(text "SW[9..0]" (rect 3234 -8 3277 4)(font "Arial" ))
-	(pt 3384 8)
-	(pt 3224 8)
-	(bus)
-)
-(connector
-	(text "KEY[3..0]" (rect 3234 -24 3282 -12)(font "Arial" ))
-	(pt 3296 -8)
-	(pt 3224 -8)
-	(bus)
 )
 (connector
 	(pt 3672 112)
@@ -6576,22 +6581,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "mem_write_mem" (rect 3282 -72 3365 -60)(font "Arial" ))
-	(pt 3280 -56)
-	(pt 3384 -56)
-)
-(connector
-	(text "mem_write_mem" (rect 3520 -184 3603 -172)(font "Arial" ))
-	(pt 3520 -168)
-	(pt 3584 -168)
-)
-(connector
-	(text "mem_data_mem[15..0]" (rect 3520 -232 3634 -220)(font "Arial" ))
-	(pt 3520 -216)
-	(pt 3600 -216)
-	(bus)
-)
-(connector
 	(text "forwardB[1..0]" (rect 1826 424 1895 436)(font "Arial" ))
 	(pt 1816 440)
 	(pt 1896 440)
@@ -6803,14 +6792,6 @@ applicable agreement for further details.
 	(pt 1192 128)
 	(pt 1232 128)
 	(bus)
-)
-(connector
-	(pt 3328 112)
-	(pt 3360 112)
-)
-(connector
-	(pt 3360 112)
-	(pt 3400 112)
 )
 (connector
 	(text "mem_addr[15..0]" (rect 3192 112 3275 124)(font "Arial" ))
@@ -7318,33 +7299,130 @@ applicable agreement for further details.
 	(pt 3264 416)
 )
 (connector
-	(text "io_out[15..0]" (rect 3682 -88 3743 -76)(font "Arial" ))
-	(pt 3648 -72)
-	(pt 3720 -72)
-	(bus)
-)
-(connector
-	(text "HEX0[6..0]" (rect 3666 -56 3719 -44)(font "Arial" ))
-	(pt 3648 -40)
-	(pt 3720 -40)
-	(bus)
-)
-(connector
-	(text "mem_addr[11..0]" (rect 3282 8 3365 20)(font "Arial" ))
-	(pt 3384 24)
-	(pt 3272 24)
-	(bus)
-)
-(connector
 	(text "LEDG[15..0]" (rect 1202 144 1263 156)(font "Arial" ))
 	(pt 1192 160)
 	(pt 1232 160)
 	(bus)
 )
 (connector
-	(text "garbage[15..0]" (rect 3666 -72 3736 -60)(font "Arial" ))
-	(pt 3648 -56)
-	(pt 3720 -56)
+	(text "mem_write_mem" (rect 3880 -192 3963 -180)(font "Arial" ))
+	(pt 3880 -176)
+	(pt 3944 -176)
+)
+(connector
+	(text "mem_data_mem[15..0]" (rect 3880 -240 3994 -228)(font "Arial" ))
+	(pt 3880 -224)
+	(pt 3960 -224)
+	(bus)
+)
+(connector
+	(pt 3360 -184)
+	(pt 3384 -184)
+)
+(connector
+	(pt 3360 112)
+	(pt 3360 -184)
+)
+(connector
+	(text "mem_data_mem[15..0]" (rect 3304 -152 3418 -140)(font "Arial" ))
+	(pt 3384 -136)
+	(pt 3304 -136)
+	(bus)
+)
+(connector
+	(text "mem_addr[15..12]" (rect 3306 -168 3395 -156)(font "Arial" ))
+	(pt 3384 -152)
+	(pt 3296 -152)
+	(bus)
+)
+(connector
+	(pt 3384 -120)
+	(pt 3344 -120)
+	(bus)
+)
+(connector
+	(text "SW[9..0]" (rect 3234 -120 3277 -108)(font "Arial" ))
+	(pt 3384 -104)
+	(pt 3224 -104)
+	(bus)
+)
+(connector
+	(text "KEY[3..0]" (rect 3234 -136 3282 -124)(font "Arial" ))
+	(pt 3296 -120)
+	(pt 3224 -120)
+	(bus)
+)
+(connector
+	(text "mem_write_mem" (rect 3282 -184 3365 -172)(font "Arial" ))
+	(pt 3280 -168)
+	(pt 3384 -168)
+)
+(connector
+	(text "io_out[15..0]" (rect 3682 -200 3743 -188)(font "Arial" ))
+	(pt 3648 -184)
+	(pt 3720 -184)
+	(bus)
+)
+(connector
+	(text "HEX0[6..0]" (rect 3666 -168 3719 -156)(font "Arial" ))
+	(pt 3648 -152)
+	(pt 3720 -152)
+	(bus)
+)
+(connector
+	(text "mem_addr[11..0]" (rect 3282 -104 3365 -92)(font "Arial" ))
+	(pt 3384 -88)
+	(pt 3272 -88)
+	(bus)
+)
+(connector
+	(text "garbage[15..0]" (rect 3666 -184 3736 -172)(font "Arial" ))
+	(pt 3648 -168)
+	(pt 3720 -168)
+	(bus)
+)
+(connector
+	(pt 3328 112)
+	(pt 3360 112)
+)
+(connector
+	(pt 3360 112)
+	(pt 3400 112)
+)
+(connector
+	(text "br_total[15..0]" (rect 3298 -88 3366 -76)(font "Arial" ))
+	(pt 3384 -72)
+	(pt 3288 -72)
+	(bus)
+)
+(connector
+	(text "instrHit[15..0]" (rect 3298 -56 3365 -44)(font "Arial" ))
+	(pt 3384 -40)
+	(pt 3288 -40)
+	(bus)
+)
+(connector
+	(text "instrMiss[15..0]" (rect 3298 -40 3373 -28)(font "Arial" ))
+	(pt 3384 -24)
+	(pt 3288 -24)
+	(bus)
+)
+(connector
+	(text "dataHit[15..0]" (rect 3298 -24 3365 -12)(font "Arial" ))
+	(pt 3384 -8)
+	(pt 3288 -8)
+	(bus)
+)
+(connector
+	(text "dataMiss[15..0]" (rect 3298 -8 3373 4)(font "Arial" ))
+	(pt 3384 8)
+	(pt 3288 8)
+	(bus)
+)
+(connector
+	(text "br_miss[15..0]" (rect 3298 -72 3368 -60)(font "Arial" ))
+	(pt 3384 -56)
+	(pt 3288 -56)
 	(bus)
 )
 (junction (pt 1976 288))

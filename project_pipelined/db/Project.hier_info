@@ -31,6 +31,8 @@ clock => REG_24BIT_SCLR:inst18.clock
 clock => REG_4BIT_SCLR:inst63.clock
 clock => REG_2BIT_SCLR:inst22.clock
 clock => REG_4BIT_SCLR:inst65.clock
+clock => inst38.IN0
+clock => Counter:inst89.clock
 clock => REG_2BIT_SCLR:inst51.clock
 clock => REG_2BIT_SCLR:inst23.clock
 clock => PC:PC_reg1.clock
@@ -47,8 +49,6 @@ clock => REG_2BIT_SCLR:inst21.clock
 clock => REG_1BIT_SCLR:inst25.clock
 clock => REG_16BIT_SCLR:inst17.clock
 clock => inst75.IN0
-clock => Counter:inst89.clock
-clock => inst38.IN0
 clock => REG_24BIT_SCLR:inst41.clock
 clock => REG_16BIT_SCLR:inst36.clock
 clock => REG_1BIT_SCLR:inst91.clock
@@ -11155,6 +11155,102 @@ sload => ~NO_FANOUT~
 
 
 |processor|IO_MemoryInterface:inst37
+br_hit[0] => MUX16to1:inst.data10x[0]
+br_hit[1] => MUX16to1:inst.data10x[1]
+br_hit[2] => MUX16to1:inst.data10x[2]
+br_hit[3] => MUX16to1:inst.data10x[3]
+br_hit[4] => MUX16to1:inst.data10x[4]
+br_hit[5] => MUX16to1:inst.data10x[5]
+br_hit[6] => MUX16to1:inst.data10x[6]
+br_hit[7] => MUX16to1:inst.data10x[7]
+br_hit[8] => MUX16to1:inst.data10x[8]
+br_hit[9] => MUX16to1:inst.data10x[9]
+br_hit[10] => MUX16to1:inst.data10x[10]
+br_hit[11] => MUX16to1:inst.data10x[11]
+br_hit[12] => MUX16to1:inst.data10x[12]
+br_hit[13] => MUX16to1:inst.data10x[13]
+br_hit[14] => MUX16to1:inst.data10x[14]
+br_hit[15] => MUX16to1:inst.data10x[15]
+br_miss[0] => MUX16to1:inst.data11x[0]
+br_miss[1] => MUX16to1:inst.data11x[1]
+br_miss[2] => MUX16to1:inst.data11x[2]
+br_miss[3] => MUX16to1:inst.data11x[3]
+br_miss[4] => MUX16to1:inst.data11x[4]
+br_miss[5] => MUX16to1:inst.data11x[5]
+br_miss[6] => MUX16to1:inst.data11x[6]
+br_miss[7] => MUX16to1:inst.data11x[7]
+br_miss[8] => MUX16to1:inst.data11x[8]
+br_miss[9] => MUX16to1:inst.data11x[9]
+br_miss[10] => MUX16to1:inst.data11x[10]
+br_miss[11] => MUX16to1:inst.data11x[11]
+br_miss[12] => MUX16to1:inst.data11x[12]
+br_miss[13] => MUX16to1:inst.data11x[13]
+br_miss[14] => MUX16to1:inst.data11x[14]
+br_miss[15] => MUX16to1:inst.data11x[15]
+iCacheHit[0] => MUX16to1:inst.data12x[0]
+iCacheHit[1] => MUX16to1:inst.data12x[1]
+iCacheHit[2] => MUX16to1:inst.data12x[2]
+iCacheHit[3] => MUX16to1:inst.data12x[3]
+iCacheHit[4] => MUX16to1:inst.data12x[4]
+iCacheHit[5] => MUX16to1:inst.data12x[5]
+iCacheHit[6] => MUX16to1:inst.data12x[6]
+iCacheHit[7] => MUX16to1:inst.data12x[7]
+iCacheHit[8] => MUX16to1:inst.data12x[8]
+iCacheHit[9] => MUX16to1:inst.data12x[9]
+iCacheHit[10] => MUX16to1:inst.data12x[10]
+iCacheHit[11] => MUX16to1:inst.data12x[11]
+iCacheHit[12] => MUX16to1:inst.data12x[12]
+iCacheHit[13] => MUX16to1:inst.data12x[13]
+iCacheHit[14] => MUX16to1:inst.data12x[14]
+iCacheHit[15] => MUX16to1:inst.data12x[15]
+iCacheMiss[0] => MUX16to1:inst.data13x[0]
+iCacheMiss[1] => MUX16to1:inst.data13x[1]
+iCacheMiss[2] => MUX16to1:inst.data13x[2]
+iCacheMiss[3] => MUX16to1:inst.data13x[3]
+iCacheMiss[4] => MUX16to1:inst.data13x[4]
+iCacheMiss[5] => MUX16to1:inst.data13x[5]
+iCacheMiss[6] => MUX16to1:inst.data13x[6]
+iCacheMiss[7] => MUX16to1:inst.data13x[7]
+iCacheMiss[8] => MUX16to1:inst.data13x[8]
+iCacheMiss[9] => MUX16to1:inst.data13x[9]
+iCacheMiss[10] => MUX16to1:inst.data13x[10]
+iCacheMiss[11] => MUX16to1:inst.data13x[11]
+iCacheMiss[12] => MUX16to1:inst.data13x[12]
+iCacheMiss[13] => MUX16to1:inst.data13x[13]
+iCacheMiss[14] => MUX16to1:inst.data13x[14]
+iCacheMiss[15] => MUX16to1:inst.data13x[15]
+dCacheHit[0] => MUX16to1:inst.data14x[0]
+dCacheHit[1] => MUX16to1:inst.data14x[1]
+dCacheHit[2] => MUX16to1:inst.data14x[2]
+dCacheHit[3] => MUX16to1:inst.data14x[3]
+dCacheHit[4] => MUX16to1:inst.data14x[4]
+dCacheHit[5] => MUX16to1:inst.data14x[5]
+dCacheHit[6] => MUX16to1:inst.data14x[6]
+dCacheHit[7] => MUX16to1:inst.data14x[7]
+dCacheHit[8] => MUX16to1:inst.data14x[8]
+dCacheHit[9] => MUX16to1:inst.data14x[9]
+dCacheHit[10] => MUX16to1:inst.data14x[10]
+dCacheHit[11] => MUX16to1:inst.data14x[11]
+dCacheHit[12] => MUX16to1:inst.data14x[12]
+dCacheHit[13] => MUX16to1:inst.data14x[13]
+dCacheHit[14] => MUX16to1:inst.data14x[14]
+dCacheHit[15] => MUX16to1:inst.data14x[15]
+dCacheMiss[0] => MUX16to1:inst.data15x[0]
+dCacheMiss[1] => MUX16to1:inst.data15x[1]
+dCacheMiss[2] => MUX16to1:inst.data15x[2]
+dCacheMiss[3] => MUX16to1:inst.data15x[3]
+dCacheMiss[4] => MUX16to1:inst.data15x[4]
+dCacheMiss[5] => MUX16to1:inst.data15x[5]
+dCacheMiss[6] => MUX16to1:inst.data15x[6]
+dCacheMiss[7] => MUX16to1:inst.data15x[7]
+dCacheMiss[8] => MUX16to1:inst.data15x[8]
+dCacheMiss[9] => MUX16to1:inst.data15x[9]
+dCacheMiss[10] => MUX16to1:inst.data15x[10]
+dCacheMiss[11] => MUX16to1:inst.data15x[11]
+dCacheMiss[12] => MUX16to1:inst.data15x[12]
+dCacheMiss[13] => MUX16to1:inst.data15x[13]
+dCacheMiss[14] => MUX16to1:inst.data15x[14]
+dCacheMiss[15] => MUX16to1:inst.data15x[15]
 clock => inst1.IN0
 KEY[0] => Reg_16:PUSH_BUTTON.data[0]
 KEY[1] => Reg_16:PUSH_BUTTON.data[1]
@@ -13763,6 +13859,128 @@ sset => ~NO_FANOUT~
 sload => ~NO_FANOUT~
 
 
+|processor|Counter:inst90
+clk_en => lpm_counter:LPM_COUNTER_component.clk_en
+clock => lpm_counter:LPM_COUNTER_component.clock
+sclr => lpm_counter:LPM_COUNTER_component.sclr
+
+
+|processor|Counter:inst90|lpm_counter:LPM_COUNTER_component
+clock => cntr_bpi:auto_generated.clock
+clk_en => cntr_bpi:auto_generated.clk_en
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => cntr_bpi:auto_generated.sclr
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+data[8] => ~NO_FANOUT~
+data[9] => ~NO_FANOUT~
+data[10] => ~NO_FANOUT~
+data[11] => ~NO_FANOUT~
+data[12] => ~NO_FANOUT~
+data[13] => ~NO_FANOUT~
+data[14] => ~NO_FANOUT~
+data[15] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+
+
+|processor|Counter:inst90|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
+clk_en => counter_reg_bit1a[15].IN0
+clock => counter_reg_bit1a[15].CLK
+clock => counter_reg_bit1a[14].CLK
+clock => counter_reg_bit1a[13].CLK
+clock => counter_reg_bit1a[12].CLK
+clock => counter_reg_bit1a[11].CLK
+clock => counter_reg_bit1a[10].CLK
+clock => counter_reg_bit1a[9].CLK
+clock => counter_reg_bit1a[8].CLK
+clock => counter_reg_bit1a[7].CLK
+clock => counter_reg_bit1a[6].CLK
+clock => counter_reg_bit1a[5].CLK
+clock => counter_reg_bit1a[4].CLK
+clock => counter_reg_bit1a[3].CLK
+clock => counter_reg_bit1a[2].CLK
+clock => counter_reg_bit1a[1].CLK
+clock => counter_reg_bit1a[0].CLK
+sclr => _.IN0
+sclr => _.IN0
+sclr => _.IN0
+
+
+|processor|Counter:inst89
+clk_en => lpm_counter:LPM_COUNTER_component.clk_en
+clock => lpm_counter:LPM_COUNTER_component.clock
+sclr => lpm_counter:LPM_COUNTER_component.sclr
+
+
+|processor|Counter:inst89|lpm_counter:LPM_COUNTER_component
+clock => cntr_bpi:auto_generated.clock
+clk_en => cntr_bpi:auto_generated.clk_en
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => cntr_bpi:auto_generated.sclr
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+data[8] => ~NO_FANOUT~
+data[9] => ~NO_FANOUT~
+data[10] => ~NO_FANOUT~
+data[11] => ~NO_FANOUT~
+data[12] => ~NO_FANOUT~
+data[13] => ~NO_FANOUT~
+data[14] => ~NO_FANOUT~
+data[15] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+
+
+|processor|Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
+clk_en => counter_reg_bit1a[15].IN0
+clock => counter_reg_bit1a[15].CLK
+clock => counter_reg_bit1a[14].CLK
+clock => counter_reg_bit1a[13].CLK
+clock => counter_reg_bit1a[12].CLK
+clock => counter_reg_bit1a[11].CLK
+clock => counter_reg_bit1a[10].CLK
+clock => counter_reg_bit1a[9].CLK
+clock => counter_reg_bit1a[8].CLK
+clock => counter_reg_bit1a[7].CLK
+clock => counter_reg_bit1a[6].CLK
+clock => counter_reg_bit1a[5].CLK
+clock => counter_reg_bit1a[4].CLK
+clock => counter_reg_bit1a[3].CLK
+clock => counter_reg_bit1a[2].CLK
+clock => counter_reg_bit1a[1].CLK
+clock => counter_reg_bit1a[0].CLK
+sclr => _.IN0
+sclr => _.IN0
+sclr => _.IN0
+
+
 |processor|REG_2BIT_SCLR:inst51
 clock => lpm_ff:lpm_ff_component.clock
 data[0] => lpm_ff:lpm_ff_component.data[0]
@@ -14272,128 +14490,6 @@ immed[6] => immedEx.DATAA
 immed[6] => immedEx[6].DATAIN
 extend[0] => Equal0.IN1
 extend[1] => Equal0.IN0
-
-
-|processor|Counter:inst89
-clk_en => lpm_counter:LPM_COUNTER_component.clk_en
-clock => lpm_counter:LPM_COUNTER_component.clock
-sclr => lpm_counter:LPM_COUNTER_component.sclr
-
-
-|processor|Counter:inst89|lpm_counter:LPM_COUNTER_component
-clock => cntr_bpi:auto_generated.clock
-clk_en => cntr_bpi:auto_generated.clk_en
-cnt_en => ~NO_FANOUT~
-updown => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aconst => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => cntr_bpi:auto_generated.sclr
-sset => ~NO_FANOUT~
-sconst => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-data[0] => ~NO_FANOUT~
-data[1] => ~NO_FANOUT~
-data[2] => ~NO_FANOUT~
-data[3] => ~NO_FANOUT~
-data[4] => ~NO_FANOUT~
-data[5] => ~NO_FANOUT~
-data[6] => ~NO_FANOUT~
-data[7] => ~NO_FANOUT~
-data[8] => ~NO_FANOUT~
-data[9] => ~NO_FANOUT~
-data[10] => ~NO_FANOUT~
-data[11] => ~NO_FANOUT~
-data[12] => ~NO_FANOUT~
-data[13] => ~NO_FANOUT~
-data[14] => ~NO_FANOUT~
-data[15] => ~NO_FANOUT~
-cin => ~NO_FANOUT~
-
-
-|processor|Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
-clk_en => counter_reg_bit1a[15].IN0
-clock => counter_reg_bit1a[15].CLK
-clock => counter_reg_bit1a[14].CLK
-clock => counter_reg_bit1a[13].CLK
-clock => counter_reg_bit1a[12].CLK
-clock => counter_reg_bit1a[11].CLK
-clock => counter_reg_bit1a[10].CLK
-clock => counter_reg_bit1a[9].CLK
-clock => counter_reg_bit1a[8].CLK
-clock => counter_reg_bit1a[7].CLK
-clock => counter_reg_bit1a[6].CLK
-clock => counter_reg_bit1a[5].CLK
-clock => counter_reg_bit1a[4].CLK
-clock => counter_reg_bit1a[3].CLK
-clock => counter_reg_bit1a[2].CLK
-clock => counter_reg_bit1a[1].CLK
-clock => counter_reg_bit1a[0].CLK
-sclr => _.IN0
-sclr => _.IN0
-sclr => _.IN0
-
-
-|processor|Counter:inst90
-clk_en => lpm_counter:LPM_COUNTER_component.clk_en
-clock => lpm_counter:LPM_COUNTER_component.clock
-sclr => lpm_counter:LPM_COUNTER_component.sclr
-
-
-|processor|Counter:inst90|lpm_counter:LPM_COUNTER_component
-clock => cntr_bpi:auto_generated.clock
-clk_en => cntr_bpi:auto_generated.clk_en
-cnt_en => ~NO_FANOUT~
-updown => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-aset => ~NO_FANOUT~
-aconst => ~NO_FANOUT~
-aload => ~NO_FANOUT~
-sclr => cntr_bpi:auto_generated.sclr
-sset => ~NO_FANOUT~
-sconst => ~NO_FANOUT~
-sload => ~NO_FANOUT~
-data[0] => ~NO_FANOUT~
-data[1] => ~NO_FANOUT~
-data[2] => ~NO_FANOUT~
-data[3] => ~NO_FANOUT~
-data[4] => ~NO_FANOUT~
-data[5] => ~NO_FANOUT~
-data[6] => ~NO_FANOUT~
-data[7] => ~NO_FANOUT~
-data[8] => ~NO_FANOUT~
-data[9] => ~NO_FANOUT~
-data[10] => ~NO_FANOUT~
-data[11] => ~NO_FANOUT~
-data[12] => ~NO_FANOUT~
-data[13] => ~NO_FANOUT~
-data[14] => ~NO_FANOUT~
-data[15] => ~NO_FANOUT~
-cin => ~NO_FANOUT~
-
-
-|processor|Counter:inst90|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
-clk_en => counter_reg_bit1a[15].IN0
-clock => counter_reg_bit1a[15].CLK
-clock => counter_reg_bit1a[14].CLK
-clock => counter_reg_bit1a[13].CLK
-clock => counter_reg_bit1a[12].CLK
-clock => counter_reg_bit1a[11].CLK
-clock => counter_reg_bit1a[10].CLK
-clock => counter_reg_bit1a[9].CLK
-clock => counter_reg_bit1a[8].CLK
-clock => counter_reg_bit1a[7].CLK
-clock => counter_reg_bit1a[6].CLK
-clock => counter_reg_bit1a[5].CLK
-clock => counter_reg_bit1a[4].CLK
-clock => counter_reg_bit1a[3].CLK
-clock => counter_reg_bit1a[2].CLK
-clock => counter_reg_bit1a[1].CLK
-clock => counter_reg_bit1a[0].CLK
-sclr => _.IN0
-sclr => _.IN0
-sclr => _.IN0
 
 
 |processor|REG_24BIT_SCLR:inst41

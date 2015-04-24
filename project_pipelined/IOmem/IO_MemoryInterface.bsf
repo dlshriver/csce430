@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 280 176)
+	(rect 16 16 280 272)
 	(text "IO_MemoryInterface" (rect 5 0 119 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(text "inst" (rect 8 240 25 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -73,6 +73,48 @@ applicable agreement for further details.
 		(line (pt 0 128)(pt 16 128)(line_width 3))
 	)
 	(port
+		(pt 0 144)
+		(input)
+		(text "br_hit[15..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "br_hit[15..0]" (rect 21 139 88 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "br_miss[15..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "br_miss[15..0]" (rect 21 155 101 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "iCacheHit[15..0]" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "iCacheHit[15..0]" (rect 21 171 109 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "iCacheMiss[15..0]" (rect 0 0 100 14)(font "Arial" (font_size 8)))
+		(text "iCacheMiss[15..0]" (rect 21 187 121 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "dCacheHit[15..0]" (rect 0 0 93 14)(font "Arial" (font_size 8)))
+		(text "dCacheHit[15..0]" (rect 21 203 114 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "dCacheMiss[15..0]" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "dCacheMiss[15..0]" (rect 21 219 126 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
 		(pt 264 32)
 		(output)
 		(text "data_out[15..0]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
@@ -94,6 +136,6 @@ applicable agreement for further details.
 		(line (pt 264 64)(pt 248 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 248 144))
+		(rectangle (rect 16 16 248 240))
 	)
 )
