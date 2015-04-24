@@ -465,6 +465,7 @@ muxlut.inc
 ALU:inst12|MUX2_1:inst6|lpm_mux:lpm_mux_component
 ALU:inst12|MUX2_1:inst7|lpm_mux:lpm_mux_component
 MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component
+MUX_2_15BIT:inst83|lpm_mux:LPM_MUX_component
 MUX2_1:inst40|lpm_mux:lpm_mux_component
 MUX2_1:inst15|lpm_mux:lpm_mux_component
 }
@@ -634,6 +635,7 @@ data0
 ALU:inst12|MUX2_1:inst6|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 ALU:inst12|MUX2_1:inst7|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated
+MUX_2_15BIT:inst83|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated
 MUX2_1:inst40|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated
 }
@@ -2699,6 +2701,7 @@ ON
 }
 # hierarchies {
 MUX_2_15BIT:inst82
+MUX_2_15BIT:inst83
 }
 # macro_sequence
 
@@ -9787,26 +9790,6 @@ REG_2BIT_SCLR:inst21|lpm_ff:lpm_ff_component
 
 # end
 # entity
-IO_MemoryInterface
-# storage
-db|Project.(133).cnf
-db|Project.(133).cnf
-# case_insensitive
-# source_file
-iomem|io_memoryinterface.bdf
-df78b267a08240d1dd6c7c80edf69821
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-IO_MemoryInterface:inst37
-}
-# macro_sequence
-
-# end
-# entity
 MUX16to1
 # storage
 db|Project.(134).cnf
@@ -11836,8 +11819,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Counter:inst89
 Counter:inst90
+Counter:inst89
 }
 # macro_sequence
 
@@ -12006,8 +11989,8 @@ lpm_counter.inc
 c5cfeeabc5f2ab60b3453f6abbc42b41
 }
 # hierarchies {
-Counter:inst89|lpm_counter:LPM_COUNTER_component
 Counter:inst90|lpm_counter:LPM_COUNTER_component
+Counter:inst89|lpm_counter:LPM_COUNTER_component
 }
 # macro_sequence
 
@@ -12082,8 +12065,8 @@ clk_en
 3
 }
 # hierarchies {
-Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
 Counter:inst90|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
+Counter:inst89|lpm_counter:LPM_COUNTER_component|cntr_bpi:auto_generated
 }
 # macro_sequence
 
@@ -12216,6 +12199,26 @@ REG_1BIT_SCLR:inst91
 
 # end
 # entity
+IO_MemoryInterface
+# storage
+db|Project.(133).cnf
+db|Project.(133).cnf
+# case_insensitive
+# source_file
+iomem|io_memoryinterface.bdf
+f1644221a3d8689cba2fbcb4c5f39f3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IO_MemoryInterface:inst37
+}
+# macro_sequence
+
+# end
+# entity
 processor
 # storage
 db|Project.(0).cnf
@@ -12223,7 +12226,7 @@ db|Project.(0).cnf
 # case_insensitive
 # source_file
 processor.bdf
-2881b23c32573faf5eddf672a48b51f5
+877bb1204eedf73eb7855960611b50
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -12231,36 +12234,6 @@ AUTO
 }
 # hierarchies {
 |
-}
-# macro_sequence
-
-# end
-# entity
-dataCache
-# storage
-db|Project.(120).cnf
-db|Project.(120).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-datacache.vhd
-882b6b4ab52c16b2ea5d71331da62c3f
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-dataCache:inst4
 }
 # macro_sequence
 
@@ -12277,7 +12250,7 @@ ON
 # case_insensitive
 # source_file
 instrcache.vhd
-8a41f961c53186077d18617515b4775
+e249a864b7a5dc7afd6f18327a4d9b0
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -12291,6 +12264,36 @@ ON
 }
 # hierarchies {
 instrCache:inst62
+}
+# macro_sequence
+
+# end
+# entity
+dataCache
+# storage
+db|Project.(120).cnf
+db|Project.(120).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+datacache.vhd
+9808b96ac1f7edc8c9517547e19233
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+dataCache:inst4
 }
 # macro_sequence
 

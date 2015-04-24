@@ -6,6 +6,7 @@ use ieee.numeric_std.all;
 entity instrCache is
 	port (clock			: in std_logic;
 			address		: in std_logic_vector(15 downto 0);
+			reset			: in std_logic;
 			data			: out std_logic_vector(23 downto 0);
 			hit			: out std_logic_vector(15 downto 0);
 			miss			: out std_logic_vector(15 downto 0);
@@ -30,10 +31,19 @@ Architecture behavior of instrCache is
 	signal set1 : set := (others => x"000000");
 	signal set2 : set := (others => x"000000");
 Begin
-	controller : process (clock) is
+	controller : process (clock, reset) is
 	begin
 		if rising_edge(clock) then
-			if (prefetch = '1') then
+			if reset = '1' then
+				hitCount := 0;
+				missCount := 0;
+				hit <= std_logic_vector(to_unsigned(hitCount, 16));
+				miss <= std_logic_vector(to_unsigned(missCount, 16));
+				cacheStall <= '0';
+				stallCount := 0;
+				prevAddr := x"FFFF";
+				prefetch := '0';
+			elsif (prefetch = '1') then
 				if address /= prevAddr then
 					hitCount := hitCount + 1;
 				end if;

@@ -9,6 +9,7 @@ entity dataCache is
 			mem_read		: in std_logic;
 			mem_write	: in std_logic;
 			data_in		: in std_logic_vector(23 downto 0);
+			reset			: in std_logic;
 			data_out		: out std_logic_vector(23 downto 0);
 			hit			: out std_logic_vector(15 downto 0);
 			miss			: out std_logic_vector(15 downto 0);
@@ -32,10 +33,17 @@ Architecture behavior of dataCache is
 	signal set1 : set := (others => x"000000");
 	signal set2 : set := (others => x"000000");
 Begin
-	controller : process (clock) is
+	controller : process (clock, reset) is
 	begin
 		if rising_edge(clock) then
-			if (prefetch = '1') then
+			if reset = '1' then
+				prefetch := '0';
+				hitCount := 0;
+				missCount := 0;
+				stallCount := 0;
+				hit <= std_logic_vector(to_unsigned(hitCount, 16));
+				miss <= std_logic_vector(to_unsigned(missCount, 16));
+			elsif (prefetch = '1') then
 				if mem_read = '1' then
 					hitCount := hitCount + 1;
 				end if;

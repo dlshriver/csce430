@@ -45,56 +45,12 @@
 # Loading cycloneii.cycloneii_ena_reg(behave)
 # view wave
 # .main_pane.wave.interior.cs.body.pw.wf
-# add wave clk27
-# ** Error: (vish-4014) No objects found matching 'clk27'.
-# Error in macro C:\Users\dshriver\Documents\Github\csce430\project_pipelined\part1.do line 3
-# (vish-4014) No objects found matching 'clk27'.
-#     while executing
-# "add wave clk27"
-do Project_run_msim_gate_vhdl.do
-# if {[file exists gate_work]} {
-# 	vdel -lib gate_work -all
-# }
-# vlib gate_work
-# vmap work gate_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {Project.vho}
-# Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package vital_timing
-# -- Loading package vital_primitives
-# -- Loading package cycloneii_atom_pack
-# -- Loading package cycloneii_components
-# -- Compiling entity processor
-# -- Compiling architecture structure of processor
-# -- Loading package standard
-# 
-# do "C:/Users/dshriver/Documents/Github/csce430/project_pipelined/part1.do"
-# vsim processor
-# vsim processor 
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading std.textio(body)
-# Loading ieee.vital_timing(body)
-# Loading ieee.vital_primitives(body)
-# Loading cycloneii.cycloneii_atom_pack(body)
-# Loading cycloneii.cycloneii_components
-# Loading work.processor(structure)
-# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
-# Loading cycloneii.cycloneii_and1(altvital)
-# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
-# Loading ieee.std_logic_arith(body)
-# Loading cycloneii.cycloneii_io(structure)
-# Loading cycloneii.cycloneii_mux21(altvital)
-# Loading cycloneii.cycloneii_dffe(behave)
-# Loading cycloneii.cycloneii_asynch_io(behave)
-# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
-# Loading cycloneii.cycloneii_ena_reg(behave)
-# view wave
-# .main_pane.wave.interior.cs.body.pw.wf
 # add wave clock
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dshriver  Hostname: CSELAB4-07  ProcessID: 2480
+#           Attempting to use alternate WLF file "./wlft8ha6df".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8ha6df
 # add wave reset
 # add wave -radix hex memout
 # add wave -radix hex PC_instr_addr
@@ -151,7 +107,7 @@ do Project_run_msim_gate_vhdl.do
 # add wave dataMiss
 # add wave dataCacheStall
 # 
-# force key 1111 0
+# force key 1111 0, 1110 25000 -repeat 50000
 # force sw 0000000000 0, 0000000001 1000, 0000000010 2000 -repeat 3000
 # force clock 1 0, 0 30 -repeat 60
 # 
