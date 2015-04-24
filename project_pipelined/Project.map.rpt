@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Project
-Thu Apr 23 21:29:10 2015
+Fri Apr 24 08:42:14 2015
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
 
 
@@ -138,13 +138,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 23 21:29:10 2015          ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 24 08:42:13 2015          ;
 ; Quartus II Version                 ; 11.0 Build 208 07/03/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; Project                                        ;
 ; Top-level Entity Name              ; processor                                      ;
 ; Family                             ; Cyclone II                                     ;
-; Total logic elements               ; 10,115                                         ;
-;     Total combinational functions  ; 5,033                                          ;
+; Total logic elements               ; 10,092                                         ;
+;     Total combinational functions  ; 5,010                                          ;
 ;     Dedicated logic registers      ; 5,456                                          ;
 ; Total registers                    ; 5456                                           ;
 ; Total pins                         ; 457                                            ;
@@ -346,16 +346,16 @@ applicable agreement for further details.
 +---------------------------------------------+--------+
 ; Resource                                    ; Usage  ;
 +---------------------------------------------+--------+
-; Estimated Total logic elements              ; 10,115 ;
+; Estimated Total logic elements              ; 10,092 ;
 ;                                             ;        ;
-; Total combinational functions               ; 5033   ;
+; Total combinational functions               ; 5010   ;
 ; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 4401   ;
-;     -- 3 input functions                    ; 317    ;
-;     -- <=2 input functions                  ; 315    ;
+;     -- 4 input functions                    ; 4442   ;
+;     -- 3 input functions                    ; 231    ;
+;     -- <=2 input functions                  ; 337    ;
 ;                                             ;        ;
 ; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 4852   ;
+;     -- normal mode                          ; 4829   ;
 ;     -- arithmetic mode                      ; 181    ;
 ;                                             ;        ;
 ; Total registers                             ; 5456   ;
@@ -365,7 +365,7 @@ applicable agreement for further details.
 ; I/O pins                                    ; 457    ;
 ; Maximum fan-out node                        ; clock  ;
 ; Maximum fan-out                             ; 5456   ;
-; Total fan-out                               ; 36408  ;
+; Total fan-out                               ; 36358  ;
 ; Average fan-out                             ; 3.33   ;
 +---------------------------------------------+--------+
 
@@ -375,7 +375,7 @@ applicable agreement for further details.
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                 ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
-; |processor                                ; 5033 (8)          ; 5456 (0)     ; 0           ; 0            ; 0       ; 0         ; 457  ; 0            ; |processor                                                                                          ;              ;
+; |processor                                ; 5010 (8)          ; 5456 (0)     ; 0           ; 0            ; 0       ; 0         ; 457  ; 0            ; |processor                                                                                          ;              ;
 ;    |ALU:inst12|                           ; 104 (11)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12                                                                               ;              ;
 ;       |FA16BIT:inst20|                    ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20                                                                ;              ;
 ;          |FA1BIT:inst10|                  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|ALU:inst12|FA16BIT:inst20|FA1BIT:inst10                                                  ;              ;
@@ -422,27 +422,27 @@ applicable agreement for further details.
 ;          |lpm_ff:lpm_ff_component|        ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:PUSH_BUTTON|lpm_ff:lpm_ff_component                     ;              ;
 ;       |Reg_16:SWITCHES|                   ; 0 (0)             ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:SWITCHES                                                ;              ;
 ;          |lpm_ff:lpm_ff_component|        ; 0 (0)             ; 10 (10)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IO_MemoryInterface:inst37|Reg_16:SWITCHES|lpm_ff:lpm_ff_component                        ;              ;
-;    |MUX2_1:inst15|                        ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15                                                                            ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component                                                  ;              ;
-;          |mux_m4e:auto_generated|         ; 18 (18)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated                           ;              ;
+;    |MUX2_1:inst15|                        ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15                                                                            ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component                                                  ;              ;
+;          |mux_m4e:auto_generated|         ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX2_1:inst15|lpm_mux:lpm_mux_component|mux_m4e:auto_generated                           ;              ;
 ;    |MUX4BIT_3TO1:inst5|                   ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5                                                                       ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5|lpm_mux:lpm_mux_component                                             ;              ;
 ;          |mux_qmc:auto_generated|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX4BIT_3TO1:inst5|lpm_mux:lpm_mux_component|mux_qmc:auto_generated                      ;              ;
 ;    |MUX_2_15BIT:inst82|                   ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82                                                                       ;              ;
 ;       |lpm_mux:LPM_MUX_component|         ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component                                             ;              ;
 ;          |mux_m4e:auto_generated|         ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_15BIT:inst82|lpm_mux:LPM_MUX_component|mux_m4e:auto_generated                      ;              ;
-;    |MUX_2_24BIT:inst44|                   ; 67 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44                                                                       ;              ;
-;       |lpm_mux:LPM_MUX_component|         ; 67 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component                                             ;              ;
-;          |mux_l4e:auto_generated|         ; 67 (67)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated                      ;              ;
-;    |MUX_3TO1:inst13|                      ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                          ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 35 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                                ;              ;
-;          |mux_doc:auto_generated|         ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
+;    |MUX_2_24BIT:inst44|                   ; 68 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44                                                                       ;              ;
+;       |lpm_mux:LPM_MUX_component|         ; 68 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component                                             ;              ;
+;          |mux_l4e:auto_generated|         ; 68 (68)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_2_24BIT:inst44|lpm_mux:LPM_MUX_component|mux_l4e:auto_generated                      ;              ;
+;    |MUX_3TO1:inst13|                      ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13                                                                          ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component                                                ;              ;
+;          |mux_doc:auto_generated|         ; 36 (36)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst13|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
 ;    |MUX_3TO1:inst14|                      ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14                                                                          ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component                                                ;              ;
 ;          |mux_doc:auto_generated|         ; 36 (36)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst14|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
-;    |MUX_3TO1:inst46|                      ; 38 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                          ;              ;
-;       |lpm_mux:lpm_mux_component|         ; 38 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                                ;              ;
-;          |mux_doc:auto_generated|         ; 38 (38)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
+;    |MUX_3TO1:inst46|                      ; 39 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46                                                                          ;              ;
+;       |lpm_mux:lpm_mux_component|         ; 39 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component                                                ;              ;
+;          |mux_doc:auto_generated|         ; 39 (39)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst46|lpm_mux:lpm_mux_component|mux_doc:auto_generated                         ;              ;
 ;    |MUX_3TO1:inst6|                       ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6                                                                           ;              ;
 ;       |lpm_mux:lpm_mux_component|         ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component                                                 ;              ;
 ;          |mux_doc:auto_generated|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX_3TO1:inst6|lpm_mux:lpm_mux_component|mux_doc:auto_generated                          ;              ;
@@ -511,7 +511,7 @@ applicable agreement for further details.
 ;    |REG_4BIT_SCLR:inst65|                 ; 0 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65                                                                     ;              ;
 ;       |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|REG_4BIT_SCLR:inst65|lpm_ff:lpm_ff_component                                             ;              ;
 ;    |control_unit_230:inst8|               ; 42 (42)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|control_unit_230:inst8                                                                   ;              ;
-;    |dataCache:inst4|                      ; 1706 (1706)       ; 1865 (1865)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|dataCache:inst4                                                                          ;              ;
+;    |dataCache:inst4|                      ; 1682 (1682)       ; 1865 (1865)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|dataCache:inst4                                                                          ;              ;
 ;    |instrCache:inst62|                    ; 2430 (2430)       ; 3049 (3049)  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instrCache:inst62                                                                        ;              ;
 ;    |regfile:inst7|                        ; 394 (21)          ; 240 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7                                                                            ;              ;
 ;       |DFF_16BIT:Reg10|                   ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:inst7|DFF_16BIT:Reg10                                                            ;              ;
@@ -6997,7 +6997,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:29     ;
+; Top            ; 00:00:28     ;
 +----------------+--------------+
 
 
@@ -7007,7 +7007,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Apr 23 21:28:34 2015
+    Info: Processing started: Fri Apr 24 08:41:39 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project -c Project
 Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info: Found 2 design units, including 1 entities, in source file counter.vhd
@@ -7585,14 +7585,14 @@ Warning: Ignored assignments for entity "Project" -- entity does not exist in de
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity Project -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity Project -section_id "Root Region" was ignored
 Info: Generating hard_block partition "hard_block:auto_generated_inst"
-Info: Implemented 10660 device resources after synthesis - the final resource count might be different
+Info: Implemented 10637 device resources after synthesis - the final resource count might be different
     Info: Implemented 15 input pins
     Info: Implemented 442 output pins
-    Info: Implemented 10203 logic cells
+    Info: Implemented 10180 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 80 warnings
     Info: Peak virtual memory: 343 megabytes
-    Info: Processing ended: Thu Apr 23 21:29:10 2015
-    Info: Elapsed time: 00:00:36
-    Info: Total CPU time (on all processors): 00:00:36
+    Info: Processing ended: Fri Apr 24 08:42:14 2015
+    Info: Elapsed time: 00:00:35
+    Info: Total CPU time (on all processors): 00:00:35
 
 

@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Apr 23 21:30:06 2015
+Fitter Status : Successful - Fri Apr 24 08:43:12 2015
 Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Full Version
 Revision Name : Project
 Top-level Entity Name : processor
 Family : Cyclone II
 Device : EP2C35F672C6
 Timing Models : Final
-Total logic elements : 7,453 / 33,216 ( 22 % )
-    Total combinational functions : 5,033 / 33,216 ( 15 % )
+Total logic elements : 7,423 / 33,216 ( 22 % )
+    Total combinational functions : 5,010 / 33,216 ( 15 % )
     Dedicated logic registers : 5,456 / 33,216 ( 16 % )
 Total registers : 5456
 Total pins : 457 / 475 ( 96 % )
